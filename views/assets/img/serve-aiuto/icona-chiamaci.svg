@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6940 361 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #06c;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="group-20" transform="translate(6057 -50)">
+    <g id="group-16" transform="translate(192 -903)">
+      <circle id="ellipse-3" class="cls-1" cx="24" cy="24" r="24" transform="translate(691 1314)"/>
+      <g id="group-13" transform="translate(698.917 1322.748)">
+        <g id="group" transform="translate(1.326)">
+          <g id="group-2" data-name="group">
+            <path id="path" class="cls-2" d="M6.165,16.905c-.1-.269-2.3-7.046,1.3-12.012C9.786,1.639,13.994,0,19.963,0s10.177,1.639,12.5,4.893c3.572,4.966,1.37,11.743,1.3,12.012l-1.639-.538.807.269-.807-.269c.024-.073,2.006-6.239-1.052-10.5-2.006-2.765-5.749-4.159-11.107-4.159-5.382,0-9.1,1.394-11.107,4.159C5.8,10.1,7.78,16.294,7.8,16.367Z" transform="translate(-5.409)"/>
+          </g>
+        </g>
+        <g id="group-3" data-name="group" transform="translate(19.819 22.581)">
+          <g id="group-4" data-name="group">
+            <path id="path-2" data-name="path" class="cls-2" d="M83.642,97.854c-.514,0-1.028-.024-1.492-.024-.416-.024-.807-.024-1.15-.024v-.856c.367,0,.758.024,1.174.024,2.031.073,4.55.171,5.969-1.223a4.563,4.563,0,0,0,1.174-3.45h.856a5.373,5.373,0,0,1-1.443,4.061C87.459,97.633,85.453,97.854,83.642,97.854Z" transform="translate(-81 -92.3)"/>
+          </g>
+        </g>
+        <g id="group-5" data-name="group" transform="translate(0 14.628)">
+          <g id="group-6" data-name="group">
+            <path id="path-3" data-name="path" class="cls-2" d="M5.791,68.38a.419.419,0,0,1-.391.465l-4.232.367A.419.419,0,0,1,.7,68.82l-.709-8.2a.419.419,0,0,1,.391-.465l4.232-.367a.419.419,0,0,1,.465.391Z" transform="translate(0.01 -59.791)"/>
+          </g>
+        </g>
+        <g id="group-7" data-name="group" transform="translate(25.957 14.628)">
+          <g id="group-8" data-name="group">
+            <path id="path-4" data-name="path" class="cls-2" d="M106.093,68.38a.419.419,0,0,0,.391.465l4.232.367a.419.419,0,0,0,.465-.391l.709-8.2a.419.419,0,0,0-.391-.465l-4.232-.367a.419.419,0,0,0-.465.391Z" transform="translate(-106.09 -59.79)"/>
+          </g>
+        </g>
+        <g id="group-9" data-name="group" transform="translate(17.739 26.544)">
+          <g id="group-10" data-name="group">
+            <path id="path-5" data-name="path" class="cls-2" d="M75.436,110.237a.439.439,0,0,1-.44.44H72.94a.439.439,0,0,1-.44-.44v-1.3a.439.439,0,0,1,.44-.44H75a.439.439,0,0,1,.44.44Z" transform="translate(-72.5 -108.5)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

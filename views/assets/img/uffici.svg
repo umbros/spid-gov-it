@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="243 493.17 78.648 57.039">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7e8387;
+      }
+
+      .cls-2 {
+        fill: #c6f4f2;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #06c;
+        stroke-width: 1px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #00cf86;
+      }
+    </style>
+  </defs>
+  <g id="group-4" transform="translate(62 -432)">
+    <g id="XMLID_479_" transform="translate(181 925.17)">
+      <path id="XMLID_498_" class="cls-1" d="M987.573,1965.938H930.2v-53.6a3.449,3.449,0,0,1,3.434-3.434h50.589a3.449,3.449,0,0,1,3.434,3.434v53.6Z" transform="translate(-930.2 -1908.9)"/>
+      <rect id="XMLID_494_" class="cls-2" width="32.665" height="25.211" transform="translate(12.312 31.828)"/>
+      <line id="XMLID_493_" class="cls-3" y2="22.196" transform="translate(28.729 33.503)"/>
+      <rect id="XMLID_489_" class="cls-4" width="9.297" height="16.751" transform="translate(6.701 7.538)"/>
+      <rect id="XMLID_485_" class="cls-4" width="9.297" height="16.751" transform="translate(23.954 7.538)"/>
+      <rect id="XMLID_484_" class="cls-4" width="9.297" height="16.751" transform="translate(41.208 7.538)"/>
+      <ellipse id="XMLID_483_" class="cls-5" cx="7.957" cy="7.957" rx="7.957" ry="7.957" transform="translate(62.734 12.312)"/>
+      <ellipse id="XMLID_482_" class="cls-5" cx="7.957" cy="7.957" rx="7.957" ry="7.957" transform="translate(60.221 1.843)"/>
+      <ellipse id="XMLID_481_" class="cls-5" cx="10.47" cy="10.47" rx="10.47" ry="10.47" transform="translate(52.264 7.287)"/>
+      <rect id="XMLID_480_" class="cls-5" width="2.094" height="29.399" transform="translate(65.079 26.467)"/>
+    </g>
+  </g>
+</svg>

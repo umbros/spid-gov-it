@@ -1,0 +1,47 @@
+{{#if twits }}
+
+<div class="u-layout-centerContent u-background-70 u-padding-r-all u-text-r-xl">
+    <section class="u-layout-medium">
+        <div class="Grid">
+            <div class="Grid-cell u-layout-centerLeft">
+                <h2 class="u-text-r-l"><a class="u-color-white" href="">Twitter</a></h2>
+            </div>
+        </div>
+        <div class="u-text-r-xxl u-padding-r-top">
+            <div class="Grid Grid--withGutter">
+
+              {{#each twits}}
+
+                <div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight u-padding-r-all">
+
+                    <div class="Card Card--round u-color-grey-30 u-background-white">
+                        <section class="Card-content u-padding-r-all">
+                            <div class="Card-text">
+                                <p class=""><a class="u-color-50 u-text-r-xxs u-textWeight-600 u-textClean"
+                                    href="http://twitter.com/{{ name }}">{{ name }}</a></p>
+                                <p class="u-textSecondary u-text-r-xxs">{{ date }}</p>
+                            </div>
+                            <h3 class="Card-titleLink u-padding-r-bottom">
+                                <a title="visualizza su twitter" class="u-color-95 u-text-r-m u-textClean u-text-xl" href="{{ url }}">
+                                  {{ text }}
+                                </a>
+                            </h3>
+                            <p>
+                                <a title="visualizza su twitter" class="u-color-50 u-textClean u-text-xl" href="{{ url }}">
+                                    <span class="Icon-twitter" aria-hidden="true"></span>
+                                    <span class="u-hiddenVisually">visualizza su twitter</span>
+                                </a>
+                            </p>
+                        </section>
+                    </div>
+
+                </div>
+                {{/each}}
+
+
+            </div>
+        </div>
+    </section>
+</div>
+
+{{/if}}

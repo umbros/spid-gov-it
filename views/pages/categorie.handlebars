@@ -1,0 +1,115 @@
+<!--
+
+  ** v0.2 **
+  - get dei contenuti via ajax
+
+-->
+<section class="u-padding-r-top u-text-r-l u-layout-medium u-layoutCenter u-margin-bottom-xxl u-layout-withGutter" id="lista-categorie">
+
+    <h2 class="u-text-h2"><a href="/servizi" class="u-color-50">Servizi abilitati SPID</a></h2>
+    <!-- <p class="u-text-p"><a class="u-color-50" href="/servizi">vai alla ricerca per nome</a></p> -->
+
+    <div class="js-loader Loader"></div>
+
+    <div id="risultati-wrapper" aria-live="polite">
+      <div id="risultati">
+        {{#if _theme }}
+            <nav class="u-text-r-xxs u-lg-hidden u-md-hidden">
+                <a class="u-color-50 u-lineHeight-l" href="/categorie">Categorie</a> » <a class="u-color-50 u-lineHeight-l" href="/categorie/{{ _theme.theme.slug }}">{{ _theme.theme.description }}</a>
+                {{#if _subtheme }}
+                    » <a class="u-color-50 u-lineHeight-l" href="/categorie/{{ _theme.theme.slug }}/{{ _subtheme.subtheme.slug }}">
+                {{ _subtheme.subtheme.description }}
+              </a>
+                {{/if}}
+            </nav>
+        {{/if}}
+
+        <div class="Grid Grid--equalHeight u-padding-top-l">
+
+            <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-md-flexOrderLast u-lg-flexOrderLast">
+                <div class="u-color-grey-30 u-border-left-xxs_ u-sizeFull Linklist--services u-padding-r-top">
+                    {{#if _subtheme }}
+                        <p class="u-padding-r-left u-text-r-xxs u-textWeight-400 u-padding-r-bottom u-textSecondary">{{ size _subtheme.services }} servizi</p>
+                        <h3 class="u-color-grey-90 u-text-h4 u-padding-left-s">{{ _subtheme.subtheme.description }}</h3>
+                        <!-- lista servizi -->
+                        <ul class="Linklist Linklist--padded u-text-p u-padding-bottom-xl u-background-white Linklist--services">
+                            {{#each _subtheme.services as |services slug| }}
+                                <li>
+                                    <!-- <a href="/servizi/{{ @root._theme.theme.slug }}/{{ @root._subtheme.subtheme.slug }}/{{ serviceName }}"> -->
+                                    <a class="u-linkComplex u-padding-right-xxs" href="{{ url }}">
+                                        <span class="u-linkComplexTarget u-text-p">{{ name }}<br>
+                        {{ serviceName }}</span>
+                                        <em role="presentation" class="Icon Icon-external-link u-color-30 u-text-r-xxs"></em>
+                                        <br>
+                                        <span class="u-text-r-xxs u-textSecondary u-padding-r-bottom">
+                          {{ description }}
+                        </span>
+                                    </a>
+                                </li>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </div>
+
+            <div class="Grid-cell u-md-size1of4 u-lg-size1of4">
+
+                <div class="u-color-grey-30 u-border-left-xxs_ Linklist--subthemes u-padding-r-top u-sizeFull  u-borderShadow-m_
+              {{#if _subtheme }}
+                u-hidden u-md-block u-lg-block
+              {{/if}}
+            ">
+                    {{#if _theme }}
+                        <h3 class="u-text-h4 u-color-grey-90 u-padding-left-s">
+                        {{ _theme.theme.description }}
+                    </h3>
+                        <!-- lista sottotemi -->
+                        <ul class="Linklist Linklist--padded u-text-p u-padding-bottom-xl u-background-white Linklist--subthemes">
+                            {{#each _theme.subthemes as |subthemes slug| }}
+                                <li>
+                                    <em role="presentation" class="Icon Icon-chevron-right u-floatRight u-margin-top-m u-padding-right-xs
+                          {{#compare @root._subtheme.subtheme.slug "==" subtheme.slug }} u-color-white is-selected {{/compare}}
+                          {{#compare @root._subtheme.subtheme.slug "!=" subtheme.slug }} u-color-grey-30 {{/compare}}
+                          "></em>
+                                    <a class="ServiceLink u-padding-right-xxl u-text-p
+                      {{#compare @root._subtheme.subtheme.slug "==" subtheme.slug }}
+                        is-selected
+                      {{/compare}}
+                      " href="/categorie/{{ @root._theme.theme.slug }}/{{ subtheme.slug }}">{{ subtheme.description }}</a></li>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </div>
+
+            <div class="Grid-cell u-md-size1of4 u-lg-size1of4 u-md-flexOrderFirst u-lg-flexOrderFirst">
+                <div class="u-color-grey-30 Linklist--themes u-sizeFull
+            {{#if _theme }}
+              u-hidden u-md-block u-lg-block
+            {{/if}}
+            ">
+                    <!-- lista temi -->
+                    <h3 class="u-text-h4 u-color-grey-90 u-padding-left-s"><span class="u-hiddenVisually">Tematica</span></h3>
+                    <ul class="Linklist Linklist--padded u-text-p u-padding-bottom-xl u-background-white Linklist--themes">
+                        {{#each _services.APP_THEMES as |themes slug| }}
+                            <li>
+                                <em role="presentation" class="Icon Icon-chevron-right u-floatRight u-margin-top-m u-padding-right-xs
+                      {{#compare @root._theme.theme.slug "==" theme.slug }} u-color-white is-selected {{/compare}}
+                      {{#compare @root._theme.theme.slug "!=" theme.slug }} u-color-grey-30 {{/compare}}
+                      "></em>
+                                <a href="/categorie/{{ theme.slug }}" class="ServiceLink u-text-p u-padding-right-xxl
+                {{#compare @root._theme.theme.slug "==" theme.slug }}
+                  is-selected
+                {{/compare}}
+                ">{{ theme.description }}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+</section>

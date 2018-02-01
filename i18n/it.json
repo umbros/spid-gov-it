@@ -1,0 +1,10 @@
+{
+	"root": {
+		"example": {
+			"title": "Ciao Mondo",
+			"welcome": "Ciao, Welcome!",
+			"untransalated": "fallback!!!!"
+		}
+	},
+	"it": {}
+}
