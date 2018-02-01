@@ -74,6 +74,14 @@ module.exports = function(app) {
         });
     });
 
+    app.get("/sei-un-privato", function(request, response) {
+        response.render("pages/sei-un-privato", {
+            pageTitle: 'Informazioni per privati',
+            cssFiles,
+            jsFiles
+        });
+    });
+
     app.get("/cerca-pa", function(request, response) {
         response.render("pages/cerca-pa", {
             pageTitle: 'Cerca servizi',
