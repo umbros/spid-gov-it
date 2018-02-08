@@ -421,13 +421,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 	
-<<<<<<< HEAD
 	/**
 	 * @param {object} options Object containing configuration overrides
-=======
-	/**
-	 * @param {object} options Object containing configuration overrides
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
 	 */
 	
 	Object.defineProperty(exports, "__esModule", {

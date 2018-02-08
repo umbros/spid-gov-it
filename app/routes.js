@@ -20,14 +20,10 @@ module.exports = function(app) {
         response.render("pages/home", {
             pageTitle: 'Home',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }            
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -45,14 +41,10 @@ module.exports = function(app) {
           twits: twitter.twits('AgidGov', '#spidweek', 3),
           pageTitle: 'SPID Week',
           cssFiles,
-<<<<<<< HEAD
           jsFiles,
           helpers: {
             _: function(text) { return request.Globalize.formatMessage(text); }
         }             
-=======
-          jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
       });
     });
 
@@ -60,14 +52,10 @@ module.exports = function(app) {
         response.render("pages/richiedi-spid", {
             pageTitle: 'Richiedi SPID',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }   
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -75,14 +63,10 @@ module.exports = function(app) {
         response.render("pages/infografiche", {
             pageTitle: 'Infografiche',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }   
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -90,7 +74,6 @@ module.exports = function(app) {
         response.render("pages/infografiche-spid-week", {
             pageTitle: 'Infografiche - SPID Week',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
@@ -106,25 +89,6 @@ module.exports = function(app) {
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }   
-=======
-            jsFiles
-        });
-    });
-
-    app.get("/sei-una-pubblica-amministrazione", function(request, response) {
-        response.render("pages/sei-una-pubblica-amministrazione", {
-            pageTitle: 'Informazioni per PA',
-            cssFiles,
-            jsFiles
-        });
-    });
-
-    app.get("/sei-un-privato", function(request, response) {
-        response.render("pages/sei-un-privato", {
-            pageTitle: 'Informazioni per privati',
-            cssFiles,
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -136,14 +100,10 @@ module.exports = function(app) {
             }],
             jsFiles: [...jsFiles, {
                 file: 'spid-search-001a.min.js'
-<<<<<<< HEAD
             }],
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }
-=======
-            }]
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -156,12 +116,9 @@ module.exports = function(app) {
             jsFiles: [...jsFiles, {
                 file: 'spid-search-001b.min.js'
             }],
-<<<<<<< HEAD
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             },   
-=======
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
             serviceProviderId: request.params.serviceProviderId,
             serviceProvider: new Buffer(request.params.serviceProvider, 'base64').toString('utf-8'),
             totalServices: request.params.totalServices,
@@ -173,14 +130,10 @@ module.exports = function(app) {
         response.render("pages/serve-aiuto", {
             pageTitle: 'Supporto',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }   
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -188,14 +141,10 @@ module.exports = function(app) {
         response.render("pages/domande-frequenti", {
             pageTitle: 'FAQ - Domande frequenti',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }   
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -203,14 +152,10 @@ module.exports = function(app) {
         response.render("pages/press-area", {
             pageTitle: 'Press-Area',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -218,14 +163,10 @@ module.exports = function(app) {
         response.render("pages/privacy-e-note-legali", {
             pageTitle: 'Privacy e Note Legali',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
@@ -244,12 +185,9 @@ module.exports = function(app) {
                 pageTitle: 'Servizi abilitati SPID',
                 cssFiles,
                 jsFiles,
-<<<<<<< HEAD
                 helpers: {
                     _: function(text) { return request.Globalize.formatMessage(text); }
                 },
-=======
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                 _services,
                 _regioni,
                 _hasQuery,
@@ -281,12 +219,9 @@ module.exports = function(app) {
                 pageTitle: 'Servizi abilitati SPID',
                 cssFiles,
                 jsFiles,
-<<<<<<< HEAD
                 helpers: {
                     _: function(text) { return request.Globalize.formatMessage(text); }
                 },
-=======
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                 _params: request.params,
                 _services: services,
                 _theme: request.params.theme ? services.APP_THEMES_SLUG[request.params.theme] : null,
@@ -313,14 +248,10 @@ module.exports = function(app) {
         response.render("errors/error404", {
             pageTitle: 'Errore 404 - Pagina non trovata',
             cssFiles,
-<<<<<<< HEAD
             jsFiles,
             helpers: {
                 _: function(text) { return request.Globalize.formatMessage(text); }
             }
-=======
-            jsFiles
->>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         });
     });
 
