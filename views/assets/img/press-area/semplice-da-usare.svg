@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="214.009 3912 193.885 116">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #06c;
+      }
+
+      .cls-11, .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-12, .cls-3, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 0.242px;
+      }
+
+      .cls-4 {
+        font-size: 9px;
+        font-family: MyriadPro-Semibold, Myriad Pro;
+        font-weight: 600;
+      }
+
+      .cls-5 {
+        stroke: #22557f;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 0.403px;
+      }
+
+      .cls-6 {
+        stroke: #e1e3e5;
+      }
+
+      .cls-7 {
+        fill: #fad6b7;
+      }
+
+      .cls-10, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        fill: #eaccb5;
+      }
+
+      .cls-9 {
+        fill: #4874a3;
+      }
+
+      .cls-10 {
+        fill: #2e63a7;
+      }
+
+      .cls-11 {
+        font-size: 17px;
+        font-family: MyriadPro-Bold, Myriad Pro;
+        font-weight: 700;
+      }
+
+      .cls-12 {
+        stroke: #27557d;
+        stroke-width: 0.805px;
+      }
+    </style>
+  </defs>
+  <g id="group-66" transform="translate(17 2920)">
+    <g id="XMLID_252_" transform="translate(197.029 992)">
+      <g id="XMLID_260_" transform="translate(61.351 30.383)">
+        <g id="XMLID_268_">
+          <g id="XMLID_271_">
+            <rect id="XMLID_277_" class="cls-1" width="132.514" height="30.831"/>
+            <ellipse id="XMLID_276_" class="cls-2" cx="11.724" cy="11.724" rx="11.724" ry="11.724" transform="translate(7.889 3.691)"/>
+            <path id="XMLID_275_" class="cls-1" d="M164.115,256.374a4.256,4.256,0,0,1-3.184-1.3,4.663,4.663,0,0,1-1.23-3.257,4.486,4.486,0,0,1,1.23-3.184,4.1,4.1,0,0,1,3.184-1.23,3.99,3.99,0,0,1,3.112,1.3,4.663,4.663,0,0,1,1.23,3.257,4.486,4.486,0,0,1-1.23,3.184,4.437,4.437,0,0,1-3.112,1.231" transform="translate(-144.429 -239.656)"/>
+            <path id="XMLID_274_" class="cls-1" d="M159.6,266.815a4.486,4.486,0,0,1,1.23-3.184,4.1,4.1,0,0,1,3.184-1.23,3.99,3.99,0,0,1,3.112,1.3,4.664,4.664,0,0,1,1.23,3.257" transform="translate(-144.402 -243.8)"/>
+            <line id="XMLID_273_" class="cls-3" y2="27.936" transform="translate(39.226 1.303)"/>
+            <text id="Entra_con_SPID" data-name="Entra con SPID" class="cls-4" transform="translate(45.691 16.677)"><tspan x="0" y="0">Entra con SPID</tspan></text>
+          </g>
+          <line id="XMLID_270_" class="cls-5" x2="132.514" transform="translate(0 30.758)"/>
+          <line id="XMLID_269_" class="cls-6" x2="132.514"/>
+        </g>
+        <g id="XMLID_261_" transform="translate(30.686 12.304)">
+          <path id="XMLID_267_" class="cls-7" d="M214.213,327.2v17.876L205.456,345,194.6,346.741l.072-17.949Z" transform="translate(-184.757 -274.007)"/>
+          <g id="XMLID_264_">
+            <path id="XMLID_266_" class="cls-8" d="M181,290.711l3.04,15.994c.362,2.026,3.908,9.481,6.007,9.264s2.171-6.658,1.737-8.685l-2.823-11.218C187.3,289.77,183.171,290.277,181,290.711Z" transform="translate(-181 -263.862)"/>
+            <path id="XMLID_265_" class="cls-7" d="M196.782,257.536l-.145,18.962c1.809-2.605,6.369-1.086,6.731,2.316,1.52-2.895,5.934-1.809,6.8,1.158,1.882-2.461,6.3-.8,6.3,2.75l-.145,15.995c-.072,4.487-2.533,10.277-4.487,12.52-5.717,6.731-16.139,2.388-18.672-1.665-1.954-3.112-3.763-5.138-3.763-7.527l.145-44.509C189.617,251.963,196.854,252.9,196.782,257.536Z" transform="translate(-183.321 -253.701)"/>
+          </g>
+          <path id="XMLID_263_" class="cls-9" d="M215.653,333.445l-.507,12.376-2.678,3.184-7.961-.073L193,343.867l.145-10.566Z" transform="translate(-184.315 -275.692)"/>
+          <path id="XMLID_262_" class="cls-10" d="M216.021,340.645l.217,10.349H193.007L192.5,340.5Z" transform="translate(-184.177 -277.681)"/>
+        </g>
+      </g>
+      <g id="XMLID_253_" transform="translate(0 0)">
+        <rect id="XMLID_259_" class="cls-1" width="52.253" height="89.38" transform="matrix(0.984, 0.176, -0.176, 0.984, 15.686, 0)"/>
+        <ellipse id="XMLID_258_" class="cls-2" cx="13.172" cy="13.172" rx="13.172" ry="13.172" transform="translate(22.704 22.567)"/>
+        <path id="XMLID_257_" class="cls-1" d="M101.538,242.257a4.827,4.827,0,0,1-3.257-2.026,4.974,4.974,0,0,1-.724-3.836,5.158,5.158,0,0,1,2.026-3.329,4.823,4.823,0,0,1,3.763-.8,4.518,4.518,0,0,1,3.184,2.026,5.53,5.53,0,0,1-1.23,7.165,4.549,4.549,0,0,1-3.763.8" transform="translate(-65.879 -205.071)"/>
+        <path id="XMLID_256_" class="cls-1" d="M94.7,252.895a5.158,5.158,0,0,1,2.026-3.329,4.823,4.823,0,0,1,3.763-.8,4.518,4.518,0,0,1,3.184,2.026,5.373,5.373,0,0,1,.724,3.836" transform="translate(-65.12 -209.63)"/>
+        <text id="ID" class="cls-11" transform="matrix(0.984, 0.176, -0.176, 0.984, 18.968, 77.643)"><tspan x="0" y="0">ID</tspan></text>
+        <path id="XMLID_254_" class="cls-12" d="M53.9,286.214l51.457,9.191L120.99,207.4" transform="translate(-53.848 -198.222)"/>
+      </g>
+    </g>
+  </g>
+</svg>

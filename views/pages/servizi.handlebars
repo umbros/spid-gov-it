@@ -1,0 +1,205 @@
+<!--
+
+  - da google analytic: track termini ricerca
+
+  ** v0.2 **
+  - limitare numero caratteri ricerca >= 3
+  - paginazione delle liste (tramite js ?)
+  - elenco servizi più cliccati
+
+  ** v0.3 **
+  - mappa highcharts: provider.latitude, provider.longitude, provider.totalServices
+
+-->
+<section class="u-layout-medium u-layoutCenter u-padding-r-top u-text-r-l u-margin-r-bottom u-layout-withGutter">
+
+    <div class="u-padding-r-bottom">
+        <h2 class="u-text-h2">
+          <a href="/servizi" class="u-color-90 u-textClean">Dove puoi usare SPID</a>
+        </h2>
+        <p class="Prose u-textSecondary">Cerca tra 3.866 amministrazioni che erogano 4.371 servizi abilitati SPID</p>
+    </div>
+
+    <div class="u-color-grey-30 u-margin-r-bottom">
+        <form method="get" id="cerca-servizi-spid" action="#risultati" class="Form Form--ultraLean u-text-r-s u-layout-medium u-layoutCenter u-background-grey-20 u-padding-r-all js-track">
+
+            {{#if _hasQuery}}
+            {{else}}
+                <p class="u-text-p u-color-90 u-padding-r-bottom">
+                    Seleziona almeno un parametro per la ricerca o <a href="#categorie" class="u-color-50 u-text-p" onclick="location.reload()">naviga utilizzando le categorie</a>.
+                </p>
+            {{/if}}
+            <div class="Grid">
+
+                <div class="Grid-cell u-text-r-xs u-sizeFullx u-md-sizeFill u-lg-sizeFill">
+
+                    <div class="Grid">
+
+                        <div class="Form-field Form-field--withPlaceholder Grid-cell
+                        u-sizeFull u-md-size1of2 u-lg-size1of2 u-border-all-xxs">
+                            <!--pattern=".{3,}"  -->
+                            <input class="Form-input u-text-r-xs u-padding-r-all u-color-black" name="_q" id="_q" required value="{{ _q }}" type="text" />
+                            <label class="Form-label is-required u-color-grey-50 u-text-r-xs" for="_q">
+                                es. inps o 730</label>
+                        </div>
+
+                        <div class="Form-field Grid-cell u-sizeFull u-md-size1of2 u-lg-size1of2 u-border-all-xxs">
+                            <label class="Form-label u-hiddenVisually" for="_regione">Regione</label>
+                            <select class="Form-input u-color-grey-90 u-text-r-xs u-padding-r-all" name="_regione" id="_regione">
+                                <option value="">Tutto il territorio</option>
+                                <option value="00" {{#compare @root._regione "==" '00' }} selected {{/compare}}>Nazionale</option>
+                                {{#each _regioni as |v k| }}
+                                    <option value="{{ v }}" {{#compare @root._regione "=="  v }} selected {{/compare}}>{{ k }}</option>
+                                {{/each}}
+                            </select>
+                        </div>
+
+                        {{!-- #if _theme }}
+                        <input type="hidden" name="_theme" value="{{ _theme.theme.code }}" />
+
+                        <div class="Form-field Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-border-all-xxs">
+                            <label class="Form-label u-hiddenVisually" for="_subtheme">Categoria</label>
+                            <select class="Form-input u-color-grey-90 u-text-r-xs u-textTruncate u-padding-r-top u-padding-r-bottom u-padding-right-xl u-padding-r-left" id="_subtheme" name="_subtheme">
+                                <option value="">Tutte le tipologie</option>
+                                {{#each _theme.subthemes as |subthemes slug| }}
+                                    <option value="{{ subtheme.code }}" {{#compare @root._subtheme.subtheme.code "==" subtheme.code }} selected {{/compare}}>
+                                        {{ subtheme.description }}
+                                    </option>
+                                {{/each}}
+                            </select>
+                        </div>
+
+                        {{else --}}
+
+                        <!-- <div class="Form-field Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-border-right-xxs u-border-all-xxs">
+                            <label class="Form-label u-hiddenVisually" for="_theme">Tema</label>
+                            <select class="Form-input u-color-grey-90 u-text-r-xs u-textTruncate u-padding-r-top u-padding-r-bottom u-padding-right-xl u-padding-r-left" id="_theme" name="_theme">
+                                <option value="">Tutte le categorie</option>
+                                {{#each _services.APP_THEMES as |themes slug| }}
+                                    <option value="{{ theme.code }}" {{#compare @root._theme.theme.code "==" theme.code }} selected {{/compare}}>{{ theme.description }}</option>
+                                {{/each}}
+                            </select>
+                        </div> -->
+
+                        {{!-- #if --}}
+
+                    </div>
+                </div>
+
+                <div class="Grid-cell u-sizeFullx u-md-sizeFit u-lg-sizeFit">
+                    <div class="Form-field">
+                        <button type="submit" class="Button Button--default u-padding-r-all u-text-r-xs u-sizeFull" onclick="document.getElementById('_q').removeAttribute('required')">cerca</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+    <div class="js-loader Loader"></div>
+
+    <div id="risultati-wrapper">
+        <div class="u-layout-medium u-layoutCenter" id="risultati">
+            <!-- servizi -->
+
+            {{#if _resultCount }}
+                <h4 class="u-text-r-xxs u-textWeight-400 u-padding-r-bottom u-textSecondary">{{ _resultCount }} servizi trovati per</h4>
+            {{/if}}
+            {{#if _hasQuery }}
+            <h3 class="u-text-h4">
+              {{#if _theme }}
+                » <a class="u-color-50" href="?_theme={{ _theme.theme.code }}">{{ _theme.theme.description }}</a>
+              {{/if}}
+              {{#if _subtheme }}
+                » <a class="u-color-50" href="?_theme={{ _theme.theme.code }}&amp;_subtheme={{ _subtheme.subtheme.code }}">
+                    {{ _subtheme.subtheme.description }}
+                  </a>
+              {{/if}}
+              {{#if _regione }}
+                {{#compare _regione "==" '00' }}
+                  » <a class="u-color-50" href="?_regione={{ _regione }}">Nazionale</a>
+                {{/compare}}
+                {{#compare _regione "!=" '00' }}
+                  » <a class="u-color-50" href="?_regione={{ _regione }}">{{ lookup _regioniInv _regione }}</a>
+                {{/compare}}
+              {{/if}}
+              {{#if _q }}
+                » {{ _q }}
+              {{/if}}
+            </h3>
+            {{/if}}
+
+            {{#if _results }}
+                <!-- lista servizi -->
+                <ul>
+                    {{#each _results as |services provider| }}
+                        <li>
+                            <h4 class="u-text-r-m u-textWeight-600 u-color-teal-70 u-padding-r-top">
+                          {{provider}}
+                        </h4>
+                            <ul class="Prose u-color-grey-20 u-padding-r-bottom">
+                                {{#each services as |service provider| }}
+                                    <li class="u-padding-r-bottom u-padding-r-top u-border-bottom-xxs">
+                                        <p class="Prose u-layout-prose u-color-grey-80">
+                                            <a href="{{ url }}" class="Link--external u-textClean">
+                                                <span style="text-decoration:underline">{{ serviceName }}</span>
+                                                <em role="presentation" class="Icon Icon-external-link u-color-30 u-text-r-xxs"></em>
+                                                <br>
+                                                <span class="u-text-r-xxs u-textSecondary u-padding-r-bottom">
+                                    {{ description }}
+                                </span>
+                                            </a>
+                                        </p>
+                                    </li>
+                                {{/each}}
+                            </ul>
+                        </li>
+                    {{/each}}
+                </ul>
+            {{else}}
+                {{#if _hasQuery }}
+                    <div class="Alert Alert--warning" role="alert">
+                        <h3 class="u-text-h3">Nessun risultato.</h3>
+                        <p class="Prose">
+                            Nessun servizio trovato applicando i criteri di ricerca selezionati.
+                        </p>
+                        <p class="Prose">
+                            <a href="/servizi" class="u-color-50">riprova selezionando criteri diversi</a>
+                        </p>
+                    </div>
+                {{else}}
+                    <section class="u-padding-r-top u-padding-bottom-xxl">
+                        <h3 class="u-text-h3" id="categorie">Categorie</h3>
+                        <ul class="Grid Grid--withGutter">
+                            {{#each _services.APP_THEMES as |themes slug| }}
+                                <li class="Grid-cell u-sizeFull u-sm-size1of2 u-md-size1of3 u-lg-size1of3 u-layout-matchHeight">
+                                    <div class="u-color-grey-30 u-border-bottom-xxs">
+                                        <p class="Prose u-padding-r-all">
+                                            <a href="/categorie/{{ theme.slug }}" class="ServiceLink u-text-r-s u-textWeight-600 u-color-50
+                          {{#compare @root._theme.theme.slug "==" theme.slug }}
+                            is-selected
+                          {{/compare}}
+                          ">{{ theme.description }}</a>
+                                        </p>
+
+                                        <ul class="u-padding-r-all">
+                                            {{#each (limit themes.subthemes 10) as |subthemes slug| }}
+                                                <li class="u-inlineBlock u-padding-r-right u-padding-bottom-xs"><a class="u-color-grey-60" href="/categorie/{{ ../theme.slug }}/{{ subtheme.slug }}">{{ subtheme.description }}</a></li>
+                                            {{/each}}
+                                            {{#compare (size themes.subthemes) ">" 10}}
+                                                <li class="u-inlineBlock u-padding-r-right u-padding-bottom-xs"><a class="u-color-grey-50 u-textItalic" href="/categorie/{{ theme.slug }}">Tutte le categorie per {{ theme.description }}...</a></li>
+                                            {{/compare}}
+                                        </ul>
+                                    </div>
+                                </li>
+                            {{/each}}
+                        </ul>
+                    </section>
+                {{/if}}
+            {{/if}}
+
+        </div>
+    </div>
+
+</section>

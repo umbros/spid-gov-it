@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="186.5 892.5 112.078 112.078">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafc;
+      }
+
+      .cls-2 {
+        fill: #06c;
+      }
+
+      .cls-3 {
+        filter: url(#ellipse-1);
+      }
+    </style>
+    <filter id="ellipse-1" x="186.5" y="892.5" width="112.078" height="112.078" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="group-63" transform="translate(17 93)">
+    <g id="group-45" transform="translate(-62.961 8.039)">
+      <g class="cls-3" transform="matrix(1, 0, 0, 1, 45.96, -101.04)">
+        <ellipse id="ellipse-1-2" data-name="ellipse-1" class="cls-1" cx="51.539" cy="51.539" rx="51.539" ry="51.539" transform="translate(191 895)"/>
+      </g>
+      <g id="group-1" transform="translate(273.772 818.592)">
+        <path id="XMLID_59_" class="cls-2" d="M95.213,47.3a14.785,14.785,0,0,1-11.173-4.584A16.133,16.133,0,0,1,79.6,31.257a15.218,15.218,0,0,1,4.441-11.316A14.678,14.678,0,0,1,95.213,15.5a14.256,14.256,0,0,1,11.03,4.584,16.265,16.265,0,0,1,4.3,11.459,15.681,15.681,0,0,1-4.3,11.316A14.887,14.887,0,0,1,95.213,47.3" transform="translate(-79.6 -15.5)"/>
+        <path id="XMLID_58_" class="cls-2" d="M79.6,57.957A15.218,15.218,0,0,1,84.041,46.64,14.678,14.678,0,0,1,95.213,42.2a14.256,14.256,0,0,1,11.03,4.584,16.265,16.265,0,0,1,4.3,11.459" transform="translate(-79.6 -3.954)"/>
+      </g>
+    </g>
+  </g>
+</svg>

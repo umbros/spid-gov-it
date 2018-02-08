@@ -1,0 +1,101 @@
+<div class="u-padding-r-top">
+    <div class="u-layout-medium u-layoutCenter u-margin-bottom-xxl u-layout-withGutter">
+    	<ul class="Breadcrumb u-padding-left-l u-padding-right-l u-margin-bottom-xxl">
+			<li class="Breadcrumb-item"><a class="Breadcrumb-link u-color-50" href="/">{{_ "Home"}}</a></li>
+			<li class="Breadcrumb-item"><a class="Breadcrumb-link u-color-50" href="/servizi">{{_ "Cerca servizi"}}</a></li>
+      <li class="Breadcrumb-item"><a class="Breadcrumb-link u-color-50" href="/cerca-pa">{{_ "Cerca amministrazioni"}}</a></li>
+			<li class="Breadcrumb-item">{{_ "Elenco servizi PA"}}</a></li>
+		</ul>
+        <section class="u-sizeFull u-padding-left-l u-padding-right-l u-margin-bottom-xxs">
+            <h2 class="u-text-h2">{{_ "Elenco servizi online"}}</h2>
+        </section>
+    	<section class="u-padding-bottom-l u-padding-left-l u-padding-right-l">
+            <h4 class="u-text-h4">
+                {{serviceProvider}}
+            </h4>
+        </section>
+        {{#compare totalServices ">" 16}}
+    	<form class="controls" id="Filters">
+        <section class="Grid u-padding-bottom-l">
+        	<div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3 u-padding-left-l u-padding-right-l">
+        		<fieldset>
+	        		<label class="Form-label" for="services-pa-full-search">{{_ "Ricerca libera"}}</label>
+	        		<input type="text" id="services-pa-full-search" class="Form-input">
+	        	</fieldset>
+        	</div>
+        	<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-padding-left-l u-padding-right-l u-padding-top-l"></div>
+        	<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-padding-left-l u-padding-right-l u-padding-top-l">
+  				<fieldset>
+			   		<label class="Form-label" for="services-pa-theme">{{_ "Tema"}}</label>
+			    	<select class="Form-input" id="services-pa-theme">
+			    		<option value="">{{_ "Tutte"}}</option>
+						<option value="AGRI">{{_ "Agricoltura, pesca, silvicoltura e prodotti alimentari"}}</option>
+						<option value="ECON">{{_ "Economia e finanze"}}</option>
+						<option value="EDUC">{{_ "Istruzione, cultura e sport"}}</option>
+						<option value="ENER">{{_ "Energia"}}</option>
+						<option value="ENVI">{{_ "Ambiente"}}</option>
+						<option value="GOVE">{{_ "Governo e settore pubblico"}}</option>
+						<option value="HEAL">{{_ "Salute"}}</option>
+						<option value="INTR">{{_ "Tematiche internazionali"}}</option>
+						<option value="JUST">{{_ "Giustizia, sistema giuridico e sicurezza pubblica"}}</option>
+						<option value="REGI">{{_ "Regioni e città"}}</option>
+						<option value="SOCI">{{_ "Popolazione e società"}}</option>
+						<option value="TECH">{{_ "Scienza e tecnologia"}}</option>
+						<option value="TRAN">{{_ "Trasporti"}}</option>
+			    	</select>
+			  	</fieldset>
+			</div>
+        	<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-padding-left-l u-padding-right-l u-padding-top-l">
+  				<fieldset>
+			   		<label class="Form-label" for="services-pa-subtheme">{{_ "Sottotema"}}</label>
+			    	<select class="Form-input" id="services-pa-subtheme">
+			    		<option value="">{{_ "Tutte"}}</option>
+						<option value="INPS">{{_ "Servizi INPS"}}</option>
+						<option value="CERT">{{_ "Servizi di Certificazione e Autocertificazione"}}</option>
+						<option value="PAGA">{{_ "Servizi di pagamento, controllo pagamenti, tasse e tributi"}}</option>
+						<option value="DOCS">{{_ "Invio e richiesta documenti"}}</option>
+						<option value="DIPA">{{_ "Servizi per dipendenti pubblici"}}</option>
+						<option value="ANAG">{{_ "Anagrafe"}}</option>
+						<option value="SCUN">{{_ "Servizi Scuola e Università"}}</option>
+						<option value="SECO">{{_ "Servizi di connettività pubblica"}}</option>
+						<option value="SUAP">{{_ "SUAP Sportello Unico Attività Produttive"}}</option>
+						<option value="INAI">{{_ "Servizi INAIL"}}</option>
+						<option value="RIPR">{{_ "Richieste e prenotazioni"}}</option>
+						<option value="VICO">{{_ "Visure, controllo e consultazione dati"}}</option>
+						<option value="SESA">{{_ "Servizi Sanitari"}}</option>
+						<option value="FAEL">{{_ "Fatturazione elettronica"}}</option>
+						<option value="FSAE">{{_ "Fascicolo Sanitario Elettronico"}}</option>
+						<option value="FINA">{{_ "Finanziamenti"}}</option>
+						<option value="EDIL">{{_ "Edilizia"}}</option>
+						<option value="SESO">{{_ "Servizi Sociali e della Comunità"}}</option>
+						<option value="NOTI">{{_ "Servizi di avvisi e notifiche"}}</option>
+						<option value="MULT">{{_ "Servizi Audio, Video e Multimediali"}}</option>
+						<option value="POCI">{{_ "Portali del cittadino"}}</option>
+						<option value="ISCR">{{_ "Iscrizione a servizi"}}</option>
+						<option value="FAMI">{{_ "Servizi per le famiglie"}}</option>
+						<option value="VIAB">{{_ "Servizi per la viabilità"}}</option>
+						<option value="UTIL">{{_ "Utilità"}}</option>
+			    	</select>
+			  	</fieldset>
+			</div>
+			<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-padding-left-l u-padding-right-l u-padding-top-l">
+  				<fieldset>
+			   		<label class="Form-label" for="services-pa-spidlevel">{{_ "Livello SPID"}}</label>
+			    	<select class="Form-input" id="services-pa-spidlevel">
+			    		<option value="">{{_ "Tutte"}}</option>
+						<option value="1">{{_ "Livello 1"}}</option>
+						<option value="2">{{_ "Livello 2"}}</option>
+						<option value="3">{{_ "Livello 3"}}</option>
+			    	</select>
+			  	</fieldset>
+			</div>
+		</section>
+		</form>
+		{{/compare}}
+		<section class="u-sizeFull u-padding-left-l u-padding-right-l">
+	       	<div id="service-provider-id" serviceProviderId="{{serviceProviderId}}" style="display: none;"></div>
+	     	<table id="spidServicesSp" class="display" style="display: none;" cellspacing="0" width="100%"><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead></table>
+	    </section>
+		<section id="servizi-pa" class="Grid Grid--withGutter"></section>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "name": "www.spid.gov.it",
+  "version": "2.0.0",
+  "description": "SPID WebSite",
+  "main": "spid-www.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./spid-www.js"
+  },
+  "author": "Umberto UmbRos Rosini",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cldr-data": "^29.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "globalize-express": "^1.4.0",
+    "helmet": "^2.1.1",
+    "lodash": "^4.16.1",
+    "morgan": "^1.7.0",
+    "node-minify": "^2.0.0-beta.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.5",
+    "slug": "^0.9.1",
+    "sort-object": "^3.0.2",
+    "twitter-node-client": "0.0.6"
+  }
+}

@@ -1,0 +1,134 @@
+<div class="u-padding-r-top u-margin-r-top">
+    <div class="u-layout-medium u-layoutCenter u-margin-bottom-xxl u-layout-withGutter">
+      <h2 class="u-text-h2" id="fornitore-di-spid">Come diventare fornitore di servizi Pubblici o Privati con SPID</h2>
+
+        <div class="Grid">
+
+            <div class="Grid-cell u-md-size4of12 u-lg-size4of12 u-md-flexOrderLast u-lg-flexOrderLast u-hidden u-md-block u-lg-block">
+                <ul class="Linklist u-layout-prose u-text-p">
+                    <li><a href="#procedura-tecnica">Procedura tecnica</a></li>
+                    <li><a href="#procedura-amministrativa">Procedura amministrativa</a></li>
+                    <li><a href="#supporto-tecnico">Supporto tecnico</a></li>
+                    <li><a href="#riepilogo">Riepilogo</a></li>
+                    <li><a href="#riferimenti">Riferimenti</a></li>
+                    <li><a href="#convenzionesoggettipubblici">Convenzione per soggetti pubblici</a></li>
+                    <li><a href="#convenzioneperprivatieallegati">Convenzione per privati e allegati</a></li>
+                </ul>
+            </div>
+
+            <div class="Grid-cell u-sizeFull u-md-size8of12 u-lg-size8of12">
+                <section class="Prose u-layout-prose">
+                    <p>
+                        Tutte le pubbliche amministrazioni devono rendere i propri servizi online accessibili tramite SPID in modo da favorire e semplificare l'utilizzo dei servizi digitali da parte di tutti i cittadini.<br><br>
+			Anche i privati possono rendere i propri servizi online accessibili tramite SPID, al fine di favorire e semplificare l’utilizzo dei propri servizi digitali.<br><br>
+                        In questa pagina trovi le informazioni che ti consentono di diventare fornitore di servizi e il percorso necessario per adeguare i tuoi sistemi informativi alle regole tecniche e alle regole di design dedicate a SPID.
+                    </p>
+                    <p>
+                        Le procedure da completare sono due, una tecnica e una amministrativa. Ogni comunicazione avviene attraverso l' <a href="https://helpdesk.spid.gov.it/index.php?a=add&category=4">helpdesk</a> AgID dedicato.
+                    </p>
+
+                    <h3 class="u-text-h3" id="procedura-tecnica">Procedura tecnica</h3>
+                    <p>
+                        Il sistema SPID , si basa sul protocollo <a href="http://saml.xml.org/" target="blank_">SAML2</a>.<br> Per implementare SPID nei tuoi servizi online:
+
+                    </p>
+                    <ol class="Prose Bullets">
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                Consulta le <a href="http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf" target="blank_">regole tecniche</a> con le indicazioni necessarie a guidarti durante l'implementazione di SPID e le <a href="https://www.spid.gov.it/assets/res/agid-spid-lg-interfacce-informazioni-idp-sp.pdf" target="blank_">linee guida interfacce e informazioni</a>. Queste ultime hanno l'obiettivo di guidarti nell'utilizzo delle componenti grafiche necessarie a garantire la riconoscibilità di SPID tra gli utenti.
+
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                Elabora un metadata come indicato nel <a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="blank_">documento riassuntivo</a>. Il dispiegamento dei servizi deve rispettare quanto stabilito dall'<a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="blank_">Avviso n. 6</a>. Gli attributi richiesti per l'erogazione di ogni servizio online, inoltre, devono essere attinenti e non eccedenti.
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                Dopo aver elaborato il primo metadata, rendilo disponibile su una url "https" del tuo dominio e comunicalo ad AgID. Per farlo segnala l'url all' <a href="http://helpdesk.spid.gov.it/" target="blank_">helpdesk</a>, selezionando la categoria "Comunicazione metadata". È compito di AgID verificare il metadata ricevuto e, se necessario, segnalare le modifiche utili a garantire il rispetto delle regole tecniche.
+
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                In caso di modifiche dovrai ripetere la procedura di invio descritta nel punto 3. Se l'invio del metadata dà esito positivo, AgID comunica il metadata agli Identity Provider (IDP). La richiesta di caricamento configurazioni agli IDP è effettuata ogni giorno alle ore 18:00, dal lunedì al venerdì.
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                I servizi online possono essere abilitati all'accesso con SPID per successivi test e messa in produzione, previo recepimento del medatada da parte degli IDP.
+                            </p>
+                        </li>
+                    </ol>
+                    <p>
+                        Oltre alle regole tecniche devi seguire anche le regole di design prodotte da AgID: tutte le componenti grafiche e le indicazioni per adottarle sono disponibili sul repository <a href="https://github.com/italia" target="blank_">Github Italia</a>.
+                    </p>
+
+                    <h3 class="u-text-h3" id="procedura-amministrativa">Procedura amministrativa</h3>
+                    <p>
+                        Per procedere alla firma della convenzione è necessaria, per ogni Service Provider, una verifica tecnica sull'implementazione di SPID.<br><br>
+                        Per richiedere la verifica, invia un ticket all'<a href="https://helpdesk.spid.gov.it">helpdesk</a>, selezionando la categoria "<a href="https://helpdesk.spid.gov.it/index.php?a=add&category=9">Richiesta verifica tecnica e convenzione</a>" e indicando, tra le informazioni necessarie, anche le url dei servizi da validare.<br><br> 
+                        Dopo l'esito positivo della verifica, ti verrà inviata la documentazione che dovrai compilare e firmare.<br><br>
+                        Una volta completata la procedura, devi inviare con una PEC tutta la documentazione all'indirizzo protocollo@pec.agid.gov.it. Entro pochi giorni riceverai la convenzione controfirmata.<br><br>
+		              </p>
+
+
+                    <h3 class="u-text-h3" id="supporto-tecnico">Supporto tecnico e amministrativo</h3>
+                    <p>
+                        Se hai bisogno di supporto nella fase di adeguamento dei tuoi sistemi a SPID puoi contattare l'<a href="http://helpdesk.spid.gov.it/" target="blank_">helpdesk</a> dedicato.
+                    </p>
+
+                    <h3 class="u-text-h3" id="riepilogo">Riepilogo</h3>
+                    <h4 class="u-text-h4">I principali interventi tecnici che ti verranno chiesti</h4>
+                    <ol class="Prose Bullets">
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                Interventi di implementazione del sistema SPID, utilizzando SAML2, nei propri applicativi web;
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                Consegna di un metadata, come da regole tecniche e successivi avvisi, per la configurazione dei propri servizi presso gli IDP.
+                            </p>
+                        </li>
+                    </ol>
+                    <h4 class="u-text-h4">Le figure di riferimento necessarie per concludere  il processo di adesione a SPID</h4>
+                    <ol class="Prose Bullets">
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                Referente tecnico per tutte le attività di implementazione del sistema di autenticazione SPID;
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                Rappresentante legale per la firma della convenzione.
+                            </p>
+                        </li>
+                    </ol>
+                    <h3 class="u-text-h3" id="riferimenti">Riferimenti</h3>
+                    <h4 class="u-text-h4">Normativa (DPCM 24 ottobre 2014)</h4>
+                    <p>
+                        <a href="http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid" target="blank_">Documentazione e regole tecniche</a><br>
+                        <a href="http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid/avvisi" target="blank_">Avvisi</a><br>
+                        <a href="http://www.spid.gov.it/assets/res/agid-spid-lg-interfacce-informazioni-idp-sp.pdf" target="blank_">Linee guida interfacce e informazioni SPID per IdP e Sp</a><br>
+                        <a href="https://github.com/italia" target="blank_">Repository Github Italia</a>
+                    </p>
+                    <h3 class="u-text-h3" id="convenzionesoggettipubblici">Convenzione per soggetti pubblici</h3>
+                    <p>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/14_-_dt_dg_n._14_-_25_gen_2018_-_approvazione_schema_nuova_convenzione_sppa_spid-prt-allegato1.pdf" target="blank_">Determinazione AGID N. 14/2018 Convenzione SPID tra AgID e Pubbliche Amministrazioni</a>
+                    </p>
+                    <h3 class="u-text-h3" id="convenzioneperprivatieallegati">Convenzione per privati e allegati</h3>
+                    <p>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/dt_dg_n._366_-_18_dic_2017_-_approvazione_schemi_convenzioni_spid_circui.pdf" target="blank_">Determinazione AGID N. 366/2017 - Approvazione schemi convenzioni SPID circuito privati</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/all_dt366-schcnv_sp_privati.pdf" target="blank_">Allegato Determinazione AGID N. 366/2017 - Convenzione Service Provider Privati</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/all1_addendum.pdf" target="blank_">Allegato 1 Determinazione AGID N. 366/2017 - Addendum</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/all2_contratto_adesione.pdf" target="blank_">Allegato 2 Determinazione AGID N. 366/2017 - Contratto adesione</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/all3_lds.pdf" target="blank_">Allegato 3 Determinazione AGID N. 366/2017 - Livelli di servizio</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/all4_prezzariospid.pdf" target="blank_">Allegato 4 Determinazione AGID N. 366/2017 - Prezzario SPID SP Privati</a>
+		    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>

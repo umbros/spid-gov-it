@@ -1,0 +1,56 @@
+  <div class="u-background-grey-80">
+    <div class="u-layout-medium u-layoutCenter u-layout--withGutter">
+    <footer class="Footer u-padding-all-s">
+
+    <div class="u-cf">
+        <img class="spid-agid-logo-footer" src="assets/img/spid-logo-b-bb.svg" alt="SPID - Sistema Pubblico di Identità Digitale" />
+    </div>
+
+    <div class="Grid Grid--withGutter">
+        <div class="Footer-block Grid-cell u-md-size1of3 u-lg-size1of3">
+            <img class="spid-agid-logo-footer" src="assets/img/agid-logo-bb.svg" alt="AgID - Agenzia per l'Italia Digitale" />
+        </div>
+
+        <div class="Footer-block Grid-cell u-md-size1of3 u-lg-size1of3">
+            <h2 class="Footer-blockTitle">Contatti</h2>
+            <div class="Footer-subBlock">
+                <img class="phone-support-spid" src="assets/img/telefono-supporto-spid.svg" alt="Telefono supporto SPID 0682888736" />
+            </div>
+        </div>
+
+        <div class="Footer-block Grid-cell u-md-size1of3 u-lg-size1of3">
+            <h2 class="Footer-blockTitle">Seguici su</h2>
+            <div class="Footer-subBlock">
+                <a href="https://www.facebook.com/groups/agid.spid/"><img class="footer-social-icon" src="assets/img/icona-facebook.svg" alt="Facebook" /></a>
+            </div>
+        </div>
+
+    </div>
+    <ul class="Footer-links u-cf">
+        <li><a href="/faq" title="FAQ">FAQ</a></li>
+        <li><a href="/press-area" title="Press Area">Press Area</a></li>
+        <li><a href="/privacy-e-note-legali" title="Privacy e note legali">Privacy e note legali</a></li>
+    </ul>
+</footer>
+    </div>
+  </div>
+  </div>
+  <a href="#" title="torna all'inizio del contenuto" class="ScrollTop">
+    <i class="ScrollTop-icon icon-top"></i>
+    <span class="u-hiddenVisually">torna all'inizio del contenuto</span>
+</a>
+</div>
+    <% jsFiles.forEach(function(jsFile) { %>
+    <script src="/assets/js/<%= jsFile.file %>"></script>
+    <% }); %>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-3351165-23', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

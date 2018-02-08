@@ -1,0 +1,160 @@
+<div class="u-padding-r-top u-text-r-xl">
+    <div class="u-layout-medium u-layoutCenter u-margin-bottom-xxl u-layout-withGutter">
+
+        <!-- <ul class="Breadcrumb u-padding-left-l u-padding-right-l u-margin-bottom-xxl">
+            <li class="Breadcrumb-item"><a class="Breadcrumb-link u-color-50" href="/">Home</a></li>
+            <li class="Breadcrumb-item">Cerca servizi</li>
+        </ul> -->
+
+        <section class="u-sizeFull u-padding-left-l u-padding-right-l u-margin-bottom-xxs">
+            <h2 class="u-text-h2">{{_ "Dove puoi usare SPID"}}</h2>
+            <p class="u-text-h5">
+                <span class="u-text-r-l">3.593</span> {{_ "pubbliche amministrazioni abilitate SPID erogano"}}
+                <span class="u-text-r-l">3.963</span> {{_ "servizi online"}}
+                <dd>
+            </p>
+        </section>
+
+        <form class="Form Form--ultraLean controls u-padding-r-left u-padding-r-right u-padding-r-top" id="Filters">
+
+            <div class="Grid u-color-grey-30">
+
+                <div class="Form-field Form-field--withPlaceholder Form--Grid-cell
+                        u-sizeFull u-md-size1of3 u-lg-size1of3 u-border-all-xxs">
+                    <input required class="Form-input u-text-r-xs u-padding-r-all u-color-black" id="service-provider-full-search">
+                    <label class="Form-label is-required u-color-grey-90 u-text-r-xs" for="service-provider-full-search">{{_ "Cerca amministrazione..."}}</label>
+                </div>
+
+                <div class="Form-field Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-border-all-xxs">
+                    <label class="Form-label is-required u-hiddenVisually" for="service-provider-regione">{{_ "Regione"}}</label>
+                    <select class="Form-input u-color-grey-90 u-text-r-xs u-padding-r-all" id="service-provider-regione">
+                        <option selected value="">{{_ "Tutto il territorio..."}}</option>
+                        <option value="00">{{_ "Nazionali"}}</option>
+                        <option value="13">Abruzzo</option>
+                        <option value="17">Basilicata</option>
+                        <option value="18">Calabria</option>
+                        <option value="15">Campania</option>
+                        <option value="08">Emilia-Romagna</option>
+                        <option value="06">Friuli-Venezia Giulia</option>
+                        <option value="12">Lazio</option>
+                        <option value="07">Liguria</option>
+                        <option value="03">Lombardia</option>
+                        <option value="11">Marche</option>
+                        <option value="14">Molise</option>
+                        <option value="01">Piemonte</option>
+                        <option value="16">Puglia</option>
+                        <option value="20">Sardegna</option>
+                        <option value="19">Sicilia</option>
+                        <option value="09">Toscana</option>
+                        <option value="04">Trentino-Alto Adige/Südtirol</option>
+                        <option value="10">Umbria</option>
+                        <option value="02">Valle d'Aosta/Vallée d'Aoste</option>
+                        <option value="05">Veneto</option>
+                    </select>
+                </div>
+
+                <!-- <div class="Form-field Grid-cell u-sizeFull u-sm-size1of2 u-md-size1of2 u-lg-size1of4 u-border-all-xxs">
+                    <label class="Form-label is-required u-hiddenVisually" for="service-provider-bacino-interesse">Bacino di interesse</label>
+                    <select class="Form-input u-color-grey-90 u-text-r-xs u-padding-r-all" id="service-provider-bacino-interesse">
+                        <option selected value="">Bacino di interesse...</option>
+                        <option value="LTCom">Comunale</option>
+                        <option value="LTNaz">Nazionale</option>
+                        <option value="LTReg">Regionale</option>
+                        <option value="LTTer">Territoriale</option>
+                    </select>
+                </div> -->
+
+                <div class="Form-field Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-border-all-xxs">
+                    <label class="Form-label is-required u-hiddenVisually" for="service-provider-tipologia-pa">{{_ "Tipologia amministrazione"}}</label>
+                    <select class="Form-input u-color-grey-90 u-text-r-xs u-padding-r-all" id="service-provider-tipologia-pa">
+                        <option selected value="">{{_ "Tutte le tipologie..."}}</option>
+                        <option value="L10">{{_ "Agenzie ed Enti per il Turismo"}}</option>
+                        <option value="L19">{{_ "Agenzie ed Enti Regionali del Lavoro"}}</option>
+                        <option value="L13">{{_ "Agenzie ed Enti Regionali di Sviluppo Agricolo"}}</option>
+                        <option value="L2">{{_ "Agenzie ed Enti Regionali per la Formazione, la Ricerca e l'Ambiente"}}</option>
+                        <option value="C10">{{_ "Agenzie Fiscali"}}</option>
+                        <option value="L20">{{_ "Agenzie Regionali e Provinciale per la Rappresentanza Negoziale"}}</option>
+                        <option value="L21">{{_ "Agenzie Regionali per le Erogazioni in Agricoltura"}}</option>
+                        <option value="L22">{{_ "Agenzie Regionali Sanitarie"}}</option>
+                        <option value="L15">{{_ "Agenzie, Enti e Consorzi Pubblici per il Diritto allo Studio Universitario"}}</option>
+                        <option value="L1">{{_ "Altri Enti Locali"}}</option>
+                        <option value="C13">{{_ "Automobile Club Federati ACI"}}</option>
+                        <option value="C5">{{_ "Autorità Amministrative Indipendenti"}}</option>
+                        <option value="L23">{{_ "Autorità di Ambito Territoriale Ottimale"}}</option>
+                        <option value="L40">{{_ "Autorità di Bacino"}}</option>
+                        <option value="L11">{{_ "Autorità Portuali"}}</option>
+                        <option value="L39">{{_ "Aziende e Consorzi Pubblici Territoriali per l'Edilizia Residenziale"}}</option>
+                        <option value="L46">{{_ "Aziende ed Amministrazioni dello Stato ad Ordinamento Autonomo"}}</option>
+                        <option value="L8">{{_ "Aziende Ospedaliere, Aziende Ospedaliere Universitarie, Policlinici e Istituti di Ricovero e Cura a Carattere Scientifico Pubblici"}}</option>
+                        <option value="L34">{{_ "Aziende Pubbliche di Servizi alla Persona"}}</option>
+                        <option value="L7">{{_ "Aziende Sanitarie Locali"}}</option>
+                        <option value="L35">{{_ "Camere di Commercio, Industria, Artigianato e Agricoltura e loro Unioni Regionali"}}</option>
+                        <option value="L45">{{_ "Città Metropolitane"}}</option>
+                        <option value="L6">{{_ "Comuni e loro Consorzi e Associazioni"}}</option>
+                        <option value="L12">{{_ "Comunità Montane e loro Consorzi e Associazioni"}}</option>
+                        <option value="L24">{{_ "Consorzi di Bacino Imbrifero Montano"}}</option>
+                        <option value="L28">{{_ "Consorzi Interuniversitari di Ricerca"}}</option>
+                        <option value="L42">{{_ "Consorzi per l'Area di Sviluppo Industriale"}}</option>
+                        <option value="L36">{{_ "Consorzi tra Amministrazioni Locali"}}</option>
+                        <option value="L44">{{_ "Enti di Regolazione dei Servizi Idrici e o dei Rifiuti"}}</option>
+                        <option value="C8">{{_ "Enti e Istituzioni di Ricerca Pubblici"}}</option>
+                        <option value="C3">{{_ "Enti Pubblici Non Economici"}}</option>
+                        <option value="C7">{{_ "Enti Pubblici Produttori di Servizi Assistenziali, Ricreativi e Culturali"}}</option>
+                        <option value="C14">{{_ "Federazioni Nazionali, Ordini, Collegi e Consigli Professionali"}}</option>
+                        <option value="L16">{{_ "Fondazioni Lirico, Sinfoniche"}}</option>
+                        <option value="C11">{{_ "Forze di Polizia ad Ordinamento Civile e Militare per la Tutela dell'Ordine e della Sicurezza Pubblica"}}</option>
+                        <option value="L33">{{_ "Istituti di Istruzione Statale di Ogni Ordine e Grado"}}</option>
+                        <option value="C12">{{_ "Istituti Zooprofilattici Sperimentali"}}</option>
+                        <option value="L43">{{_ "Istituzioni per l'Alta Formazione Artistica, Musicale e Coreutica - AFAM"}}</option>
+                        <option value="C2">{{_ "Organi Costituzionali e di Rilievo Costituzionale"}}</option>
+                        <option value="L38">{{_ "Parchi Nazionali, Consorzi e Enti Gestori di Parchi e Aree Naturali Protette"}}</option>
+                        <option value="C1">{{_ "Presidenza del Consiglio dei Ministri, Ministeri e Avvocatura dello Stato"}}</option>
+                        <option value="L5">{{_ "Province e loro Consorzi e Associazioni"}}</option>
+                        <option value="L4">{{_ "Regioni, Province Autonome e loro Consorzi e Associazioni"}}</option>
+                        <option value="L31">{{_ "Teatri Stabili ad Iniziativa Pubblica"}}</option>
+                        <option value="L18">{{_ "Unioni di Comuni e loro Consorzi e Associazioni"}}</option>
+                        <option value="L17">{{_ "Università e Istituti di Istruzione Universitaria Pubblici"}}</option>
+                        <option value="C15">{{_ "Enti Nazionali di Previdenza ed Assistenza Sociale in Conto Economico Consolidato"}}</option>
+                        <option value="S01">{{_ "Società in Conto Economico Consolidato"}}</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </form>
+
+        <div class="u-sizeFull u-padding-left-l u-padding-right-l">
+            <table id="spidSpList" class="display" style="display: none;" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div id="service-provider-list" class="Grid Grid--withGutter u-padding-top-xxl u-padding-bottom-xxl"></div>
+    </div>
+</div>

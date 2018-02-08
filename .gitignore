@@ -1,0 +1,6 @@
+node_modules
+views/assets/data/*
+views/assets/data/vServiceProviders.json
+views/assets/data/vServices.json
+html/
+views/assets/json.zip
