@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"it": {
 		"_": "it",
 		"__": "Italiano",
@@ -171,4 +172,14 @@
 		"Livello 3": "Livello 3"
 		
 	}
+=======
+	"root": {
+		"example": {
+			"title": "Ciao Mondo",
+			"welcome": "Ciao, Welcome!",
+			"untransalated": "fallback!!!!"
+		}
+	},
+	"it": {}
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
 }

@@ -6,7 +6,11 @@
 -->
 <section class="u-padding-r-top u-text-r-l u-layout-medium u-layoutCenter u-margin-bottom-xxl u-layout-withGutter" id="lista-categorie">
 
+<<<<<<< HEAD
     <h2 class="u-text-h2"><a href="/servizi" class="u-color-50">{{_ "Servizi abilitati SPID"}}</a></h2>
+=======
+    <h2 class="u-text-h2"><a href="/servizi" class="u-color-50">Servizi abilitati SPID</a></h2>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
     <!-- <p class="u-text-p"><a class="u-color-50" href="/servizi">vai alla ricerca per nome</a></p> -->
 
     <div class="js-loader Loader"></div>
@@ -15,7 +19,11 @@
       <div id="risultati">
         {{#if _theme }}
             <nav class="u-text-r-xxs u-lg-hidden u-md-hidden">
+<<<<<<< HEAD
                 <a class="u-color-50 u-lineHeight-l" href="/categorie">{{_ "Categorie"}}</a> » <a class="u-color-50 u-lineHeight-l" href="/categorie/{{ _theme.theme.slug }}">{{ _theme.theme.description }}</a>
+=======
+                <a class="u-color-50 u-lineHeight-l" href="/categorie">Categorie</a> » <a class="u-color-50 u-lineHeight-l" href="/categorie/{{ _theme.theme.slug }}">{{ _theme.theme.description }}</a>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                 {{#if _subtheme }}
                     » <a class="u-color-50 u-lineHeight-l" href="/categorie/{{ _theme.theme.slug }}/{{ _subtheme.subtheme.slug }}">
                 {{ _subtheme.subtheme.description }}
@@ -29,7 +37,11 @@
             <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-md-flexOrderLast u-lg-flexOrderLast">
                 <div class="u-color-grey-30 u-border-left-xxs_ u-sizeFull Linklist--services u-padding-r-top">
                     {{#if _subtheme }}
+<<<<<<< HEAD
                         <p class="u-padding-r-left u-text-r-xxs u-textWeight-400 u-padding-r-bottom u-textSecondary">{{ size _subtheme.services }} {{_ "servizi"}}</p>
+=======
+                        <p class="u-padding-r-left u-text-r-xxs u-textWeight-400 u-padding-r-bottom u-textSecondary">{{ size _subtheme.services }} servizi</p>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                         <h3 class="u-color-grey-90 u-text-h4 u-padding-left-s">{{ _subtheme.subtheme.description }}</h3>
                         <!-- lista servizi -->
                         <ul class="Linklist Linklist--padded u-text-p u-padding-bottom-xl u-background-white Linklist--services">
@@ -89,7 +101,11 @@
             {{/if}}
             ">
                     <!-- lista temi -->
+<<<<<<< HEAD
                     <h3 class="u-text-h4 u-color-grey-90 u-padding-left-s"><span class="u-hiddenVisually">{{_ "Tematica"}}</span></h3>
+=======
+                    <h3 class="u-text-h4 u-color-grey-90 u-padding-left-s"><span class="u-hiddenVisually">Tematica</span></h3>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                     <ul class="Linklist Linklist--padded u-text-p u-padding-bottom-xl u-background-white Linklist--themes">
                         {{#each _services.APP_THEMES as |themes slug| }}
                             <li>

@@ -10,7 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
     <meta name="description" content="{{_ "Il Sistema Pubblico di Identità Digitale ti permette di accedere ai servizi online della Pubblica Amministrazione con un'unica coppia utente - password."}}" />
+=======
+    <meta name="description" content="Il Sistema Pubblico di Identità Digitale ti permette di accedere ai servizi online
+             della Pubblica Amministrazione con un'unica coppia utente / password." />
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
 
     <script type="text/javascript">
         WebFontConfig = {
@@ -34,7 +39,11 @@
     <script src="/assets/vendor/jquery.min.js"></script>
 
     {{#each cssFiles}}
+<<<<<<< HEAD
         <link media="all" rel="stylesheet" href="/assets/css/{{file}}?v=5">
+=======
+        <link media="all" rel="stylesheet" href="/assets/css/{{file}}?v=4">
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
     {{/each}}
     <title>{{> pageTitle}}</title>
 
@@ -53,6 +62,7 @@
 </head>
 <body class="Pac">
     <div id="cookie-bar" class="CookieBar js-CookieBar u-background-95 u-padding-r-all">
+<<<<<<< HEAD
         <p class="u-color-white u-text-p u-padding-r-bottom">{{_ "Questo sito utilizza cookie tecnici, analytics e di terze parti."}}
             <br>{{_ "Proseguendo nella navigazione accetti l’utilizzo dei cookie."}}
             <br>
@@ -60,10 +70,20 @@
         <p>
             <button class="Button Button--default u-text-r-xxs js-cookieBarAccept u-inlineBlock u-margin-r-all">{{_ "Accetto"}}</button>
             <a href="/privacy-e-note-legali" class="u-text-r-xs u-color-teal-50">{{_ "Privacy policy"}}</a>
+=======
+        <p class="u-color-white u-text-p u-padding-r-bottom">Questo sito utilizza cookie tecnici, analytics e di terze parti.
+            <br>Proseguendo nella navigazione accetti l’utilizzo dei cookie.
+            <br>
+        </p>
+        <p>
+            <button class="Button Button--default u-text-r-xxs js-cookieBarAccept u-inlineBlock u-margin-r-all">Accetto</button>
+            <a href="/privacy-e-note-legali" class="u-text-r-xs u-color-teal-50">Privacy policy</a>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         </p>
     </div>
 
     <div id="spidLoader"></div>
+<<<<<<< HEAD
 
     <ul class="Skiplinks js-fr-bypasslinks">
         <li><a accesskey="2" href="#main">{{_ "Vai al Contenuto" }}</a></li>
@@ -126,14 +146,72 @@
 
         <div class="Headroom-hideme u-textCenter u-hidden u-sm-hidden u-md-block u-lg-block">
             <nav class="Megamenu Megamenu--default">
+=======
+    <ul class="Skiplinks js-fr-bypasslinks">
+        <li><a accesskey="2" href="#main">Vai al Contenuto</a></li>
+        <li><a accesskey="3" href="#menu" class="js-fr-offcanvas-open" aria-controls="menu" aria-label="accedi al menu" title="accedi al menu">Vai alla navigazione del sito</a></li>
+    </ul>
+    <header class="Header Headroom--fixed">
+
+        <div class="Header-banner Headroom-hideme">
+            <div class="Header-owner">
+                <a href="http://www.agid.gov.it" target="blank_">Agenzia per l'Italia Digitale</a>
+            </div>
+        </div>
+
+        <div class="Header-navbar Grid Grid--alignMiddle">
+
+            <div class="Header-toggle Grid-cell">
+                <a class="Hamburger-toggleContainer js-fr-offcanvas-open" href="#menu" aria-controls="menu" aria-label="accedi al menu" title="accedi al menu">
+                    <span class="Hamburger-toggle" role="presentation"></span>
+                    <span class="Header-toggleText" role="presentation">Menu</span>
+                </a>
+            </div>
+
+            <div class="Header-logo Grid-cell u-size3of12" aria-hidden="true">
+                <a href="/" tabindex="-1">
+                    <img id="spid-logo" src="/assets/img/spid-ico-circle-bb.svg" alt="Logo SPID" />
+                </a>
+            </div>
+
+            <div class="Header-title Grid-cell">
+                <h1 class="Header-titleLink">
+                    <a accesskey="1" href="/">
+                      SPID<br>
+                      <small>Sistema Pubblico di Identità Digitale</small>
+                    </a>
+                </h1>
+            </div>
+
+            <div class="Header-utils Grid-cell">
+                <div class="Header-social Headroom-hideme">
+                    <p>Seguici su:</p>
+                    <ul class="Header-socialIcons">
+                        <li><a href="https://www.facebook.com/groups/agid.spid/"><span class="Icon-facebook"></span>
+                          <span class="u-hiddenVisually">Facebook</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- Header -->
+
+        <div class="u-textCenter Headroom-hideme">
+            <nav class="Megamenu Megamenu--styled js-megamenu">
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                 {{> mainMenu}}
             </nav>
         </div>
 
     </header>
+<<<<<<< HEAD
 
     <div class="Offcanvas Offcanvas--left Offcanvas--modal js-fr-offcanvas u-jsVisibilityHidden u-nojsDisplayNone" id="menu">
         <h2 class="u-hiddenVisually">{{_ "Menu di navigazione"}}</h2>
+=======
+    <div class="Offcanvas Offcanvas--left Offcanvas--modal js-fr-offcanvas u-jsVisibilityHidden u-nojsDisplayNone" id="menu">
+        <h2 class="u-hiddenVisually">Menu di navigazione</h2>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
         <div class="Offcanvas-content u-background-white">
             <div class="Offcanvas-toggleContainer u-background-70">
                 <a class="Hamburger-toggleContainer u-block u-color-white u-padding-bottom-xxl u-padding-left-s u-padding-top-xxl js-fr-offcanvas-close" aria-controls="menu" aria-label="esci dalla navigazione" title="esci dalla navigazione" href="#">
@@ -155,11 +233,16 @@
             <footer class="Footer u-padding-all-s">
 
                 <div class="Footer-block">
+<<<<<<< HEAD
                     <img class="u-sizeFull u-md-size1of3 u-sm-size2of3 u-lg-size1of3" src="/assets/img/agid-logo-bb.svg" alt="{{_ "AgID - Agenzia per l'Italia Digitale"}}" />
+=======
+                    <img class="u-sizeFull u-md-size1of3 u-sm-size2of3 u-lg-size1of3" src="/assets/img/agid-logo-bb.svg" alt="AgID - Agenzia per l'Italia Digitale" />
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                 </div>
 
                 <div class="Grid Grid--withGutter">
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+<<<<<<< HEAD
                         <h2 class="Footer-blockTitle">{{_ "Contatti"}}</h2>
                         <div class="Footer-subBlock">
                             <a href="tel:0682888736"><img class="phone-support-spid" src="/assets/img/telefono-supporto-spid.svg" alt="{{_ "Telefono supporto SPID 0682888736"}}" /></a>
@@ -170,20 +253,43 @@
                             <p class="u-border-top-xxs u-margin-r-top u-padding-r-top u-color-white">
                               {{_ "oppure scrivi al"}}
                               <a href="https://helpdesk.spid.gov.it">{{_ "supporto online per SPID"}}</a>
+=======
+                        <h2 class="Footer-blockTitle">Contatti</h2>
+                        <div class="Footer-subBlock">
+                            <a href="tel:0682888736"><img class="phone-support-spid" src="/assets/img/telefono-supporto-spid.svg" alt="Telefono supporto SPID 0682888736" /></a>
+                            <br>
+                            <p class="Prose u-margin-top-l u-text-r-xxs u-color-white">
+                                Puoi chiamare dal lunedì al venerdì dalle 9:30 alle 16:00. Il costo della telefonata varia in base al piano tariffario applicato dal tuo gestore.
+                            </p>
+                            <p class="u-border-top-xxs u-margin-r-top u-padding-r-top u-color-white">
+                              oppure scrivi  al
+                              <a href="https://helpdesk.spid.gov.it">supporto online per SPID</a>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                             </p>
                         </div>
                     </div>
 
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+<<<<<<< HEAD
                         <h2 class="Footer-blockTitle">{{_ "Stampa e promozione"}}</h2>
                         <ul>
                             <li><a href="/press-area">{{_ "Materiale promozionale"}}</a></li>
                             <li><a href="/spid-week">{{_ "Campagna SPID Week"}}</a></li>
+=======
+                        <h2 class="Footer-blockTitle">Stampa e promozione</h2>
+                        <ul>
+                            <li><a href="/press-area">Materiale promozionale</a></li>
+                            <li><a href="/spid-week">Campagna SPID Week</a></li>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                         </ul>
                     </div>
 
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
+<<<<<<< HEAD
                         <h2 class="Footer-blockTitle">{{_ "Seguici su"}}</h2>
+=======
+                        <h2 class="Footer-blockTitle">Seguici su</h2>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                         <div class="Footer-subBlock">
                             <p>
                                 <br>
@@ -196,8 +302,13 @@
                     </div>
                 </div>
                 <ul class="Footer-links u-cf">
+<<<<<<< HEAD
                     <li><a href="/domande-frequenti"><strong>{{_ "Domande frequenti"}}</strong></a></li>
                     <li><a href="/privacy-e-note-legali"><strong>{{_ "Privacy e note legali"}}</strong></a></li>
+=======
+                    <li><a href="/domande-frequenti"><strong>Domande frequenti</strong></a></li>
+                    <li><a href="/privacy-e-note-legali"><strong>Privacy e note legali</strong></a></li>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
                 </ul>
             </footer>
         </div>
@@ -205,7 +316,11 @@
 
     <a href="#" title="torna all'inizio del contenuto" class="ScrollTop js-scrollTop js-scrollTo u-lg-hidden u-md-hidden">
         <i class="ScrollTop-icon Icon-arrow-up" aria-hidden="true"></i>
+<<<<<<< HEAD
         <span class="u-hiddenVisually">{{_ "torna all'inizio del contenuto"}}</span>
+=======
+        <span class="u-hiddenVisually">torna all'inizio del contenuto</span>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
     </a>
 
     <!--[if IE 8]>
@@ -220,7 +335,11 @@
         <![endif]-->
 
     {{#each jsFiles}}
+<<<<<<< HEAD
         <script src="/assets/js/{{file}}?v=5"></script>
+=======
+        <script src="/assets/js/{{file}}?v=4"></script>
+>>>>>>> fc7e3ec2681151e0904c9d16d60e5716440d2add
     {{/each}}
 
 

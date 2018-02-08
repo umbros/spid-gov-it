@@ -1,0 +1,10 @@
+{
+	"root": {
+		"example": {
+			"title": "Hello World",
+			"welcome": "Hi, Welcome!",
+			"untransalated": "This string is only available in english. Its the default fallback"
+		}
+	},
+	"en": {}
+}
