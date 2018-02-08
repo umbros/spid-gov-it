@@ -44,7 +44,17 @@ app.use(globalizeExpress({
   devMode: false
 }));
 
-require('./app/minifier.js');
+function setLang (req, res, next) {
+    if(req.query.lang!=null) {
+        res.cookie('lang', req.query.lang);
+    }
+
+    next();
+ }
+
+ app.use(setLang);
+
+//require('./app/minifier.js');
 require('./app/routes.js')(app);
 
 app.use(helmet());
