@@ -126,6 +126,10 @@ module.exports = function(app) {
         });
     });
 
+    app.get("/sei-una-pubblica-amministrazione", function(request, response) {
+        response.redirect("/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid");
+    });
+
     app.get("/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid", function(request, response) {
         response.render("pages/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid", {
             pageTitle: 'Come diventare fornitore di servizi pubblici e privati con SPID',

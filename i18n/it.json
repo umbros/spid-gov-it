@@ -361,13 +361,13 @@
 		"Press Area": "Press Area",
 		"Contatti:": "Contatti:",
 		"Comunicati stampa": "Comunicati stampa",
-		"26/07/2016": "26/07/2016",
+		"26-07-2016": "26/07/2016",
 		"SPID: accordo con MISE e MIBACT per accesso unico a wi-fi pubblico. Aruba e Sielte nuovi identity provider da settembre": "SPID: accordo con MISE e MIBACT per accesso unico a wi-fi pubblico. Aruba e Sielte nuovi identity provider da settembre",
-		"29/04/2016": "29/04/2016",
+		"29-04-2016": "29/04/2016",
 		"SPID: al via la campagna istituzionale": "SPID: al via la campagna istituzionale",
-		"11/04/2016": "11/04/2016",
+		"11-04-2016": "11/04/2016",
 		"SPID: al via l'accesso con un'unica identità digitale anche ai servizi di Inail, Emilia Romagna, Friuli Venezia Giulia e Comune di Venezia.": "SPID: al via l'accesso con un'unica identità digitale anche ai servizi di Inail, Emilia Romagna, Friuli Venezia Giulia e Comune di Venezia.",
-		"08/03/2016": "08/03/2016",
+		"08-03-2016": "08/03/2016",
 		"SPID: dal 15 marzo le prime identità digitali. Entro giugno 600 servizi collegati.": "SPID: dal 15 marzo le prime identità digitali. Entro giugno 600 servizi collegati.",
 		"Presentazioni": "Presentazioni",
 		"SPID: La nuova soluzione per l'accesso ai servizi online.": "SPID: La nuova soluzione per l'accesso ai servizi online.",
@@ -628,6 +628,10 @@
 		"Ti ricordiamo di verificare tutti i dettagli delle procedure di richiesta con i singoli Identity Provider.": "Ti ricordiamo di verificare tutti i dettagli delle procedure di richiesta con i singoli Identity Provider.",
 		"Media Kit": "Media Kit",
 		"Partecipa alla #SPIDweek e contribuisci alla promozione social delle novità legate al nuovo sistema di login. Scarica i nostri materiali di comunicazione su SPID:": "Partecipa alla #SPIDweek e contribuisci alla promozione social delle novità legate al nuovo sistema di login. Scarica i nostri materiali di comunicazione su SPID:",
-		"Download": "Download"
+		"Download": "Download",
+
+		"Serve aiuto?": "Serve aiuto?",
+		"Vuoi diventare fornitore di servizi SPID?": "Vuoi diventare fornitore di servizi SPID?",
+		"Press area": "Press area"
 	}
 }
