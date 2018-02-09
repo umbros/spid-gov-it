@@ -304,6 +304,7 @@
 		"Infografiche": "Infografiche",
 		"Vai alla slide precedente": "Vai alla slide precedente",
 		"Vai alla slide successiva": "Vai alla slide successiva",
+		"È possibile navigare le slide utilizzando i tasti freccia": "È possibile navigare le slide utilizzando i tasti freccia",
 		"Crescita identità SPID": "Crescita identità SPID",
 		"Grazie alla progressiva diffusione di SPID tra amministrazioni centrali e locali, il numero delle identità erogate è cresciuto da 66.822 a settembre 2016 a oltre 1 milione a gennaio 2017.": "Grazie alla progressiva diffusione di SPID tra amministrazioni centrali e locali, il numero delle identità erogate è cresciuto da 66.822 a settembre 2016 a oltre 1 milione a gennaio 2017.",
 		"Identità Erogate": "Identità Erogate",
@@ -632,6 +633,17 @@
 
 		"Serve aiuto?": "Serve aiuto?",
 		"Vuoi diventare fornitore di servizi SPID?": "Vuoi diventare fornitore di servizi SPID?",
-		"Press area": "Press area"
+		"Press area": "Press area",
+
+		"Dicono di SPID": "Dicono di SPID",
+		"“Un cambio di passo non da poco perché una sola username e password consentiranno di accedere a tutta la PA”": "“Un cambio di passo non da poco perché una sola username e password consentiranno di accedere a tutta la PA”",
+		"Articolo da Il Sole 24 Ore - in una nuova finestra": "Articolo da Il Sole 24 Ore - in una nuova finestra",
+		"Il Sole 24 Ore": "Il Sole 24 Ore",
+		"“Si tratta di un sistema di autenticazione sicuro che garantisce la tutela dei dati personali, che non possono né essere utilizzati né ceduti a terzi senza autorizzazione dell’utente”": "“Si tratta di un sistema di autenticazione sicuro che garantisce la tutela dei dati personali, che non possono né essere utilizzati né ceduti a terzi senza autorizzazione dell’utente”",
+		"Articolo da La Stampa - in una nuova finestra": "Articolo da La Stampa - in una nuova finestra",
+		"La Stampa": "La Stampa",
+		"“Come si fa a distinguere l’accesso ai servizi via SPID. Le interfacce di accesso saranno standard, grazie a un’identità grafica comune e non suscettibile di confusione”": "“Come si fa a distinguere l’accesso ai servizi via SPID. Le interfacce di accesso saranno standard, grazie a un’identità grafica comune e non suscettibile di confusione”",
+		"Articolo da Wired - in una nuova finestra": "Articolo da Wired - in una nuova finestra",
+		"Wired": "Wired"
 	}
 }
