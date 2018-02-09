@@ -22,7 +22,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }            
         });
     });
@@ -43,7 +52,16 @@ module.exports = function(app) {
           cssFiles,
           jsFiles,
           helpers: {
-            _: function(text) { return request.Globalize.formatMessage(text); }
+            _: function(text) { 
+                let translated = text;
+                try {
+                    translated = request.Globalize.formatMessage(text);
+                } catch(err) {
+                    console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                }
+
+                return translated; 
+            }
         }             
       });
     });
@@ -54,7 +72,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }   
         });
     });
@@ -65,7 +92,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }   
         });
     });
@@ -76,7 +112,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }   
         });
     });
@@ -87,7 +132,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }   
         });
     });
@@ -102,7 +156,16 @@ module.exports = function(app) {
                 file: 'spid-search-001a.min.js'
             }],
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }
         });
     });
@@ -117,7 +180,16 @@ module.exports = function(app) {
                 file: 'spid-search-001b.min.js'
             }],
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             },   
             serviceProviderId: request.params.serviceProviderId,
             serviceProvider: new Buffer(request.params.serviceProvider, 'base64').toString('utf-8'),
@@ -132,7 +204,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }   
         });
     });
@@ -143,7 +224,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }   
         });
     });
@@ -154,7 +244,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }
         });
     });
@@ -165,7 +264,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }
         });
     });
@@ -186,7 +294,16 @@ module.exports = function(app) {
                 cssFiles,
                 jsFiles,
                 helpers: {
-                    _: function(text) { return request.Globalize.formatMessage(text); }
+                    _: function(text) { 
+                        let translated = text;
+                        try {
+                            translated = request.Globalize.formatMessage(text);
+                        } catch(err) {
+                            console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                        }
+    
+                        return translated; 
+                    }
                 },
                 _services,
                 _regioni,
@@ -220,7 +337,16 @@ module.exports = function(app) {
                 cssFiles,
                 jsFiles,
                 helpers: {
-                    _: function(text) { return request.Globalize.formatMessage(text); }
+                    _: function(text) { 
+                        let translated = text;
+                        try {
+                            translated = request.Globalize.formatMessage(text);
+                        } catch(err) {
+                            console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                        }
+    
+                        return translated; 
+                    }
                 },
                 _params: request.params,
                 _services: services,
@@ -250,7 +376,16 @@ module.exports = function(app) {
             cssFiles,
             jsFiles,
             helpers: {
-                _: function(text) { return request.Globalize.formatMessage(text); }
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
             }
         });
     });
