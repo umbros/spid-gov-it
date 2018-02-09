@@ -1,9 +1,9 @@
 {
-	"de": {
-		"_": "de",
-		"__": "Deutsch",
-		"lingua": "sprache",
-		"AgID - Agenzia per l'Italia Digitale": "AgID - Agenzia per l'Italia Digitale",		
+	"en": {
+		"_": "en",
+		"__": "English",
+		"lingua": "lingua",
+		"AgID - Agenzia per l'Italia Digitale": "AgID - Agenzia per l'Italia Digitale",
 		"SPID": "SPID",
 		"Sistema Pubblico di Identità Digitale": "Sistema Pubblico di Identità Digitale",
 		"Il Sistema Pubblico di Identità Digitale ti permette di accedere ai servizi online della Pubblica Amministrazione con un'unica coppia utente - password.": "Il Sistema Pubblico di Identità Digitale ti permette di accedere ai servizi online della Pubblica Amministrazione con un'unica coppia utente - password.",
@@ -12,13 +12,13 @@
 		"Accetto": "Accetto",
 		"Privacy policy": "Privacy policy",
 		"Vai al Contenuto": "Vai al Contenuto",
-		"accedi al menu": "accedi al menu",		
+		"accedi al menu": "accedi al menu",
 		"Vai alla navigazione del sito": "Vai alla navigazione del sito",
 		"Agenzia per l'Italia Digitale": "Agenzia per l'Italia Digitale",
 		"lingua attiva:": "lingua attiva:",
 		"Menu di navigazione": "Menu di navigazione",
 		"Contatti": "Contatti",
-		"Telefono supporto SPID 0682888736": "Telefono supporto SPID 0682888736",		
+		"Telefono supporto SPID 0682888736": "Telefono supporto SPID 0682888736",
 		"Puoi chiamare dal lunedì al venerdì dalle 9:30 alle 16:00. Il costo della telefonata varia in base al piano tariffario applicato dal tuo gestore.": "Puoi chiamare dal lunedì al venerdì dalle 9:30 alle 16:00. Il costo della telefonata varia in base al piano tariffario applicato dal tuo gestore.",
 		"oppure scrivi al": "oppure scrivi  al",
 		"supporto online per SPID": "supporto online per SPID",
@@ -31,7 +31,7 @@
 		"torna all'inizio del contenuto": "torna all'inizio del contenuto",
 
 
-		"SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.": "SPID, das Public Identity System Digital, ist die Lösung, mit der Sie auf alle Online-Dienste der öffentlichen Verwaltung mit einer einzigen digitalen Identität (Benutzername und Passwort) zugreifen können, die von Computern, Tablets und Smartphones verwendet werden kann.",		
+		"SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.": "SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.",		
 		"Richiedi SPID": "Richiedi SPID",
 		"Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?": "Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?",
 		"Scopri come fare": "Scopri come fare",
@@ -117,7 +117,7 @@
 		"Università e Istituti di Istruzione Universitaria Pubblici": "Università e Istituti di Istruzione Universitaria Pubblici",
 		"Enti Nazionali di Previdenza ed Assistenza Sociale in Conto Economico Consolidato": "Enti Nazionali di Previdenza ed Assistenza Sociale in Conto Economico Consolidato",
 		"Società in Conto Economico Consolidato": "Società in Conto Economico Consolidato",
-		
+
 		"Home": "Home",
 		"Cerca servizi": "Cerca servizi",
 		"Cerca amministrazioni": "Cerca amministrazioni",
@@ -168,8 +168,8 @@
 		"Livello SPID": "Livello SPID",
 		"Livello 1": "Livello 1",
 		"Livello 2": "Livello 2",
-		"Livello 3": "Livello 3",		
-		
+		"Livello 3": "Livello 3",
+
 		"Come diventare fornitore di servizi Pubblici o Privati con SPID": "Come diventare fornitore di servizi Pubblici o Privati con SPID",
 		"Procedura tecnica": "Procedura tecnica",
 		"Procedura amministrativa": "Procedura amministrativa",
@@ -232,7 +232,7 @@
 		"Allegato 2 Determinazione AGID N. 366-2017 - Contratto adesione": "Allegato 2 Determinazione AGID N. 366/2017 - Contratto adesione",
 		"Allegato 3 Determinazione AGID N. 366-2017 - Livelli di servizio": "Allegato 3 Determinazione AGID N. 366/2017 - Livelli di servizio",
 		"Allegato 4 Determinazione AGID N. 366-2017 - Prezzario SPID SP Privati": "Allegato 4 Determinazione AGID N. 366/2017 - Prezzario SPID SP Privati",
-		
+
 		"FAQ – Domande frequenti": "FAQ – Domande frequenti",
 		"Cos’è SPID?": "Cos’è SPID?",
 		"SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online.": "SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online.",
@@ -384,7 +384,7 @@
 		"Privacy e Note Legali": "Privacy e Note Legali",
 		"Privacy Policy": "Privacy Policy",
 		"In questa pagina si descrivono le modalità e le logiche del trattamento dei dati personali degli utenti (di seguito, anche gli Utenti) che consultano il sito: www.spid.gov.it (di seguito, anche il Sito).": "In questa pagina si descrivono le modalità e le logiche del trattamento dei dati personali degli utenti (di seguito, anche gli Utenti) che consultano il sito: www.spid.gov.it (di seguito, anche il Sito).",
-		"L'informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 - Codice in materia di protezione dei dati personali a tutti gli Utenti che, interagendo con il Sito, forniscono all’Agenzia i propri dati personali.": "L'informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 - Codice in materia di protezione dei dati personali a tutti gli Utenti che, interagendo con il Sito, forniscono all’Agenzia i propri dati personali.",
+		"L'informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196-2003 - Codice in materia di protezione dei dati personali a tutti gli Utenti che, interagendo con il Sito, forniscono all’Agenzia i propri dati personali.": "L'informativa è resa ai sensi dell'art. 13 del D. Lgs. n. 196/2003 - Codice in materia di protezione dei dati personali a tutti gli Utenti che, interagendo con il Sito, forniscono all’Agenzia i propri dati personali.",
 		"La validità dell’informativa contenuta nella presente pagina è limitata al solo Sito e non si estende ad altri siti web eventualmente consultabili mediante collegamento ipertestuale.": "La validità dell’informativa contenuta nella presente pagina è limitata al solo Sito e non si estende ad altri siti web eventualmente consultabili mediante collegamento ipertestuale.",
 		"Il titolare del trattamento": "Il titolare del trattamento",
 		"Il Titolare del trattamento per i dati raccolti attraverso il Sito è AgID - Agenzia per l'Italia Digitale, con sede in via Liszt 21 - 00144 Roma, indirizzo email protocollo@pec.agid.gov.it.": "Il Titolare del trattamento per i dati raccolti attraverso il Sito è AgID - Agenzia per l'Italia Digitale, con sede in via Liszt 21 - 00144 Roma, indirizzo email protocollo@pec.agid.gov.it.",
@@ -532,7 +532,7 @@
 		"o una firma digitale, puoi completare la registrazione totalmente on line tramite un lettore di smart card da collegare al tuo computer.": "o una firma digitale, puoi completare la registrazione totalmente on line tramite un lettore di smart card da collegare al tuo computer.",
 		"Comincia con": "Comincia con",
 		"inserimento dati online: 20 minuti": "inserimento dati online: 20 minuti",
-		
+
 		"Come diventare fornitore di servizi SPID": "Come diventare fornitore di servizi SPID",
 		"Tutte le pubbliche amministrazioni devono rendere i propri servizi online accessibili tramite SPID in modo da favorire e semplificare l’utilizzo dei servizi digitali da parte di tutti i cittadini.": "Tutte le pubbliche amministrazioni devono rendere i propri servizi online accessibili tramite SPID in modo da favorire e semplificare l’utilizzo dei servizi digitali da parte di tutti i cittadini.",
 		"In questa pagina trovi le informazioni che ti permetteranno di diventare fornitore di servizi e, se necessario, di chiederci supporto.": "In questa pagina trovi le informazioni che ti permetteranno di diventare fornitore di servizi e, se necessario, di chiederci supporto.",
@@ -646,7 +646,7 @@
 		"“Come si fa a distinguere l’accesso ai servizi via SPID. Le interfacce di accesso saranno standard, grazie a un’identità grafica comune e non suscettibile di confusione”": "“Come si fa a distinguere l’accesso ai servizi via SPID. Le interfacce di accesso saranno standard, grazie a un’identità grafica comune e non suscettibile di confusione”",
 		"Articolo da Wired - in una nuova finestra": "Articolo da Wired - in una nuova finestra",
 		"Wired": "Wired",
-
+		
 		"Vedi tutte le gallerie": "Vedi tutte le gallerie",
 		"visualizza su twitter": "visualizza su twitter"
 	}

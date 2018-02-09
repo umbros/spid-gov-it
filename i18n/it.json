@@ -301,6 +301,7 @@
 		"scriverci": "scriverci",
 		", ti risponderemo entro 48 ore.": ", ti risponderemo entro 48 ore.",
 
+		"Infografica": "Infografica",
 		"Infografiche": "Infografiche",
 		"Vai alla slide precedente": "Vai alla slide precedente",
 		"Vai alla slide successiva": "Vai alla slide successiva",
@@ -644,7 +645,9 @@
 		"La Stampa": "La Stampa",
 		"“Come si fa a distinguere l’accesso ai servizi via SPID. Le interfacce di accesso saranno standard, grazie a un’identità grafica comune e non suscettibile di confusione”": "“Come si fa a distinguere l’accesso ai servizi via SPID. Le interfacce di accesso saranno standard, grazie a un’identità grafica comune e non suscettibile di confusione”",
 		"Articolo da Wired - in una nuova finestra": "Articolo da Wired - in una nuova finestra",
-		"Wired": "Wired"
+		"Wired": "Wired",
 		
+		"Vedi tutte le gallerie": "Vedi tutte le gallerie",
+		"visualizza su twitter": "visualizza su twitter"
 	}
 }
