@@ -6,7 +6,7 @@ process.env.NODE_ENV = 'production';
 var express = require("express");
 var path = require("path");
 var exphbs = require('express-handlebars');
-//var globalizeExpress  = require('globalize-express');
+var globalizeExpress  = require('globalize-express');
 var cookieParser = require('cookie-parser');
 var helmet = require('helmet');
 var path = require('path');
@@ -35,18 +35,26 @@ app.set('view engine', 'handlebars');
 
 app.use('/assets', express.static(__dirname + '/views/assets'));
 
-/*
 app.use(cookieParser());
 app.use(globalizeExpress({
-  locales:['it','en'],
+  locales:['it', 'en', 'de'],
   defaultLocale: 'it',
   cookieName: 'lang',
   messages: __dirname + '/i18n',
   devMode: false
 }));
-*/
 
-// require('./app/minifier.js');
+function setLang (req, res, next) {
+    if(req.query.lang!=null) {
+        res.cookie('lang', req.query.lang);
+    }
+
+    next();
+ }
+
+ app.use(setLang);
+
+//require('./app/minifier.js');
 require('./app/routes.js')(app);
 
 app.use(helmet());

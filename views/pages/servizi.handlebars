@@ -15,9 +15,9 @@
 
     <div class="u-padding-r-bottom">
         <h2 class="u-text-h2">
-          <a href="/servizi" class="u-color-90 u-textClean">Dove puoi usare SPID</a>
+          <a href="/servizi" class="u-color-90 u-textClean">{{_ "Dove puoi usare SPID"}}</a>
         </h2>
-        <p class="Prose u-textSecondary">Cerca tra 3.866 amministrazioni che erogano 4.371 servizi abilitati SPID</p>
+        <p class="Prose u-textSecondary">{{_ "Cerca tra 3.866 amministrazioni che erogano 4.371 servizi abilitati SPID"}}</p>
     </div>
 
     <div class="u-color-grey-30 u-margin-r-bottom">
@@ -26,7 +26,7 @@
             {{#if _hasQuery}}
             {{else}}
                 <p class="u-text-p u-color-90 u-padding-r-bottom">
-                    Seleziona almeno un parametro per la ricerca o <a href="#categorie" class="u-color-50 u-text-p" onclick="location.reload()">naviga utilizzando le categorie</a>.
+                    {{_ "Seleziona almeno un parametro per la ricerca o"}} <a href="#categorie" class="u-color-50 u-text-p" onclick="location.reload()">{{_ "naviga utilizzando le categorie"}}</a>.
                 </p>
             {{/if}}
             <div class="Grid">
@@ -40,14 +40,14 @@
                             <!--pattern=".{3,}"  -->
                             <input class="Form-input u-text-r-xs u-padding-r-all u-color-black" name="_q" id="_q" required value="{{ _q }}" type="text" />
                             <label class="Form-label is-required u-color-grey-50 u-text-r-xs" for="_q">
-                                es. inps o 730</label>
+                                {{_ "es. inps o 730"}}</label>
                         </div>
 
                         <div class="Form-field Grid-cell u-sizeFull u-md-size1of2 u-lg-size1of2 u-border-all-xxs">
-                            <label class="Form-label u-hiddenVisually" for="_regione">Regione</label>
+                            <label class="Form-label u-hiddenVisually" for="_regione">{{_ "Regione"}}</label>
                             <select class="Form-input u-color-grey-90 u-text-r-xs u-padding-r-all" name="_regione" id="_regione">
-                                <option value="">Tutto il territorio</option>
-                                <option value="00" {{#compare @root._regione "==" '00' }} selected {{/compare}}>Nazionale</option>
+                                <option value="">{{_ "Tutto il territorio"}}</option>
+                                <option value="00" {{#compare @root._regione "==" '00' }} selected {{/compare}}>{{_ "Nazionale"}}</option>
                                 {{#each _regioni as |v k| }}
                                     <option value="{{ v }}" {{#compare @root._regione "=="  v }} selected {{/compare}}>{{ k }}</option>
                                 {{/each}}
@@ -88,7 +88,7 @@
 
                 <div class="Grid-cell u-sizeFullx u-md-sizeFit u-lg-sizeFit">
                     <div class="Form-field">
-                        <button type="submit" class="Button Button--default u-padding-r-all u-text-r-xs u-sizeFull" onclick="document.getElementById('_q').removeAttribute('required')">cerca</button>
+                        <button type="submit" class="Button Button--default u-padding-r-all u-text-r-xs u-sizeFull" onclick="document.getElementById('_q').removeAttribute('required')">{{_ "cerca"}}</button>
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@
             <!-- servizi -->
 
             {{#if _resultCount }}
-                <h4 class="u-text-r-xxs u-textWeight-400 u-padding-r-bottom u-textSecondary">{{ _resultCount }} servizi trovati per</h4>
+                <h4 class="u-text-r-xxs u-textWeight-400 u-padding-r-bottom u-textSecondary">{{ _resultCount }} {{_ "servizi trovati per"}}</h4>
             {{/if}}
             {{#if _hasQuery }}
             <h3 class="u-text-h4">
@@ -118,7 +118,7 @@
               {{/if}}
               {{#if _regione }}
                 {{#compare _regione "==" '00' }}
-                  » <a class="u-color-50" href="?_regione={{ _regione }}">Nazionale</a>
+                  » <a class="u-color-50" href="?_regione={{ _regione }}">{{_ "Nazionale"}}</a>
                 {{/compare}}
                 {{#compare _regione "!=" '00' }}
                   » <a class="u-color-50" href="?_regione={{ _regione }}">{{ lookup _regioniInv _regione }}</a>
@@ -160,17 +160,17 @@
             {{else}}
                 {{#if _hasQuery }}
                     <div class="Alert Alert--warning" role="alert">
-                        <h3 class="u-text-h3">Nessun risultato.</h3>
+                        <h3 class="u-text-h3">{{_ "Nessun risultato."}}</h3>
                         <p class="Prose">
-                            Nessun servizio trovato applicando i criteri di ricerca selezionati.
+                            {{_ "Nessun servizio trovato applicando i criteri di ricerca selezionati."}}
                         </p>
                         <p class="Prose">
-                            <a href="/servizi" class="u-color-50">riprova selezionando criteri diversi</a>
+                            <a href="/servizi" class="u-color-50">{{_ "riprova selezionando criteri diversi"}}</a>
                         </p>
                     </div>
                 {{else}}
                     <section class="u-padding-r-top u-padding-bottom-xxl">
-                        <h3 class="u-text-h3" id="categorie">Categorie</h3>
+                        <h3 class="u-text-h3" id="categorie">{{_ "Categorie"}}</h3>
                         <ul class="Grid Grid--withGutter">
                             {{#each _services.APP_THEMES as |themes slug| }}
                                 <li class="Grid-cell u-sizeFull u-sm-size1of2 u-md-size1of3 u-lg-size1of3 u-layout-matchHeight">
@@ -188,7 +188,7 @@
                                                 <li class="u-inlineBlock u-padding-r-right u-padding-bottom-xs"><a class="u-color-grey-60" href="/categorie/{{ ../theme.slug }}/{{ subtheme.slug }}">{{ subtheme.description }}</a></li>
                                             {{/each}}
                                             {{#compare (size themes.subthemes) ">" 10}}
-                                                <li class="u-inlineBlock u-padding-r-right u-padding-bottom-xs"><a class="u-color-grey-50 u-textItalic" href="/categorie/{{ theme.slug }}">Tutte le categorie per {{ theme.description }}...</a></li>
+                                                <li class="u-inlineBlock u-padding-r-right u-padding-bottom-xs"><a class="u-color-grey-50 u-textItalic" href="/categorie/{{ theme.slug }}">{{_ "Tutte le categorie per"}} {{ theme.description }}...</a></li>
                                             {{/compare}}
                                         </ul>
                                     </div>

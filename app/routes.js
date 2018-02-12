@@ -20,7 +20,19 @@ module.exports = function(app) {
         response.render("pages/home", {
             pageTitle: 'Home',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }            
         });
     });
 
@@ -38,7 +50,19 @@ module.exports = function(app) {
           twits: twitter.twits('AgidGov', '#spidweek', 3),
           pageTitle: 'SPID Week',
           cssFiles,
-          jsFiles
+          jsFiles,
+          helpers: {
+            _: function(text) { 
+                let translated = text;
+                try {
+                    translated = request.Globalize.formatMessage(text);
+                } catch(err) {
+                    console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                }
+
+                return translated; 
+            }
+        }             
       });
     });
 
@@ -46,7 +70,19 @@ module.exports = function(app) {
         response.render("pages/richiedi-spid", {
             pageTitle: 'Richiedi SPID',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
         });
     });
 
@@ -54,7 +90,19 @@ module.exports = function(app) {
         response.render("pages/infografiche", {
             pageTitle: 'Infografiche',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
         });
     });
 
@@ -62,23 +110,43 @@ module.exports = function(app) {
         response.render("pages/infografiche-spid-week", {
             pageTitle: 'Infografiche - SPID Week',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
         });
     });
 
     app.get("/sei-una-pubblica-amministrazione", function(request, response) {
-        response.render("pages/sei-una-pubblica-amministrazione", {
-            pageTitle: 'Informazioni per PA',
-            cssFiles,
-            jsFiles
-        });
+        response.redirect("/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid");
     });
 
-    app.get("/sei-un-privato", function(request, response) {
-        response.render("pages/sei-un-privato", {
-            pageTitle: 'Informazioni per privati',
+    app.get("/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid", function(request, response) {
+        response.render("pages/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid", {
+            pageTitle: 'Come diventare fornitore di servizi pubblici e privati con SPID',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
         });
     });
 
@@ -90,7 +158,19 @@ module.exports = function(app) {
             }],
             jsFiles: [...jsFiles, {
                 file: 'spid-search-001a.min.js'
-            }]
+            }],
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }
         });
     });
 
@@ -103,6 +183,18 @@ module.exports = function(app) {
             jsFiles: [...jsFiles, {
                 file: 'spid-search-001b.min.js'
             }],
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            },   
             serviceProviderId: request.params.serviceProviderId,
             serviceProvider: new Buffer(request.params.serviceProvider, 'base64').toString('utf-8'),
             totalServices: request.params.totalServices,
@@ -114,7 +206,19 @@ module.exports = function(app) {
         response.render("pages/serve-aiuto", {
             pageTitle: 'Supporto',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
         });
     });
 
@@ -122,7 +226,19 @@ module.exports = function(app) {
         response.render("pages/domande-frequenti", {
             pageTitle: 'FAQ - Domande frequenti',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
         });
     });
 
@@ -130,7 +246,19 @@ module.exports = function(app) {
         response.render("pages/press-area", {
             pageTitle: 'Press-Area',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }
         });
     });
 
@@ -138,7 +266,19 @@ module.exports = function(app) {
         response.render("pages/privacy-e-note-legali", {
             pageTitle: 'Privacy e Note Legali',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }
         });
     });
 
@@ -157,6 +297,18 @@ module.exports = function(app) {
                 pageTitle: 'Servizi abilitati SPID',
                 cssFiles,
                 jsFiles,
+                helpers: {
+                    _: function(text) { 
+                        let translated = text;
+                        try {
+                            translated = request.Globalize.formatMessage(text);
+                        } catch(err) {
+                            console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                        }
+    
+                        return translated; 
+                    }
+                },
                 _services,
                 _regioni,
                 _hasQuery,
@@ -188,6 +340,18 @@ module.exports = function(app) {
                 pageTitle: 'Servizi abilitati SPID',
                 cssFiles,
                 jsFiles,
+                helpers: {
+                    _: function(text) { 
+                        let translated = text;
+                        try {
+                            translated = request.Globalize.formatMessage(text);
+                        } catch(err) {
+                            console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                        }
+    
+                        return translated; 
+                    }
+                },
                 _params: request.params,
                 _services: services,
                 _theme: request.params.theme ? services.APP_THEMES_SLUG[request.params.theme] : null,
@@ -214,7 +378,19 @@ module.exports = function(app) {
         response.render("errors/error404", {
             pageTitle: 'Errore 404 - Pagina non trovata',
             cssFiles,
-            jsFiles
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }
         });
     });
 
