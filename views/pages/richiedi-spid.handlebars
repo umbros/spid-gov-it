@@ -20,11 +20,18 @@
         </section>
 
         <section class="Prose">
-            <h3 class="u-text-h3">{{_ "Cosa devi fare"}}</h3>
+            <h3 class="u-text-h3">{{_ "Cosa devi fare per ottenere SPID"}}</h3>
             <p class="u-layout-prose">
-                {{_ "Inizia registrandoti sul sito di uno tra"}}
-                <strong>{{_ "Aruba"}}</strong>, <strong>{{_ "Infocert"}}</strong>, <strong>{{_ "Namirial"}}</strong>, <strong>{{_ "Poste Italiane"}}</strong>, <strong>{{_ "Register.it"}}</strong>, <strong>{{_ "Sielte"}}</strong>, <strong>{{_ "TIM"}}</strong>. 
-                {{_ "Gli Identity Provider (IdP) ti offrono diverse modalità per richiedere e ottenere SPID."}}
+                {{_ "Inizia registrandoti sul sito di uno degli 8 Identity provider:"}}
+                <strong>{{_ "Aruba"}}</strong>, <strong>{{_ "Infocert"}}</strong>, <strong>{{_ "Namirial"}}</strong>, <strong>{{_ "Poste Italiane"}}</strong>, <strong>{{_ "Register.it"}}</strong>, <strong>{{_ "Sielte"}}</strong>, <strong>{{_ "TIM"}}</strong>, <strong>{{_ "Intesa"}}</strong>. 
+                {{_ "Poi, una volta registrato, completa la procedura attraverso una delle modalità offerta dall’Identity provider:"}}
+				<ul>
+					<li>{{_ "via webcam"}}</li>
+					<li>{{_ "di persona"}}</li>
+					<li>{{_ "tramite Carta d’identità elettronica, Carta Nazionale dei Servizi attiva o una firma digitale."}}</li>
+					
+				</ul>
+				
                 <br>{{_ "I tempi di rilascio dell'identità digitale dipendono dai singoli"}} <em>{{_ "Identity Provider"}}</em>.</p>
 
             <div class="u-layout-medium u-background-grey-10 u-padding-r-all">
@@ -121,7 +128,7 @@
             <!-- <h4 class="u-text-h4">{{_ "Come completare la registrazione"}}</h4> -->
             <h5 class="u-text-h5 js-randomize-exclude">
               <span class="u-color-black">
-                {{_ "In base all'Identity Provider che scegli, completa la procedura con una tra le seguenti opzioni:"}}
+                {{_ "In base all'Identity Provider che scegli, completa la procedura di riconoscimento in una delle seguenti modalità:"}}
               </span>
             </h5>
 
@@ -131,9 +138,8 @@
                     <img src="assets/img/richiedi-spid/logo-aruba.svg" class="u-floatRight u-hidden u-md-block u-lg-block" alt="" height="40" width="220">
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="aruba-webcam">{{_ "Via webcam"}} <br><small>{{_ "a pagamento"}}</small></h5>
                     <p class="u-layout-prose u-margin-r-top">
-                        {{_ "Se hai una webcam collegata al tuo computer puoi scegliere la modalità di riconoscimento completamente online comodamente da casa."}}
-                    </p>
-                    <p class="u-layout-prose u-margin-r-top">
+                        {{_ "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile."}}
+                   
                         {{_ "Il servizio è a pagamento, a partire da"}} 14,90 euro + IVA. <a href="https://cart.aruba.it/ESecurity/Spid/Otp" title="{{_ 'Dettagli'}} Aruba ID" onclick="goog_report_conversion(this.href)">{{_ "Scopri qui tutti i dettagli"}}</a>.
                     </p>
                     <div class="u-padding-r-bottom">
@@ -162,7 +168,7 @@
                     <img src="assets/img/richiedi-spid/logo-infocert.svg" class="u-floatRight u-hidden u-md-block u-lg-block" alt="" height="40" width="220">
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="infocert-webcam">{{_ "Via webcam"}} <br><small>{{_ "a pagamento"}}</small></h5>
                     <p class="u-layout-prose u-margin-r-top">
-                        {{_ "Se hai una webcam collegata al tuo computer puoi scegliere la modalità di riconoscimento completamente online comodamente da casa. Un operatore InfoCert ti aiuterà nel completare la registrazione e non dovrai stampare e spedire nulla."}}
+                        {{_ "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, con l’assistenza di un operatore InfoCert. "}}
                     </p>
                     <p class="u-layout-prose u-margin-r-top">
                         {{_ "Il servizio costa 19,90 € ed è disponibile dal lunedì al venerdì dalle 9.00 alle 18.00."}}
@@ -182,7 +188,7 @@
                     <h5 class="u-text-h5 u-textWeight-700" id="infocert-devisu">{{_ "Di persona"}} <br>
                       <small class="u-text-r-xxs">{{_ "in 250 uffici"}}</small></h5>
                     <p class="u-layout-prose">
-                      {{_ "Trova l’ufficio più vicino a te: dovrai recarti allo sportello per concludere la registrazione e ottenere le tue credenziali. Potrai scegliere tra diversi servizi e modalità di assistenza forniti presso gli uffici, gratuitamente o a pagamento. Scopri tutti i dettagli e"}} <a href="https://identitadigitale.infocert.it/infocertpoint/">{{_ "verifica dov’è l’ufficio più vicino"}}</a>
+                      {{_ "Trova l’ufficio più vicino a te: dovrai recarti allo sportello per concludere la registrazione e ottenere le tue credenziali. Potrai scegliere tra diversi servizi e modalità di assistenza forniti presso gli uffici, gratuitamente o a pagamento. Scopri tutti i dettagli e"}}
                     </p>
                     <div class="u-padding-r-bottom">
                         <h5 class="u-text-h5">{{_ "Tempi medi"}}</h5>
@@ -211,7 +217,7 @@
                     <br>
 		    <h5 class="u-text-h5 u-textWeight-700" id="namirial-devisu">{{_ "Di persona"}}</h5>
                     <p class="u-layout-prose">
-                        {{_ "Al momento è possibile prendere appuntamento presso la sede di Senigallia (AN), Via Caduti del Lavoro 4 chiamando il numero 071-63494"}}
+                        {{_ "Puoi prendere appuntamento presso la sede Namirial di Senigallia (AN), Via Caduti del Lavoro 4, chiamando il numero 071-63494 e completare la procedura di registrazione davanti a un operatore."}}
                     </p>
                     
                     <h5 class="u-color-70 u-textWeight-700 u-cf u-text-r-xs">{{_ "Call center Namirial"}}</h5>
@@ -227,7 +233,7 @@
 
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="poste-bancoposta">{{_ "Online"}} <br><small>{{_ "gratuitamente"}}</small></h5>
                     <p class="u-layout-prose">
-                        {{_ "Se sei un cliente on line Bancoposta puoi utilizzare il cellulare certificato o il lettore di carte Postamat per ottenere on line l'identità SPID."}}
+                        {{_ "Puoi registrarti direttamente sul sito posteid.poste.it e richiedere online SPID, attraverso un cellulare certificato presso Poste Italiane o un lettore Bancoposta."}}
                     </p>
                     <div class="u-padding-r-bottom">
                         <h5 class="u-text-h5">{{_ "Tempi medi"}}</h5>
@@ -243,14 +249,19 @@
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="poste-devisu">{{_ "Di persona"}} <br>
                   <small class="u-text-r-xxs">{{_ "gratuitamente presso gli uffici postali"}}</small></h5>
                     <p class="u-layout-prose">
-                      {{_ "Registrandoti sul sito di Poste e successivamente facendoti identificare, e certificare con il tuo cellulare, in"}}
-                      <a href="http://www.poste.it/online/cercaup/" onclick="goog_report_conversion(this.href)">{{_ "qualsiasi Ufficio Postale"}}</a>.
-                    </p>
+                      {{_ "Puoi prendere appuntamento presso qualsiasi"}}
+                      <a href="http://www.poste.it/online/cercaup/" onclick="goog_report_conversion(this.href)">{{_ "qualsiasi Ufficio Postale"}}</a>
+                   {{_ "e completare la procedura di registrazione davanti a un operatore, dopo esserti autenticato sul sito Poste Italiane."}}
+
+				   </p>
 
                     <h5 class="u-text-h5 u-textWeight-700" id="poste-domicilio">
                       <small class="u-text-r-xxs">{{_ "a pagamento tramite servizio a domicilio"}}</small></h5>
                     <p class="u-layout-prose">
-                      {{_ "Richiedendo, durante la registrazione, il servizio a domicilio effettuato dai portalettere a un costo di 14,50€; il portalettere verrà da te entro 5 giorni lavorativi successivi alla registrazione sul sito."}}
+                      {{_ "Se non vuoi recarti all'ufficio postale, durante la registrazione su "}}
+					  {{_ "posteid.poste.it"}}
+					  {{_ "puoi richiedere il servizio di identificazione a domicilio che sarà effettuato da un portalettere al prezzo di 14,50 euro iva inclusa."}}
+					  
                     </p>
                     <div class="u-padding-r-bottom">
                         <h5 class="u-text-h5">{{_ "Tempi medi"}}</h5>
@@ -279,7 +290,7 @@
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="sielte-webcam">{{_ "Via webcam"}} <br>
                       <small class="u-text-r-xxs">{{_ "gratuitamente"}}</small></h5>
                     <p class="u-layout-prose">
-                        {{_ "Seguendo le istruzioni che ti indicheranno gli operatori di Sielte potrai completare la registrazione totalmente online tramite un pc, tablet o dispositivo mobile munito di una webcam."}}
+                        {{_ "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, seguendo le istruzioni che ti indicheranno gli operatori di Sielte."}}
                     </p>
                     <div class="u-padding-r-bottom">
                         <h5 class="u-text-h5">{{_ "Tempi medi"}}</h5>
@@ -295,7 +306,7 @@
                     <h5 class="u-text-h5 u-textWeight-700" id="sielte-devisu">{{_ "Di persona"}} <br>
                       <small class="u-text-r-xxs">{{_ "gratuitamente"}}</small></h5>
                     <p class="u-layout-prose">
-                        {{_ "Trova l'ufficio più vicino a te: dovrai recarti allo sportello per concludere la registrazione e ottenere le tue credenziali."}}
+                        {{_ "Puoi prendere appuntamento presso l’ufficio Sielte più vicino a te e completare la procedura di registrazione."}}
                     </p>
                     <!-- <div class="u-padding-r-bottom">
                     <h5 class="u-text-h5">{{_ "Tempi medi"}}</h5>
@@ -321,7 +332,7 @@
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="register-webcam">{{_ "Via webcam"}} <br>
                       <small class="u-text-r-xxs">{{_ "a pagamento"}}</small></h5>
                     <p class="u-layout-prose">
-                        {{_ "Seguendo le istruzioni di SpidItalia Register.it potrai effettuare il riconoscimento online tramite un pc, tablet o dispositivo mobile munito di una webcam."}}
+                        {{_ "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, seguendo le istruzioni di SpidItalia Register.it."}}
                     </p>
                     <p class="u-layout-prose u-margin-r-top">
                         {{_ "Il servizio è a pagamento, a partire da"}} 15,00 euro + IVA. <a href="https://www.register.it/spid/" title="{{_ 'Dettagli'}} SpidItalia" onclick="goog_report_conversion(this.href)">{{_ "Scopri qui tutti i dettagli"}}</a>.
@@ -347,9 +358,9 @@
                     <img src="assets/img/richiedi-spid/logo-tim.svg" class="u-floatRight u-hidden u-md-block u-lg-block" alt="" height="40" width="220">
 
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="tim-webcam">{{_ "Via webcam"}}<br>
-                      <small class="u-text-r-xxs">{{_ "gratuitamente fino al 31-12-2017"}}</small></h5>
+                      <small class="u-text-r-xxs">{{_ "gratuitamente fino al 31-03-2018"}}</small></h5>
                     <p class="u-layout-prose">
-                      {{_ "Se hai un computer dotato di webcam puoi scegliere la modalità di riconoscimento completamente online comodamente da casa. Un operatore ti aiuterà nel completare la registrazione e non dovrai stampare e spedire nulla."}}
+                      {{_ "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, con l’assistenza di un operatore."}}
                     </p>
                     <p class="u-layout-prose u-flex u-flexAlignItemsCenter">
                         <img src="assets/img/webcam.svg" width="60" height="65" alt="" aria-hidden="true" class="u-padding-r-right" />
@@ -365,7 +376,7 @@
 
                     <h5 class="u-text-h5 u-textWeight-700" id="tim-devisu">{{_ "Di persona"}}</h5>
                     <p class="u-layout-prose">
-                        {{_ "Al momento è possibile prendere appuntamento presso gli uffici di TI Trust Technologies siti in Strada Statale Pontina km 29,100 - 00071 Pomezia (RM)."}}
+                        {{_ "Puoi prendere appuntamento presso gli uffici TIM di Pomezia (Roma), Strada Statale Pontina km 29,100, per completare la procedura di registrazione con il documento d'identità che hai inserito nella richiesta e la Tessera Sanitaria."}}
                     </p>
 
                     <h5 class="u-color-70 u-textWeight-700 u-cf u-text-r-xs">{{_ "Call center TIM"}}</h5>
@@ -381,7 +392,7 @@
 
                     <h5 class="u-text-h5 u-padding-r-top u-textWeight-700" id="intesaid-devisu">{{_ "Di persona"}}</h5>
                     <p class="u-layout-prose">
-                      {{_ "Al momento è possibile prendere appuntamento presso la sede di Torino, in Strada Pianezza 289"}}
+                      {{_ "Puoi prendere appuntamento presso la sede Intesa di Torino, in Strada Pianezza 289, per completare la procedura di registrazione davanti a un operatore."}}
                     </p>
                     <h5 class="u-color-70 u-textWeight-700 u-cf u-text-r-xs" id="intesaid-callcenter">{{_ "Call center Intesa"}}</h5>
                     <p class="u-layout-prose">
