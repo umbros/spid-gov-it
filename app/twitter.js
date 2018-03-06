@@ -4,10 +4,10 @@ const emptyCache = () => (_CACHE = null);
 
 //Get this data from your twitter apps dashboard
 const config = {
-    "consumerKey": "7anjDTnJwu3NzQzXIq98XtpdE",
-    "consumerSecret": "J4Lg5zRD9CNlikjcyuzTxvopOh1Lcn8ZTUayBp5lBXAmH7NVVq",
-    "accessToken": "2383600026-HkWpev9CQJqfCTcVpoOOPu1JnTltg1IUZCKqfPM",
-    "accessTokenSecret": "EkZkwPzrPpS96F7f3iUXeJRBlJJb77XbbmKFm3PbI5VUz",
+    "consumerKey": "",
+    "consumerSecret": "",
+    "accessToken": "",
+    "accessTokenSecret": "",
 }
 
 const Twitter = require('twitter-node-client').Twitter

@@ -19,7 +19,6 @@ module.exports = {
     'formatNumber': function(value) {
         return value.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1\.")
     },
-    //   https://gist.github.com/pheuter/3515945
     'compare': function(lvalue, operator, rvalue, options) {
 
         var operators, result;

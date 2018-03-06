@@ -17,10 +17,6 @@ const _getServices = (APP_PROVIDERS_, APP_SERVICES_) => {
         APP_THEMES = {},
         APP_SUBTHEMES = {};
 
-    /*
-     *  Construct Tree from services json
-     *   themes -> subthemes -> services
-     */
     APP_SERVICES.forEach((service) => {
         const themeSlug = slug(service.themeDescription).toLowerCase().substr(0, 64),
             subThemeSlug = slug(service.subThemeDescription).toLowerCase().substr(0, 64);

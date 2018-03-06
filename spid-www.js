@@ -14,8 +14,6 @@ var http = require('http');
 var fs = require('fs');
 var favicon = require('serve-favicon');
 
-var http_port = 8000;
-var https_port = 4430;
 
 var app = express();
 app.use(favicon(path.join(__dirname,'views','assets/img','favicon.ico')));
