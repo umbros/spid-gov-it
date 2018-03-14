@@ -7,411 +7,33 @@
             <p>
                 {{_ "Per richiedere e ottenere le tue credenziali SPID, il Sistema Pubblico di Identità Digitale, devi esser maggiorenne."}}
             </p>
-            <h3 class="u-text-h3">
-                <img src="assets/img/richiedi-spid/icon.png" height="50" width="50" style="vertical-align: middle">
-                {{_ "Di cosa hai bisogno"}}
-            </h3>
-            <div class="Grid">
-                <div class="Grid-cell u-size1of1 u-md-size1of2">
-                    <div class="u-background-grey-20 u-color-grey-30 u-margin-bottom-l u-padding-all-m u-borderAlt" style="height:100%">
-                        <div class="u-color-grey-90">
-                            <h4 class="u-text-h4">
-                                SE RISIEDI IN ITALIA
-                                <img src="assets/img/richiedi-spid/badge_it.png" height="25" width="25" style="float:right; margin:5px;">
-                            </h4>
-                            <ul class="squarelist">
-                                <li>{{_ "un indirizzo e-mail"}}</li>
-                                <li>{{_ "il numero di telefono del cellulare che usi normalmente"}}</li>
-                                <li>{{_ "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*"}}</li>
-                                <li>{{_ "la tua tessera sanitaria con il codice fiscale*"}}</li>
-                            </ul>                            
-                        </div>
-                    </div>
-                </div>
-                <div class="Grid-cell u-size1of1 u-md-size1of2">
-                    <div class="u-background-grey-20 u-color-grey-30 u-margin-bottom-l u-padding-all-m u-borderAlt" style="height:100%">
-                        <div class="u-color-grey-90">
-                            <h4 class="u-text-h4">
-                                SE RISIEDI ALL'ESTERO
-                                <img src="assets/img/richiedi-spid/badge_world.png" height="25" width="25" style="float:right; margin:5px;">
-                                <img src="assets/img/richiedi-spid/badge_eu.png" height="25" width="25" style="float:right; margin:5px;">
-                            </h4>
-                            <ul class="squarelist">
-                                <li>{{_ "un indirizzo e-mail"}}</li>
-                                <li>{{_ "il numero di telefono del cellulare che usi normalmente"}}</li>
-                                <li>{{_ "un documento di identità italiano valido (uno tra: carta di identità, passaporto, patente)*"}}</li>
-                                <li>{{_ "il tuo codice fiscale"}}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            <h3 class="u-text-h3">{{_ "Di cosa hai bisogno"}}</h3>
+            <ul>
+                <li>{{_ "un indirizzo e-mail"}}</li>
+                <li>{{_ "il numero di telefono del cellulare che usi normalmente"}}</li>
+                <li>{{_ "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*"}}</li>
+                <li>{{_ "la tua tessera sanitaria con il codice fiscale*"}}</li>
+            </ul>
             <p class="u-textSecondary"><small>
                 {{_ "* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai."}}
             </small></p>
         </section>
 
-        <section class="Prose u-layout-prose">
+        <section class="Prose">
             <h3 class="u-text-h3">{{_ "Cosa devi fare per ottenere SPID"}}</h3>
             <p class="u-layout-prose">
-                {{_ "Scegli uno degli 8 Identity provider e registrati sul loro sito."}}<br/>
-                {{_ "La registrazione consiste in 3 step:"}}
-                <ol>
-                    <li>{{_ "Inserisci i dati anagrafici"}}</li>
-                    <li>{{_ "Crea le tue credenziali SPID"}}</li>
-                    <li>{{_ "Effettua il riconoscimento"}}</li>
-                </ol>
+                {{_ "Inizia registrandoti sul sito di uno degli 8 Identity provider:"}}
+                <strong>{{_ "Aruba"}}</strong>, <strong>{{_ "Infocert"}}</strong>, <strong>{{_ "Namirial"}}</strong>, <strong>{{_ "Poste Italiane"}}</strong>, <strong>{{_ "Register.it"}}</strong>, <strong>{{_ "Sielte"}}</strong>, <strong>{{_ "TIM"}}</strong>, <strong>{{_ "Intesa"}}</strong>. 
+                {{_ "Poi, una volta registrato, completa la procedura attraverso una delle modalità offerta dall’Identity provider:"}}
+				<ul>
+					<li>{{_ "via webcam"}}</li>
+					<li>{{_ "di persona"}}</li>
+					<li>{{_ "tramite Carta d’identità elettronica, Carta Nazionale dei Servizi attiva o una firma digitale."}}</li>
+					
+				</ul>
 				
-                {{_ "I tempi di rilascio dell'identità digitale dipendono dai singoli"}} <em>{{_ "Identity Provider"}}</em>.
-            </p>
-        </section>
+                <br>{{_ "I tempi di rilascio dell'identità digitale dipendono dai singoli"}} <em>{{_ "Identity Provider"}}</em>.</p>
 
-        <section class="Prose u-layout-prose">
-            <h3 class="u-text-h3">{{_ "Come scelgo tra i diversi Identity Provider?"}}</h3>
-            <p class="u-layout-prose">
-                {{_ "Gli Identity Provider forniscono diverse modalità di registrazione gratuitamente o a pagamento e i rispettivi SPID hanno diversi livelli di sicurezza."}}
-            </p>
-            <p class="u-layout-prose">
-                {{_ "La tabella qui sotto fornisce un quadro della situazione. In particolare ti consigliamo di soffermarti sui seguenti parametri."}}
-                <ul class="squarelist">
-                    <li>{{_ "Scegli la modalità di riconoscimento che ti risulta più comoda (di persona, tramite Carta d’Identità Elettronica (CIE), Carta Nazionale dei Servizi (CNS), Firma Digitale o tramite webcam);"}}</li>
-                    <li>{{_ "Scegli sulla base del livello di sicurezza di SPID che ti serve;"}}</li>
-                    <li>{{_ "Se sei già cliente di uno degli Identity Provider, potresti avere un flusso di registrazione semplificato;"}}</li>
-                    <li>{{_ "Se sei un cittadino italiano residente all’estero, fai attenzione a chi offre il servizio per l’estero."}}</li>
-                </ul>
-            </p>
-        </section>
-
-        <section>
-            <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="accordion-1">
-
-                    <table class="spid-idp-details Accordion--default fr-accordion js-fr-accordion" id="accordion-1">
-                        <thead>
-                            <tr class="spid-idp-details-row">
-                                <th class="u-textWeight-400 u-color-grey-90">IDENTITY PROVIDER</th>
-                                <th class="u-textWeight-400 u-color-grey-90">LIVELLI DI SICUREZZA</th>
-                                <th class="u-textWeight-400 u-color-grey-90">AREA GEOGRAFICA</th>
-                                <th class="u-textWeight-400 u-color-grey-90">RICONOSCIMENTO DI PERSONA</th>
-                                <th class="u-textWeight-400 u-color-grey-90">RICONOSCIMENTO VIA WEBCAM</th>
-                                <th class="u-textWeight-400 u-color-grey-90">RICONOSCIMENTO CIE, CNS</th>
-                                <th class="u-textWeight-400 u-color-grey-90">RICONOSCIMENTO FIRMA DIGITALE</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tr class="table-separator"><td colspan="8" class="u-border-top-m u-background-teal-30 u-color-white"></td></tr>
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-0">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-aruba.svg" alt="Logo Aruba ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_123.png" alt="Livello SPID: 1,2,3" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica: IT" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica: EU" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world.png" alt="Area geografica: World" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20"></td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <span class="u-color-grey-80 u-text-r-xxs">{{_ "A pagamento"}}</span>
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>
-                        </tr>
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-0" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                        ARUBA
-                                    </p>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-1">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-infocert.svg" alt="Logo Infocert ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica: IT" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica: EU" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world.png" alt="Area geografica: World" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento di persona: Si" height="25">
-                            </td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <span class="u-color-grey-80 u-text-r-xxs">{{_ "A pagamento"}}</span>
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>                            
-                        </tr>   
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-1" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                        INFOCERT
-                                    </p>
-                                </div>
-                            </td>
-                        </tr> 
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-2">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-intesa.svg" alt="Logo Intesa ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica: IT" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica: EU" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world.png" alt="Area geografica: World" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento di persona: Si" height="25">
-                            </td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                               
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                               
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>                            
-                        </tr>
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-2" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                        INTESA
-                                    </p>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-3">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-namirial.svg" alt="Logo Namirial ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica: IT" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica: EU" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world.png" alt="Area geografica: World" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento di persona: Si" height="25">
-                            </td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>                            
-                        </tr>   
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-3" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                        Namirial
-                                    </p>
-                                </div>
-                            </td>
-                        </tr> 
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-4">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-poste.svg" alt="Logo Poste ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica IT: Si" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu_off.png" alt="Area geografica EU: No" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world_off.png" alt="Area geografica World: No" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <span class="u-color-grey-80 u-text-r-xxs">
-                                    {{_ "In Ufficio Postale (gratis)"}}<br/>
-                                    {{_ "A domicilio (a pagamento)"}}
-                                </span>
-                            </td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>                            
-                        </tr>   
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-4" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                        POSTE
-                                    </p>
-                                </div>
-                            </td>
-                        </tr> 
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-5">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-sielte.svg" alt="Logo Sielte ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica: IT" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica: EU" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world.png" alt="Area geografica: World" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento di persona: Si" height="25">
-                            </td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento via Webcam: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>                            
-                        </tr>   
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-5" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                        SIELTE
-                                    </p>
-                                </div>
-                            </td>
-                        </tr> 
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-6">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-register.svg" alt="Logo Register ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica IT: Si" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica EU: Si" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world_off.png" alt="Area geografica World: No" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                
-                            </td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <span class="u-color-grey-80 u-text-r-xxs">{{_ "A pagamento"}}</span>
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>                            
-                        </tr>   
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-6" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                       REGISTER
-                                    </p>
-                                </div>
-                            </td>
-                        </tr> 
-
-                        <tr class="spid-idp-details-row js-fr-accordion__header fr-accordion__header" id="accordion-header-7">
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/logo-tim.svg" alt="Logo TIM ID" width="100" height="30">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica IT: Si" height="25">
-                                <img src="assets/img/richiedi-spid/badge_eu_off.png" alt="Area geografica EU: No" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world_off.png" alt="Area geografica World: No" height="25">
-                            </td>       
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento di persona: Si" height="25">
-                            </td>                     
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <span class="u-color-grey-80 u-text-r-xxs">{{_ "A pagamento"}}</span>
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
-                            </td>
-                            <td class="u-border-right-xxs u-color-grey-20">
-                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
-                            </td>
-                            <td>
-                                <span class="accordion-arrow" />
-                            </td>                            
-                        </tr>   
-                        <tr class="spid-idp-details-panel">
-                            <td colspan="8">
-                                <div id="accordion-panel-7" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                                    <p class="u-color-grey-90 u-text-p u-padding-r-all u-background-grey-10">
-                                        TIM
-                                    </p>
-                                </div>
-                            </td>
-                        </tr>
-
-
-                    </table>            
-            </div>            
-        </section>
-
-<!--
             <div class="u-layout-medium u-background-grey-10 u-padding-r-all">
                 <ul class="Grid js-randomize">
                     <li class="Grid-cell u-sm-size1of3 u-md-size1of3 u-lg-size1of5 u-margin-r-bottom u-margin-r-top u-textCenter">
@@ -538,6 +160,7 @@
                     </p>
 
                 </div>
+                <!-- aruba -->
 
                 <div class="Prose spid-idp infocert u-margin-r-bottom" id="infocert">
                     <h4 class="u-padding-r-top u-border-top-xxs u-color-grey-40"><span class="u-text-h4 u-color-grey-90">{{_ "Se scegli InfoCert"}}</span></h4>
@@ -585,6 +208,7 @@
                     </p>
 
                 </div>
+                <!-- infocert -->
 
                 <div class="Prose spid-idp namirial u-margin-r-bottom" id="namirial">
                     <h4 class="u-padding-r-top u-border-top-xxs u-color-grey-40"><span class="u-text-h4 u-color-grey-90">{{_ "Se scegli Namirial"}}</span></h4>
@@ -601,7 +225,7 @@
                     </p>
 
                 </div>
-
+                <!-- Namirial -->
                 <div class="Prose spid-idp poste" id="poste">
                     <h4 class="u-padding-r-top u-border-top-xxs u-color-grey-40"><span class="u-text-h4 u-color-grey-90">{{_ "Se scegli Poste Italiane"}}</span></h4>
                     <img src="assets/img/richiedi-spid/logo-poste.svg" class="u-floatRight u-hidden u-md-block u-lg-block" alt="" height="40" width="220">
@@ -654,6 +278,7 @@
                     <br> {{_ "servizio disponibile 24 ore su 24 per la richiesta di sospensione delle credenziali e dalle 8:00 alle 20:00, dal lunedì al sabato per tutte le altre esigenze."}}</span>
                     </p>
                 </div>
+                <!-- poste -->
 		
                 <div class="Prose spid-idp sielte" id="sielte">
                     <h4 class="u-padding-r-top u-border-top-xxs u-color-grey-40"><span class="u-text-h4 u-color-grey-90">{{_ "Se scegli Sielte"}}</span></h4>
@@ -715,6 +340,7 @@
                         <span class="u-text-r-xxs">{{_ "035 6305561 - da lunedì a domenica 9:00 - 18:00"}}</span>
                     </p>
                 </div>
+                <!-- Spiditalia -->
 		
                 <div class="Prose spid-idp tim" id="tim">
                     <h4 class="u-padding-r-top u-border-top-xxs u-color-grey-40"><span class="u-text-h4 u-color-grey-90">{{_ "Se scegli TIM"}}</span></h4>
@@ -747,6 +373,7 @@
                   {{_ "800.405.800 - dal lunedì al venerdì dalle 9:00 alle 18.30"}}</span>
                     </p>
                 </div>
+                <!-- Tim -->
 
                 <div class="Prose spid-idp intesa" id="intesaid">
                     <h4 class="u-padding-r-top u-border-top-xxs u-color-grey-40"><span class="u-text-h4 u-color-grey-90">{{_ "Se scegli Intesa"}}</span></h4>
@@ -760,7 +387,8 @@
                     <p class="u-layout-prose">
                       {{_ "Per ricevere assistenza è possibile contattare il numero 800805093, dal lunedì al venerdì"}}
                     </p>
-                </div>                
+                </div>
+                <!-- Intesa -->                
 
 
 
@@ -797,8 +425,5 @@
             </div>
         </div>
     </section>
-    -->
-
-
 </div>
 

@@ -3,7 +3,7 @@
 var fs 			= require('fs');
 var compressor 	= require('node-minify');
 
-var cssFiles = ['italia-it','italia-it-vendor','spid-common','spid-search'];
+var cssFiles = ['italia-it','italia-it-vendor','spid-common','spid-search','richiedi-spid'];
 for (var i = 0; i < cssFiles.length; i++) {
     compressor.minify({
 		compressor: 'sqwish',
@@ -17,7 +17,7 @@ for (var i = 0; i < cssFiles.length; i++) {
 	});
 }
 
-var jsFiles = ['italia-it','spid-common','spid-search-001a','spid-search-001b'];
+var jsFiles = ['italia-it','spid-common','spid-search-001a','spid-search-001b','richiedi-spid'];
 for (var i = 0; i < jsFiles.length; i++) {
     compressor.minify({
 		compressor: 'uglifyjs',
