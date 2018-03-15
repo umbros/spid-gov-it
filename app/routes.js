@@ -66,7 +66,8 @@ module.exports = function(app) {
       });
     });
 
-    app.get("/richiedi-spid", function(request, response) {
+    /*
+    app.get("/richiedi-spid-old", function(request, response) {
         response.render("pages/richiedi-spid-old", {
             pageTitle: 'Richiedi SPID',
             cssFiles: cssFiles,
@@ -85,8 +86,9 @@ module.exports = function(app) {
             }   
         });
     });
+    */
 
-    app.get("/richiedi-spid-new", function(request, response) {
+    app.get("/richiedi-spid", function(request, response) {
         response.render("pages/richiedi-spid", {
             pageTitle: 'Richiedi SPID',
             cssFiles: [...cssFiles, {
