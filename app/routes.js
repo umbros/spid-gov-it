@@ -66,11 +66,37 @@ module.exports = function(app) {
       });
     });
 
+    /*
+    app.get("/richiedi-spid-old", function(request, response) {
+        response.render("pages/richiedi-spid-old", {
+            pageTitle: 'Richiedi SPID',
+            cssFiles: cssFiles,
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
+        });
+    });
+    */
+
     app.get("/richiedi-spid", function(request, response) {
         response.render("pages/richiedi-spid", {
             pageTitle: 'Richiedi SPID',
-            cssFiles,
-            jsFiles,
+            cssFiles: [...cssFiles, {
+                file: 'richiedi-spid.min.css'
+            }],
+            jsFiles: [...jsFiles, {
+                file: 'richiedi-spid.min.js'
+            }],
             helpers: {
                 _: function(text) { 
                     let translated = text;
