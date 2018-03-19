@@ -33,6 +33,7 @@ ul.squarelist {
     border-right: 1px solid #EFF0F1;
     border-bottom: 1px solid #EFF0F1;
     padding: 20px 15px;
+    cursor: pointer;
 }
 .spid-idp-details tr.spid-idp-details-row td {
     padding: 20px 15px;
