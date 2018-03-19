@@ -1,7 +1,6 @@
 .u-layout-prose {
     max-width: 40em!important;
 }
-
 ul.squarelist {
     display: block;
     list-style-type: square;
@@ -12,24 +11,46 @@ ul.squarelist {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
 }
-
+.Accordion {
+    border-top:none!important;
+}
 .spid-idp-details {
     max-width: 100%;
+    border-collapse: collapse;
+}
+.spid-idp-details td {
+    border:0;
+}
+.spid-idp-details *:focus{
+    box-shadow:none!important;
+    outline:none!important
+}
+.spid-idp-details tr.spid-idp-details-row {
+    border-bottom: 2px solid #EFF0F1;
+}
+.spid-idp-details tr.spid-idp-details-row-close {
+    border-left: 1px solid #EFF0F1;
+    border-right: 1px solid #EFF0F1;
+    border-bottom: 1px solid #EFF0F1;
+    padding: 20px 15px;
 }
 .spid-idp-details tr.spid-idp-details-row td {
     padding: 20px 15px;
     text-align: center;
 }
-.spid-idp-details tr.spid-idp-details-panel {
-    background: #EEEEEE;
+.spid-idp-details tr.spid-idp-details-panel .Accordion-panel {
+    background: #FAF9FA;
+    border-bottom: 1px solid #EFF0F1;
 }
-
 .spid-idp-details .accordion-arrow-open {
     display:block;
     float:right;
     width:16px;
     height:16px;
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 32 32' fill='%2306c'%3E%3Ctitle%3Eexpand%3C/title%3E%3Cpath d='M3.733 6.133L0 9.866l16 16 16-16-3.733-3.733L16 18.4 3.733 6.133z'/%3E%3C/svg%3E");
+}
+.spid-idp-details-panel p {
+    max-width:300px;
 }
 .spid-idp-details .accordion-arrow-close {
     display:block;
@@ -44,11 +65,12 @@ ul.squarelist {
 }
 
 @media 
-only screen and (min-width: 760px) {
+only screen and (min-width: 1024px) {
     .responsive-hide-lg {
         display:none;
     }  
-    tr.responsive td img.spid-idp-details-logo-idp { 
+    tr.responsive td img.spid-idp-details-logo-idp {
+        min-width:100px; 
         max-width:100px;
         max-height:30px;
     }    
@@ -56,8 +78,7 @@ only screen and (min-width: 760px) {
 
 
 @media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+only screen and (max-width: 1024px) {
 
     /* Force table to not be like tables anymore */
     table.responsive, thead, tbody, th, td, tr { 
@@ -69,16 +90,22 @@ only screen and (max-width: 760px),
     }
     
     tr.responsive { 
-        border: 1px solid #a4b7c1; 
+        border: 1px solid #EFF0F1; 
         margin-top: 20px;
     }
     
     tr.responsive td { 
         border: none!important;
-        border-bottom: 1px solid #a4b7c1!important;
+        border-bottom: 1px solid #EFF0F1!important;
         vertical-align: middle;  
         text-align:left!important;
     }
+
+    tr.responsive td.more { 
+        border: none!important;
+        vertical-align: middle;  
+        text-align:left!important;
+    }    
 
     tr.responsive td img.spid-idp-details-logo-idp {
         vertical-align: middle;  
