@@ -1,5 +1,5 @@
 {
-   "de" : {
+    "de" : {
       "_" : "de",
       "__" : "Deutsch",
       "lingua" : "Sprache",
@@ -496,7 +496,7 @@
       "Se scegli Poste Italiane" : "Falls Sie Poste Italiane wählen",
       "Online" : "Online",
       "gratuitamente" : "kostenlos",
-      "Puoi registrarti direttamente sul sito posteid.poste.it e richiedere online SPID, attraverso un cellulare certificato presso Poste Italiane o un lettore Bancoposta.": "[TORANSLATE] Puoi registrarti direttamente sul sito posteid.poste.it e richiedere online SPID, attraverso un cellulare certificato presso Poste Italiane o un lettore Bancoposta.",
+      "Puoi registrarti direttamente sul sito posteid.poste.it e richiedere online SPID, attraverso un cellulare certificato presso Poste Italiane o un lettore Bancoposta.": "[TOTRANSLATE] Puoi registrarti direttamente sul sito posteid.poste.it e richiedere online SPID, attraverso un cellulare certificato presso Poste Italiane o un lettore Bancoposta.",
       "Rilascio online: 5 minuti." : "Online-Veröffentlichung: 5 Minuten.",
       "Comincia la registrazione dal sito di Poste ID" : "Starten Sie die Registrierung auf der Poste ID Website",
       "gratuitamente presso gli uffici postali" : "kostenlos bei Postämtern",
@@ -719,5 +719,7 @@
 	  "posteid.poste.it":"posteid.poste.it",
 	  "puoi richiedere il servizio di identificazione a domicilio che sarà effettuato da un portalettere al prezzo di 14,50 euro iva inclusa.":"[TOTRANSLATE] puoi richiedere il servizio di identificazione a domicilio che sarà effettuato da un portalettere al prezzo di 14,50 euro iva inclusa."
 
-   }
+   },
+
+   "version": "de_20180322_1"
 }
