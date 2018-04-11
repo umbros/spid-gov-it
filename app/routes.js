@@ -252,7 +252,9 @@ module.exports = function(app) {
         response.render("pages/domande-frequenti", {
             pageTitle: 'FAQ - Domande frequenti',
             cssFiles,
-            jsFiles,
+            jsFiles: [...jsFiles, {
+                file: 'domande-frequenti.min.js'
+            }],
             helpers: {
                 _: function(text) { 
                     let translated = text;

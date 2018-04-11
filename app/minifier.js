@@ -17,7 +17,7 @@ for (var i = 0; i < cssFiles.length; i++) {
 	});
 }
 
-var jsFiles = ['italia-it','spid-common','spid-search-001a','spid-search-001b','richiedi-spid'];
+var jsFiles = ['italia-it','spid-common','spid-search-001a','spid-search-001b','richiedi-spid','domande-frequenti'];
 for (var i = 0; i < jsFiles.length; i++) {
     compressor.minify({
 		compressor: 'uglifyjs',

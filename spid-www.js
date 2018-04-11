@@ -52,7 +52,7 @@ function setLang (req, res, next) {
 
  app.use(setLang);
 
-//require('./app/minifier.js');
+require('./app/minifier.js');
 require('./app/routes.js')(app);
 
 app.use(helmet());
