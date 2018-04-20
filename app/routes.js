@@ -176,6 +176,26 @@ module.exports = function(app) {
         });
     });
 
+    app.get("/come-diventare-soggetto-aggregatore-di-servizi-con-spid", function(request, response) {
+        response.render("pages/come-diventare-soggetto-aggregatore-di-servizi-con-spid", {
+            pageTitle: 'Come diventare soggetto aggregatore di servizi con SPID',
+            cssFiles,
+            jsFiles,
+            helpers: {
+                _: function(text) { 
+                    let translated = text;
+                    try {
+                        translated = request.Globalize.formatMessage(text);
+                    } catch(err) {
+                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
+                    }
+
+                    return translated; 
+                }
+            }   
+        });
+    });    
+
     app.get("/cerca-pa", function(request, response) {
         response.render("pages/cerca-pa", {
             pageTitle: 'Cerca servizi',
