@@ -730,9 +730,11 @@
 	  "tramite Carta d’identità elettronica, Carta Nazionale dei Servizi attiva o una firma digitale.":"über elektronische Identitätskarte, aktivierte Bürgerkarte oder digitale Unterschrift",
       "e completare la procedura di registrazione davanti a un operatore, dopo esserti autenticato sul sito Poste Italiane.": "und den Registrierungsvorgang mithilfe eines Mitarbeiters abschließen. Dies erfolgt nachdem man sich auf der Homepage von Poste Italiane angemeldet hat.",
 	  "posteid.poste.it":"posteid.poste.it",
-	  "puoi richiedere il servizio di identificazione a domicilio che sarà effettuato da un portalettere al prezzo di 14,50 euro iva inclusa.":"können Sie die Identifikation auch über einen Hausbesuch abwickeln. Dieser wird von einem Postboten erledigt und kostet 14,50 Euro inkl. MwSt."
+	  "puoi richiedere il servizio di identificazione a domicilio che sarà effettuato da un portalettere al prezzo di 14,50 euro iva inclusa.":"können Sie die Identifikation auch über einen Hausbesuch abwickeln. Dieser wird von einem Postboten erledigt und kostet 14,50 Euro inkl. MwSt.",
 
+		"A causa di un momentaneo disservizio dei sistemi di verifica dei documenti di identità, sono possibili rallentamenti nel rilascio delle credenziali SPID da parte dei gestori. Ci scusiamo per il disagio, le normali attività di erogazione riprenderanno appena possibile.": "A causa di un momentaneo disservizio dei sistemi di verifica dei documenti di identità, sono possibili rallentamenti nel rilascio delle credenziali SPID da parte dei gestori. Ci scusiamo per il disagio, le normali attività di erogazione riprenderanno appena possibile."
+    
    },
 
-   "version": "de_20180322_1"
+   "version": "de_20180508_1"
 }
