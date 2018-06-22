@@ -476,6 +476,7 @@
       "verifica dov’è l’ufficio più vicino" : "Überprüfen Sie, wo sich das nächste Büro befindet",
       "Appuntamento in ufficio: un operatore ti contatterà per concordare con te l'appuntamento." : "Termin im Büro: Ein Mitarbeiter wird sich mit Ihnen in Verbindung setzen, um den Termin mit Ihnen zu vereinbaren",
       "Verifica dov'è l'ufficio InfoCert più vicino e comincia la registrazione" : "Überprüfen Sie, wo sich das nächste InfoCert-Büro befindet, und beginnen Sie mit der Registrierung",
+      "Puoi prendere appuntamento presso uno degli uffici abilitati e completare la registrazione davanti a un operatore.": "Puoi prendere appuntamento presso uno degli uffici abilitati e completare la registrazione davanti a un operatore.",
       "CALL CENTER INFOCERT" : "CALL CENTER INFOCERT",
       "199.500.130 (attivo dal lunedì al venerdì dalle 8.30 alle 19.00)" : "199.500.130 (aktiv von Montag bis Freitag von 8.30 bis 19.00 Uhr)",
       "Se scegli Namirial" : "fall Sie Namirial wählen",
@@ -725,5 +726,5 @@
     
    },
 
-   "version": "de_20180622_1"
+   "version": "de_20180622_2"
 }
