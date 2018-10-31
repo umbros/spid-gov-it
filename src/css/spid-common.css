@@ -641,3 +641,38 @@ body {
 .Accordion-link, .Header-language.is-active, .Header-socialIcons [class*=" Icon-"], .Header-socialIcons [class^=Icon-], .Linklist-link, .Linklist a, .Share-revealIcon.is-open, .Skiplinks>li>a, .u-color-50 {color: #06c!important;}
 .Accordion-header:hover,.Linklist a:hover,.u-background-5{background-color:#d9e6f2!important}
 .Accordion-header{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M3.733 6.133L0 9.866l16 16 16-16-3.733-3.733L16 18.4 3.733 6.133z'/%3E%3C/svg%3E");background-position:right .5em center;background-repeat:no-repeat;background-size:.8em;padding-right:1.8em}.Accordion-header[aria-expanded=true]{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M28.267 25.867L32 22.134l-16-16-16 16 3.733 3.733L16 13.6l12.267 12.267z'/%3E%3C/svg%3E")}
+
+
+.Header-agid a {
+  font-weight: normal!important;
+  text-decoration: none !important;
+  color: #fff !important;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .Header-agid a {
+      font-size: 1.4rem !important;
+  }
+}
+.Header-agid .separator {
+  border-left: 0.1em solid #fff;
+  vertical-align: middle;
+  margin-right: 0.3em;
+  margin-left: 0.1em;
+  font-size: 1.2em;
+}
+.Header-agid .Site-name {
+  display: inline-block;
+  width: 7em;
+  vertical-align: middle;
+}
+.Logo-img {
+  vertical-align: middle;
+  width: 8em;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .Logo-img {
+      width: 6em;
+  }
+}
