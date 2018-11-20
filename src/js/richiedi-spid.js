@@ -88,3 +88,10 @@ $("#accordion-header-7").on('click',function() {
         });
     }
 });
+$("#accordion-header-8").on('click',function() {
+    if(!($('#accordion-panel-8').parent().parent()[0].scrollHeight>5)) {        
+        $('html, body').animate({
+            'scrollTop' : $("#accordion-header-7").position().top - $('header').height()
+        });
+    }
+});

@@ -466,6 +466,129 @@
                             </td>                            
                         </tr>                        
 
+                        <tr class="spid-idp-details-row responsive js-fr-accordion__header fr-accordion__header" id="accordion-header-8">
+                            <td class="u-border-right-xxs u-color-grey-20">
+                                <img class="spid-idp-details-logo-idp" src="assets/img/richiedi-spid/logo-lepida.svg" alt="Logo LepidaID">
+                            </td>
+                            <td class="u-border-right-xxs u-color-grey-20">
+                                <span class="responsive-hide-lg u-text-r-xxs u-margin-r-right u-color-grey-80">
+                                    {{_ "LIVELLO DI SICUREZZA"}}
+                                </span>                                
+                                <img src="assets/img/richiedi-spid/level_12.png" alt="Livello SPID: 1,2" height="25">
+                            </td>
+                            <td class="u-border-right-xxs u-color-grey-20">
+                                <span class="responsive-hide-lg u-text-r-xxs u-margin-r-right u-color-grey-80">
+                                    {{_ "AREA GEOGRAFICA"}}
+                                </span>
+                                <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica: IT" height="25">
+                                <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica: EU" height="25">
+                                <img src="assets/img/richiedi-spid/badge_world.png" alt="Area geografica: World" height="25">
+                            </td>  
+                            <td class="responsive-hide-lg">
+                                <p class="u-text-r-xxs u-color-grey-80">
+                                    {{_ "RICONOSCIMENTO:"}}
+                                    <ul class="u-text-r-xxs u-color-grey-80 u-margin-r-top">
+                                        <li>&rarr; {{_ "Di persona" }}</li>
+                                        <li>&rarr; {{_ "Via webcam (a pagamento - attivazione a breve)" }}</li>
+                                        <li>&rarr; {{_ "Con CIE e CNS" }}</li>
+                                        <li>&rarr; {{_ "Con Firma digitale" }}</li>
+                                    </ul>
+                                </p>   
+                            </td>                                  
+                            <td class="responsive-hide-sm u-border-right-xxs u-color-grey-20">
+                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento di persona: Si (Gratis - attivazione graduale di sportelli)" height="25">
+                            </td>                     
+                            <td class="responsive-hide-sm u-border-right-xxs u-color-grey-20">
+                                <span class="u-color-grey-80 u-text-r-xxs">{{_ "A pagamento - attivazione a breve"}}</span>
+                            </td>                            
+                            <td class="responsive-hide-sm u-border-right-xxs u-color-grey-20">
+                               <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento CIE, CNS: Si" height="25">
+                            </td>
+                            <td class="responsive-hide-sm u-border-right-xxs u-color-grey-20">
+                                <img src="assets/img/richiedi-spid/check_ok.png" alt="Riconoscimento Firma Digitale: Si" height="25">
+                            </td>
+                            <td class="more">
+                                <span class="responsive-hide-lg u-text-r-xxs u-margin-r-right u-textWeight-700 u-color-80">
+                                    {{_ "Scopri maggiori dettagli"}}
+                                </span>
+                                <span class="accordion-arrow" />
+                            </td>                            
+                        </tr>
+                        <tr class="spid-idp-details-panel">
+                            <td colspan="8">
+                                <div id="accordion-panel-8" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel u-color-grey-80">
+                                    <div class="Grid Grid--withGutter u-padding-all-l">
+                                        <div class="Grid-cell u-md-size3of4 u-lg-size3of4">
+                                            <div class="u-margin-bottom-l u-padding-all-m">
+                                                <div class="Grid">
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+                                                        <h4 class="u-color-40 u-padding-r-bottom">{{_ "DI PERSONA"}}</h4>
+                                                        <p>{{_ "Puoi prendere appuntamento, ove è previsto, presso uno degli degli sportelli che saranno gradualmente attivati e completare gratuitamente la registrazione davanti a un operatore."}}</p>
+                                                    </div>
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+                                                        <h4 class="u-color-40 u-padding-r-bottom">{{_ "TEMPI MEDI"}}</h4>
+                                                        <p>{{_ "Inserimento dati online: 10 minuti."}}<br/>
+                                                        {{_ "Appuntamento in sportello: In base alla disponibilità di appuntamenti dello sportello scelto."}}</p>
+                                                    </div>
+                                                </div>       
+                                                <div class="Grid">
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+                                                        <h4 class="u-color-40 u-padding-r-bottom">{{_ "VIA WEBCAM"}}</h4>
+                                                        <p>{{_ "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, con l’assistenza di un operatore previa appuntamento."}}</p>
+                                                    </div>
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+
+                                                    </div>
+                                                </div>                                                                                         
+                                                <div class="Grid">
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+                                                        <h4 class="u-color-40 u-padding-r-bottom">{{_ "VIA CIE, CNS o FIRMA DIGITALE"}}</h4>
+                                                        <p>{{_ "Se hai una Carta d’Identità Elettronica o una Carta Nazionale dei Servizi attiva o una firma digitale, puoi completare la registrazione totalmente on line tramite un lettore di smart card da collegare al tuo computer."}}</p>
+                                                    </div>
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+                                                        <h4 class="u-color-40 u-padding-r-bottom">{{_ "TEMPI MEDI"}}</h4>
+                                                        <p>{{_ "Inserimento dati online: 10 minuti."}}</p>
+                                                    </div>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="Grid-cell u-md-size1of4 u-lg-size1of4">
+                                            <div class="u-padding-all-m">
+                                                <h4 class="u-color-40 u-padding-r-bottom">{{_ "CALL CENTER LEPIDA"}}</h4>
+                                                <p class="u-text-r-l u-textWeight-700">{{_ "800 445500"}}</p>
+                                                <p>{{_ "dal lunedi al venerdi dalle ore 8:30 alle ore 18:30 ed il sabato dalle ore 8:30 alle ore 13:30"}}</p>
+                                                <br/><br/>
+                                                <h4 class="u-color-40 u-padding-r-bottom">{{_ "E-MAIL"}}</h4>
+                                                <p><a href="mailto:helpdesk@lepida.it">helpdesk@lepida.it</a></p>
+                                            </div>
+                                        </div>                                                                       
+                                    </div>
+                                    <div class="Grid Grid--withGutter u-padding-all-l">
+                                        <div class="Grid-cell u-sm-size1of1 u-padding-all-m">
+                                            <div class="Grid">
+                                                <div class="Grid-cell u-size1of1 u-md-size1of4 u-lg-size1of4">
+                                                    <a href="https://id.lepida.it/idm/app/registrazione.jsp" target="_blank" class="Button Button--default Button--round u-text-r-xs u-background-40 u-color-white">
+                                                            {{_ "Registrati con Lepida"}}
+                                                    </a>
+                                                </div>
+                                                <div class="Grid-cell u-size1of1 u-md-size3of4 u-lg-size3of4 u-margin-r-top">
+                                                    <a href="https://id.lepida.it/ " target="_blank">{{_ "Scopri di più"}}</a>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="spid-idp-details-row-close responsive-hide-sm responsive-hide-lg">
+                            <td>
+                                <span class="responsive-hide-lg u-text-r-xxs u-margin-r-right u-textWeight-700 u-color-80">
+                                    {{_ "Nascondi dettagli"}}
+                                </span>
+                                <span class="accordion-arrow-close" />
+                            </td>                            
+                        </tr>                        
+
                         <tr class="spid-idp-details-row responsive js-fr-accordion__header fr-accordion__header" id="accordion-header-3">
                             <td class="u-border-right-xxs u-color-grey-20">
                                 <img class="spid-idp-details-logo-idp" src="assets/img/richiedi-spid/logo-namirial.svg" alt="Logo Namirial ID">
