@@ -271,7 +271,9 @@ module.exports = function(app) {
     app.get("/domande-frequenti", function(request, response) {
         response.render("pages/domande-frequenti", {
             pageTitle: 'FAQ - Domande frequenti',
-            cssFiles,
+            cssFiles: [...cssFiles, {
+                file: 'domande-frequenti.min.css'
+            }],
             jsFiles: [...jsFiles, {
                 file: 'domande-frequenti.min.js'
             }],

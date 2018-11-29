@@ -3,7 +3,7 @@
 var fs 			= require('fs');
 var compressor 	= require('node-minify');
 
-var cssFiles = ['italia-it','italia-it-vendor','spid-common','spid-search','richiedi-spid'];
+var cssFiles = ['italia-it','italia-it-vendor','spid-common','spid-search','richiedi-spid','domande-frequenti'];
 for (var i = 0; i < cssFiles.length; i++) {
     compressor.minify({
 		compressor: 'sqwish',
