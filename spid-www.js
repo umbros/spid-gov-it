@@ -35,7 +35,7 @@ app.use('/assets', express.static(__dirname + '/views/assets'));
 
 app.use(cookieParser());
 app.use(globalizeExpress({
-  locales:['it', 'en', 'de'],
+  locales:['it', 'de', 'en-001'],
   defaultLocale: 'it',
   cookieName: 'lang',
   messages: __dirname + '/i18n',

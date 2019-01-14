@@ -1,8 +1,8 @@
 {
-	"en": {
+	"en-001": {
 		"_": "en",
 		"__": "English",
-		"lingua": "lingua",
+		"lingua": "language",
 		"AgID - Agenzia per l'Italia Digitale": "AgID - Agenzia per l'Italia Digitale",
 		"SPID": "SPID",
 		"Sistema Pubblico di Identità Digitale": "Sistema Pubblico di Identità Digitale",
@@ -265,7 +265,7 @@
 		"Puoi richiederla a uno degli Identity provider indicati sul sito SPID nella pagina": "Puoi richiederla a uno degli Identity provider indicati sul sito SPID nella pagina",
 		"che coprono l’area geografica di tuo interesse rappresentata dalle icone": "che coprono l’area geografica di tuo interesse rappresentata dalle icone",
 		"(Mondo)": "(Mondo)",
-		"(Unione europea)": "(Unione europea)",		
+		"(Unione europea)": "(Unione europea)",
 		"Per ottenerla devi semplicemente fornire: il tuo numero di cellulare, anche se il tuo abbonamento è sottoscritto con un operatore mobile estero, un indirizzo e-mail, un documento di identità italiano valido tra cui carta di identità, passaporto, patente e un documento che certifichi il tuo codice fiscale.": "Per ottenerla devi semplicemente fornire: il tuo numero di cellulare, anche se il tuo abbonamento è sottoscritto con un operatore mobile estero, un indirizzo e-mail, un documento di identità italiano valido tra cui carta di identità, passaporto, patente e un documento che certifichi il tuo codice fiscale.",
 		"Tutte le informazioni su dove e come chiedere le tue credenziali SPID nella pagina Richiedi SPID.": "Tutte le informazioni su dove e come chiedere le tue credenziali SPID nella pagina Richiedi SPID.",
 		"Come vengono trattati i dati che fornisco per richiedere SPID?": "Come vengono trattati i dati che fornisco per richiedere SPID?",
@@ -287,7 +287,7 @@
 		"Tim": "Tim",
 		"TIM": "TIM",
 		"Intesa": "Intesa",
-		"Lepida": "Lepida",		
+		"Lepida": "Lepida",
 		"username dimenticata": "username dimenticata",
 		"password dimenticata": "password dimenticata",
 		"segui la procedura di recupero qui:": "segui la procedura di recupero qui:",
@@ -448,7 +448,7 @@
 		"un indirizzo e-mail": "un indirizzo e-mail",
 		"il numero di telefono del cellulare che usi normalmente": "il numero di telefono del cellulare che usi normalmente",
 		"un documento di identità italiano valido (uno tra: carta di identità, passaporto, patente)*": "un documento di identità italiano valido (uno tra: carta di identità, passaporto, patente)*",
-		"un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*": "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*",		
+		"un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*": "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*",
 		"la tua tessera sanitaria con il codice fiscale*": "la tua tessera sanitaria con il codice fiscale*",
 		"* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai.": "* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai.",
 		"Cosa devi fare per ottenere SPID": "Cosa devi fare per ottenere SPID",
@@ -492,7 +492,7 @@
 		"Trova l’ufficio più vicino a te: dovrai recarti allo sportello per concludere la registrazione e ottenere le tue credenziali. Potrai scegliere tra diversi servizi e modalità di assistenza forniti presso gli uffici, gratuitamente o a pagamento. Scopri tutti i dettagli e": "Puoi prendere appuntamento presso uno degli oltre 200 uffici e completare la registrazione davanti a un operatore. ",
 		"verifica dov’è l’ufficio più vicino": "verifica dov’è l’ufficio più vicino",
 		"In base alla tua scelta, potrai prendere un appuntamento con un ufficio o recarti direttamente in una delle tabaccherie convenzionate.": "In base alla tua scelta, potrai prendere un appuntamento con un ufficio o recarti direttamente in una delle tabaccherie convenzionate.",
-		"Appuntamento in ufficio: In base alla disponibilità di appuntamenti dell’ufficio scelto.": "Appuntamento in ufficio: In base alla disponibilità di appuntamenti dell’ufficio scelto.",		
+		"Appuntamento in ufficio: In base alla disponibilità di appuntamenti dell’ufficio scelto.": "Appuntamento in ufficio: In base alla disponibilità di appuntamenti dell’ufficio scelto.",
 		"Verifica dov'è l'ufficio InfoCert più vicino e comincia la registrazione": "Verifica dov'è l'ufficio InfoCert più vicino e comincia la registrazione",
 		"Puoi prendere appuntamento presso uno degli uffici abilitati e completare la registrazione davanti a un operatore.": "Puoi prendere appuntamento presso uno degli uffici abilitati e completare la registrazione davanti a un operatore.",
 		"CALL CENTER INFOCERT": "CALL CENTER INFOCERT",
@@ -512,7 +512,7 @@
 		"qualsiasi Ufficio Postale": "qualsiasi Ufficio Postale",
 		"a pagamento tramite servizio a domicilio": "a pagamento tramite servizio a domicilio",
 		"Se non vuoi recarti all'ufficio postale, durante la registrazione su ": "Se non vuoi recarti all'ufficio postale, durante la registrazione su ",
-		"Inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it).": "inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it).",
+		"Inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it).": "Inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it).",
 		"Trova l'ufficio postale più vicino": "Trova l'ufficio postale più vicino",
 		"CALL CENTER POSTE": "CALL CENTER POSTE",
 		"(selezionando l'opzione 3 per i Servizi Internet):": "(selezionando l'opzione 3 per i Servizi Internet):",
@@ -575,7 +575,7 @@
 		"Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile. Il servizio è a pagamento, a partire da 14,90€ + IVA.": "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile. Il servizio è a pagamento, a partire da 14,90€ + IVA.",
 		"TEMPI MEDI": "TEMPI MEDI",
 		"VIA CIE, CNS o FIRMA DIGITALE": "VIA CIE, CNS o FIRMA DIGITALE",
-		"VIA FIRMA DIGITALE": "VIA FIRMA DIGITALE",		
+		"VIA FIRMA DIGITALE": "VIA FIRMA DIGITALE",
 		"Se hai una Carta d’Identità Elettronica o una Carta Nazionale dei Servizi attiva o una firma digitale, puoi completare la registrazione totalmente on line tramite un lettore di smart card da collegare al tuo computer.": "Se hai una Carta d’Identità Elettronica o una Carta Nazionale dei Servizi attiva o una firma digitale, puoi completare la registrazione totalmente on line tramite un lettore di smart card da collegare al tuo computer.",
 		"Scopri di più": "Scopri di più",
 		"Nascondi dettagli": "Nascondi dettagli",
@@ -624,7 +624,7 @@
 		"RICONOSCIMENTO DI PERSONA": "RICONOSCIMENTO DI PERSONA",
 		"RICONOSCIMENTO VIA WEBCAM": "RICONOSCIMENTO VIA WEBCAM",
 		"RICONOSCIMENTO CIE*, CNS": "RICONOSCIMENTO CIE*, CNS",
-		"RICONOSCIMENTO FIRMA DIGITALE": "RICONOSCIMENTO FIRMA DIGITALE",		
+		"RICONOSCIMENTO FIRMA DIGITALE": "RICONOSCIMENTO FIRMA DIGITALE",
 		"Via webcam (a pagamento - attivazione a breve)": "Via webcam (a pagamento - attivazione a breve)",
 		"A pagamento - attivazione a breve": "A pagamento - attivazione a breve",
 		"Puoi prendere appuntamento, ove è previsto, presso uno degli sportelli che saranno gradualmente attivati e completare gratuitamente la registrazione davanti a un operatore.": "Puoi prendere appuntamento, ove è previsto, presso uno degli sportelli che saranno gradualmente attivati e completare gratuitamente la registrazione davanti a un operatore.",
@@ -637,7 +637,7 @@
 		"Registrati con Lepida": "Registrati con Lepida",
 		"ATTENZIONE": "ATTENZIONE",
 		"È in corso l’implementazione del provider Lepida nei siti delle Pubbliche Amministrazioni che consentono l’accesso online ai propri servizi con SPID.": "È in corso l’implementazione del provider Lepida nei siti delle Pubbliche Amministrazioni che consentono l’accesso online ai propri servizi con SPID.",
-		
+
 		"Come diventare fornitore di servizi SPID": "Come diventare fornitore di servizi SPID",
 		"Tutte le pubbliche amministrazioni devono rendere i propri servizi online accessibili tramite SPID in modo da favorire e semplificare l’utilizzo dei servizi digitali da parte di tutti i cittadini.": "Tutte le pubbliche amministrazioni devono rendere i propri servizi online accessibili tramite SPID in modo da favorire e semplificare l’utilizzo dei servizi digitali da parte di tutti i cittadini.",
 		"In questa pagina trovi le informazioni che ti permetteranno di diventare fornitore di servizi e, se necessario, di chiederci supporto.": "In questa pagina trovi le informazioni che ti permetteranno di diventare fornitore di servizi e, se necessario, di chiederci supporto.",
@@ -708,7 +708,7 @@
 		"035.6305561 (tutti i giorni dalle 9.00 alle 18.00)": "035.6305561 (tutti i giorni dalle 9.00 alle 18.00)",
 		"Per informazioni sul servizio TIM id invia una mail all'indirizzo supportotimid@telecomitalia.it": "Per informazioni sul servizio TIM id invia una mail all'indirizzo supportotimid@telecomitalia.it",
 		"800.44.55.00": "800.44.55.00",
-		
+
 		"Cerca tra 3.866 amministrazioni che erogano 4.371 servizi abilitati SPID": "Cerca tra 3.866 amministrazioni che erogano 4.371 servizi abilitati SPID",
 		"Cerca tra i servizi abilitati SPID di oltre 4000 amministrazioni": "Cerca tra i servizi abilitati SPID di oltre 4000 amministrazioni",
 		"Seleziona almeno un parametro per la ricerca o": "Seleziona almeno un parametro per la ricerca o",
@@ -769,8 +769,8 @@
 		"puoi richiedere il servizio di identificazione a domicilio che sarà effettuato da un portalettere al prezzo di 14,50 euro iva inclusa.":"puoi richiedere il servizio di identificazione a domicilio che sarà effettuato da un portalettere al prezzo di 14,50 euro iva inclusa.",
 		
 		"A causa di un momentaneo disservizio dei sistemi di verifica dei documenti di identità, sono possibili rallentamenti nel rilascio delle credenziali SPID da parte dei gestori. Ci scusiamo per il disagio, le normali attività di erogazione riprenderanno appena possibile.": "A causa di un momentaneo disservizio dei sistemi di verifica dei documenti di identità, sono possibili rallentamenti nel rilascio delle credenziali SPID da parte dei gestori. Ci scusiamo per il disagio, le normali attività di erogazione riprenderanno appena possibile."
-		
 		},
+		
 
-		"version": "en_20180622_2"
+		"version": "it_20180622_2"
 }
