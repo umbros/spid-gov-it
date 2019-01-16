@@ -626,9 +626,9 @@
       "Registrati con Lepida": "Mit Lepida registrieren",
       "ATTENZIONE": "VORSICHT",
       "È in corso l’implementazione del provider Lepida nei siti delle Pubbliche Amministrazioni che consentono l’accesso online ai propri servizi con SPID.": "Der Lepida-Anbieter wird zurzeit auf den Websites der öffentlichen Verwaltungen implementiert, die den Online-Zugriff auf ihre Dienste mit SPID ermöglichen.",  
-      "Invio del codice OTP anche via sms": "Invio del codice OTP anche via sms [TOUPDATE]",
-      "Sì": "Sì [TOUPDATE]",
-      "No": "No [TOUPDATE]",
+      "Invio del codice OTP anche via sms": "Senden des OTP-Codes auch per SMS",
+      "Sì": "Ja",
+      "No": "Nein",
 
       "Come diventare fornitore di servizi SPID" : "Wie werde ich SPID-Dienstleister?",
       "Tutte le pubbliche amministrazioni devono rendere i propri servizi online accessibili tramite SPID in modo da favorire e semplificare l’utilizzo dei servizi digitali da parte di tutti i cittadini." : "Alle öffentlichen Verwaltungen müssen ihre Dienste online über SPID zugänglich machen, um die Nutzung digitaler Dienste  allen Bürger zu erleichtern und zu vereinfachen.",
