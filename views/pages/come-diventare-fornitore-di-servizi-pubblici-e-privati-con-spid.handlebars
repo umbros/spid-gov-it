@@ -29,54 +29,71 @@
 
                     <h3 class="u-text-h3" id="procedura-tecnica">{{_ "Procedura tecnica"}}</h3>
                     <p>
-                        {{_ "Il sistema SPID si basa sul protocollo"}} <a href="http://saml.xml.org/" target="blank_">{{_ "SAML2"}}</a>.<br> {{_ "Per implementare SPID nei tuoi servizi online:"}}
+                        {{_ "Il sistema SPID si basa sul protocollo"}} <a href="http://saml.xml.org/" target="_blank">{{_ "SAML2"}}</a>.<br> {{_ "Per implementare SPID nei tuoi servizi online:"}}
 
                     </p>
                     <ol class="Prose Bullets">
                         <li class="u-margin-r-bottom">
                             <p class="Prose u-layout-prose">
-                                {{_ "Consulta le "}}<a href="http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf" target="blank_">{{_ "regole tecniche"}}</a> {{_ "con le indicazioni necessarie a guidarti durante l'implementazione di SPID e le"}} <a href="https://www.spid.gov.it/assets/res/agid-spid-lg-interfacce-informazioni-idp-sp.pdf" target="blank_">{{_ "linee guida interfacce e informazioni"}}</a>. {{_ "Queste ultime hanno l'obiettivo di guidarti nell'utilizzo delle componenti grafiche necessarie a garantire la riconoscibilità di SPID tra gli utenti."}}
+                                {{_ "Consulta le "}}<a href="http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf" target="_blank">{{_ "regole tecniche"}}</a>, <a href="https://www.agid.gov.it/it/piattaforme/spid/avvisi-spid" target="_blank">{{_ "gli avvisi SPID"}}</a> {{_ "e la"}} <a href="https://www.agid.gov.it/sites/default/files/repository_files/regole_tecniche/spid-messaggi.pdf" target="_blank">{{_ "tabella anomalie"}}</a>, {{_ "con le indicazioni necessarie a guidarti durante l'implementazione di SPID e le"}} <a href="https://www.spid.gov.it/assets/res/agid-spid-lg-interfacce-informazioni-idp-sp.pdf" target="_blank">{{_ "linee guida interfacce e informazioni"}}</a>. {{_ "Queste ultime hanno l'obiettivo di guidarti nell'utilizzo delle componenti grafiche necessarie a garantire la riconoscibilità di SPID tra gli utenti."}}
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                {{_ "Implementa l'autenticazione con SPID sui tuoi servizi. Sul repository "}} <a href="https://github.com/italia" target="_blank">{{_ "https://github.com/italia"}}</a> {{_ "sono disponibili librerie per i diversi linguaggi di programmazione e risorse utili per l’integrazione ai quali puoi fare riferimento."}}
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                {{_ "Verifica se il tuo Ente ha già prodotto ed inviato ad AgID un metadata. In caso affermativo modifica il metadata già presentato per includere i nuovi servizi, altrimenti elabora un metadata come indicato nel"}} <a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="_blank">{{_ "documento riassuntivo"}}</a>. {{_ "Il dispiegamento dei servizi deve rispettare quanto stabilito dall'"}}<a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="_blank">{{_ "Avviso n. 6"}}</a>. {{_ "Gli attributi richiesti per l'erogazione di ogni servizio online, inoltre, devono essere attinenti e non eccedenti."}}
+                            </p>
+                        </li> 
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                {{_ "Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository"}} <a href="https://github.com/italia/spid-testenv2" target="_blank">{{_ "https://github.com/italia/spid-testenv2"}}</a>. {{_ "In particolare occorre verificare il corretto funzionamento in relazione ad ognuno dei test indicati nel seguente documento "}}<a href="/assets/download/SPID_QAD.pdf" target="_blank">{{_ "SPID Quality Assessment Document"}}</a>.<br/><br/><b>{{_ "Accertati del corretto funzionamento della tua implementazione prima di richiedere ad AgID la verifica tecnica."}}</b>.
+                            </p>
+                        </li>
+                        <li class="u-margin-r-bottom">
+                            <p class="Prose u-layout-prose">
+                                {{_ "Rendi disponibile il metadata su una url 'https' del tuo dominio e inserisci tra gli IdP del bottone “Entra con SPID” un ulteriore l’IdP del tool SPID Validator, il cui metadata è disponibile alla seguente url. Quindi, invia una email a"}} <a href="mailto:spid.tech@agid.gov.it">spid.tech@agid.gov.it</a> {{_ "indicando le seguenti informazioni:"}}
 
-                            </p>
-                        </li>
-                        <li class="u-margin-r-bottom">
-                            <p class="Prose u-layout-prose">
-                                {{_ "Elabora un metadata come indicato nel"}} <a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="blank_">{{_ "documento riassuntivo"}}</a>. {{_ "Il dispiegamento dei servizi deve rispettare quanto stabilito dall'"}}<a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="blank_">{{_ "Avviso n. 6"}}</a>. {{"Gli attributi richiesti per l'erogazione di ogni servizio online, inoltre, devono essere attinenti e non eccedenti."}}
-                            </p>
-                        </li>
-                        <li class="u-margin-r-bottom">
-                            <p class="Prose u-layout-prose">
-                                {{_ "Dopo aver elaborato il primo metadata, rendilo disponibile su una url 'https' del tuo dominio e comunicalo ad AgID. Per farlo segnala l'url all' email"}} <a href="mailto:spid.tech@agid.gov.it">spid.tech@agid.gov.it</a> {{_ "attraverso la quale riceverete feedback sulla validità del metadata e sull'avvenuto caricamento."}} {{_ "È compito di AgID verificare il metadata ricevuto e, se necessario, segnalare le modifiche utili a garantire il rispetto delle regole tecniche."}}
+                                <br>
+                                <br>{{_ "a) Nome ente;"}}
+                                <br>{{_ "b) Url del metadata;"}}
+                                <br>{{_ "c) Se si tratta di aggiornamento o nuovo metadata;"}}
+                                <br>{{_ "d) Url del servizio al quale è presente in bottone “Entra con SPID” con il collegamento a SPID Validator;"}}
+                                <br>{{_ "e) Contatto riferimento tecnico;"}}
+                                <br>{{_ "f) Contatto referente amministrativo;"}}
+                                <br><br>
 
+                                {{_ "AgID provvederà a verificare il metadata ricevuto e la correttezza dell’implementazione. Se necessario, saranno segnalate le modifiche necessarie a garantire il rispetto delle regole tecniche. La verifica condotta da AgID è eseguita tramite la piattaforma SPID SAML Check, di cui fa parte il tool SPID Validator. Il codice della piattaforma SPID SAML Check è disponibile pubblicamente al repository "}}<a href="https://github.com/italia/spid-saml-check" target="_blank">{{_ "https://github.com/italia/spid-saml-check"}}</a>. {{_ "Se vuoi puoi usarlo preventivamente per evitare che AgID riscontri degli errori. È un tool interno AgID, pertanto non vi è supporto. Il suo utilizzo non è un obbligo ma un’opportunità."}}
                             </p>
                         </li>
                         <li class="u-margin-r-bottom">
                             <p class="Prose u-layout-prose">
-                                {{_ "In caso di modifiche dovrai ripetere la procedura di invio descritta nel punto 3. Se l'invio del metadata dà esito positivo, AgID comunica il metadata agli Identity Provider (IDP). La richiesta di caricamento configurazioni agli IDP è effettuata ogni giorno alle ore 18:00, dal lunedì al venerdì."}}
+                                {{_ "Se AgID richiede delle modifiche dovrai ripetere la procedura a partire dal punto 3."}}
                             </p>
                         </li>
                         <li class="u-margin-r-bottom">
                             <p class="Prose u-layout-prose">
-                                {{_ "I servizi online possono essere abilitati all'accesso con SPID per successivi test e messa in produzione, previo recepimento del medatada da parte degli IDP."}}
+                                {{_ "Se l'invio del metadata e la verifica tecnica dà esito positivo, AgID comunica il metadata agli Identity Provider (IDP). La richiesta di caricamento configurazioni agli IDP è effettuata ogni giorno alle ore 18:00, dal lunedì al venerdì. Di norma, entro un giorno lavorativo, gli IdP provvedono al loro caricamento ed il tuo servizio sarà accessibile tramite SPID."}}
                             </p>
                         </li>
                     </ol>
-                    <p>
-                        {{_ "Oltre alle regole tecniche devi seguire anche le regole di design prodotte da AgID: tutte le componenti grafiche e le indicazioni per adottarle sono disponibili sul repository"}} <a href="https://github.com/italia" target="blank_">{{_ "Github Italia"}}</a>.
-                    </p>
+
 
                     <h3 class="u-text-h3" id="procedura-amministrativa">{{_ "Procedura amministrativa"}}</h3>
                     <p>
-                        {{_ "Per procedere alla firma della convenzione è necessaria, per ogni Service Provider, una verifica tecnica sull'implementazione di SPID."}}<br><br>
-                        {{_ "Per richiedere la verifica, invia un'email all' indirizzo"}} <a href="mailto:spid.tech@agid.gov.it">spid.tech@agid.gov.it</a> {{_ "indicando le url dei servizi da validare."}}<br><br> 
-                        {{_ "Dopo l'esito positivo della verifica, ti verrà inviata la documentazione che dovrai compilare e firmare."}}<br><br>
-                        {{_ "Una volta completata la procedura, devi inviare con una PEC tutta la documentazione all'indirizzo protocollo@pec.agid.gov.it. Entro pochi giorni riceverai la convenzione controfirmata."}}<br><br>
+                        {{_ "Completata la procedura tecnica, AgID invierà al referente amministrativo, indicato al punto 5.f, copia della convenzione da restituire compilata e sottoscritta con firma elettronica qualificata via PEC a "}}<a href="mailto:protocollo@pec.agid.gov.it">{{_ "protocollo@pec.agid.gov.it"}}</a>. 
+                        {{_ "Entro pochi giorni ti tornerà controfirmata dal Direttore Generale di AgID."}} 
+                        {{_ "Se non provvederai a restituire la convenzione firmata entro 30 giorni solari prendi immediati contatti con AgID per concordare altro termine, altrimenti i tuoi servizi saranno tolti dalla federazione e non saranno più accessibili con SPID."}}
+                        <br><br>
 		              </p>
 
 
                     <h3 class="u-text-h3" id="supporto-tecnico">{{_ "Supporto tecnico e amministrativo"}}</h3>
                     <p>
-                        {{_ "Se hai bisogno di supporto nella fase di adeguamento dei tuoi sistemi a SPID puoi richiederlo o cercare le risposte e soluzioni già fornite sul "}}<a href="https://github.com/italia/spid" target="blank_">{{_ "sistema di supporto"}}</a> {{_ "dedicato."}}
+                        {{_ "Se hai bisogno di supporto nella fase di adeguamento dei tuoi sistemi a SPID puoi richiederlo o cercare le risposte e soluzioni già fornite sul "}}<a href="https://github.com/italia/spid" target="_blank">{{_ "sistema di supporto"}}</a> {{_ "dedicato."}}
                     </p>
 
                     <h3 class="u-text-h3" id="riepilogo">{{_ "Riepilogo"}}</h3>
@@ -109,24 +126,24 @@
                     <h3 class="u-text-h3" id="riferimenti">{{_ "Riferimenti"}}</h3>
                     <h4 class="u-text-h4">{{_ "Normativa (DPCM 24 ottobre 2014)"}}</h4>
                     <p>
-                        <a href="http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid" target="blank_">{{_ "Documentazione e regole tecniche"}}</a><br>
-                        <a href="http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid/avvisi" target="blank_">{{_ "Avvisi"}}</a><br>
-                        <a href="http://www.spid.gov.it/assets/res/agid-spid-lg-interfacce-informazioni-idp-sp.pdf" target="blank_">{{_ "Linee guida interfacce e informazioni SPID per IdP e Sp"}}</a><br>
-                        <a href="https://github.com/italia" target="blank_">{{_ "Repository Github Italia"}}</a>
+                        <a href="http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid" target="_blank">{{_ "Documentazione e regole tecniche"}}</a><br>
+                        <a href="http://www.agid.gov.it/agenda-digitale/infrastrutture-architetture/spid/avvisi" target="_blank">{{_ "Avvisi"}}</a><br>
+                        <a href="http://www.spid.gov.it/assets/res/agid-spid-lg-interfacce-informazioni-idp-sp.pdf" target="_blank">{{_ "Linee guida interfacce e informazioni SPID per IdP e Sp"}}</a><br>
+                        <a href="https://github.com/italia" target="_blank">{{_ "Repository Github Italia"}}</a>
                     </p>
                     <h3 class="u-text-h3" id="convenzionesoggettipubblici">{{_ "Convenzione per soggetti pubblici"}}</h3>
                     <p>
-                        <a href="http://www.agid.gov.it/sites/default/files/circolari/14_-_dt_dg_n._14_-_25_gen_2018_-_approvazione_schema_nuova_convenzione_sppa_spid-prt-allegato1.pdf" target="blank_">{{_ "Determinazione AGID N. 14-2018 Convenzione SPID tra AgID e Pubbliche Amministrazioni"}}</a><br/><br/>
-                        <a href="/assets/download/Schema_convenzione_Determina n._14_2018.pdf" target="blank_">{{_ "Schema Convenzione Determinazione AGID N. 14-2018"}}</a>
+                        <a href="http://www.agid.gov.it/sites/default/files/circolari/14_-_dt_dg_n._14_-_25_gen_2018_-_approvazione_schema_nuova_convenzione_sppa_spid-prt-allegato1.pdf" target="_blank">{{_ "Determinazione AGID N. 14-2018 Convenzione SPID tra AgID e Pubbliche Amministrazioni"}}</a><br/><br/>
+                        <a href="/assets/download/Schema_convenzione_Determina n._14_2018.pdf" target="_blank">{{_ "Schema Convenzione Determinazione AGID N. 14-2018"}}</a>
                     </p>
                     <h3 class="u-text-h3" id="convenzioneperprivatieallegati">{{_ "Convenzione per privati e allegati"}}</h3>
                     <p>
-                        <a href="https://www.agid.gov.it/sites/default/files/repository_files/dt_dg_n._366_-_18_dic_2017_-_approvazione_schemi_convenzioni_spid_circui.pdf" target="blank_">{{_ "Determinazione AGID N. 366-2017 - Approvazione schemi convenzioni SPID circuito privati"}}</a><br><br>
-                        <a href="http://www.agid.gov.it/sites/default/files/all_dt366-schcnv_sp_privati.pdf" target="blank_">{{_ "Allegato Determinazione AGID N. 366-2017 - Convenzione Service Provider Privati"}}</a><br><br>
-                        <a href="http://www.agid.gov.it/sites/default/files/all1_addendum.pdf" target="blank_">{{_ "Allegato 1 Determinazione AGID N. 366-2017 - Addendum"}}</a><br><br>
-                        <a href="http://www.agid.gov.it/sites/default/files/all2_contratto_adesione.pdf" target="blank_">{{_ "Allegato 2 Determinazione AGID N. 366-2017 - Contratto adesione"}}</a><br><br>
-                        <a href="http://www.agid.gov.it/sites/default/files/all3_lds.pdf" target="blank_">{{_ "Allegato 3 Determinazione AGID N. 366-2017 - Livelli di servizio"}}</a><br><br>
-                        <a href="http://www.agid.gov.it/sites/default/files/all4_prezzariospid.pdf" target="blank_">{{_ "Allegato 4 Determinazione AGID N. 366-2017 - Prezzario SPID SP Privati"}}</a>
+                        <a href="https://www.agid.gov.it/sites/default/files/repository_files/dt_dg_n._366_-_18_dic_2017_-_approvazione_schemi_convenzioni_spid_circui.pdf" target="_blank">{{_ "Determinazione AGID N. 366-2017 - Approvazione schemi convenzioni SPID circuito privati"}}</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/all_dt366-schcnv_sp_privati.pdf" target="_blank">{{_ "Allegato Determinazione AGID N. 366-2017 - Convenzione Service Provider Privati"}}</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/all1_addendum.pdf" target="_blank">{{_ "Allegato 1 Determinazione AGID N. 366-2017 - Addendum"}}</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/all2_contratto_adesione.pdf" target="_blank">{{_ "Allegato 2 Determinazione AGID N. 366-2017 - Contratto adesione"}}</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/all3_lds.pdf" target="_blank">{{_ "Allegato 3 Determinazione AGID N. 366-2017 - Livelli di servizio"}}</a><br><br>
+                        <a href="http://www.agid.gov.it/sites/default/files/all4_prezzariospid.pdf" target="_blank">{{_ "Allegato 4 Determinazione AGID N. 366-2017 - Prezzario SPID SP Privati"}}</a>
 		    </p>
                 </section>
             </div>
