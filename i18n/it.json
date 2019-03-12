@@ -243,6 +243,34 @@
 		"Allegato 3 Determinazione AGID N. 366-2017 - Livelli di servizio": "Allegato 3 Determinazione AGID N. 366/2017 - Livelli di servizio",
 		"Allegato 4 Determinazione AGID N. 366-2017 - Prezzario SPID SP Privati": "Allegato 4 Determinazione AGID N. 366/2017 - Prezzario SPID SP Privati",
 
+		"gli avvisi SPID": "gli avvisi SPID",
+		"e la": "e la",
+		"tabella anomalie": "tabella anomalie",
+		"Implementa l'autenticazione con SPID sui tuoi servizi. Sul repository": "Implementa l'autenticazione con SPID sui tuoi servizi. Sul repository",
+		"sono disponibili librerie per i diversi linguaggi di programmazione e risorse utili per l’integrazione ai quali puoi fare riferimento.": "sono disponibili librerie per i diversi linguaggi di programmazione e risorse utili per l’integrazione ai quali puoi fare riferimento.",
+		"Verifica se il tuo Ente ha già prodotto ed inviato ad AgID un metadata. In caso affermativo modifica il metadata già presentato per includere i nuovi servizi, altrimenti elabora un metadata come indicato nel": "Verifica se il tuo Ente ha già prodotto ed inviato ad AgID un metadata. In caso affermativo modifica il metadata già presentato per includere i nuovi servizi, altrimenti elabora un metadata come indicato nel",
+		"Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository": "Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository",
+		"In particolare occorre verificare il corretto funzionamento in relazione ad ognuno dei test indicati nel seguente documento": "In particolare occorre verificare il corretto funzionamento in relazione ad ognuno dei test indicati nel seguente documento",
+		"SPID Quality Assessment Document": "SPID Quality Assessment Document",
+		"Accertati del corretto funzionamento della tua implementazione prima di richiedere ad AgID la verifica tecnica.": "Accertati del corretto funzionamento della tua implementazione prima di richiedere ad AgID la verifica tecnica.",
+		"Rendi disponibile il metadata su una url 'https' del tuo dominio e inserisci tra gli IdP del bottone “Entra con SPID” un ulteriore IdP del tool SPID Validator, il cui metadata è disponibile alla seguente url:": "Rendi disponibile il metadata su una url 'https' del tuo dominio e inserisci tra gli IdP del bottone “Entra con SPID” un ulteriore IdP del tool SPID Validator, il cui metadata è disponibile alla seguente url:",
+		"Quindi, invia una email a": "Quindi, invia una email a",
+		"indicando le seguenti informazioni:": "indicando le seguenti informazioni:",
+		"a) Nome ente;": "a) Nome ente;",
+		"b) Url del metadata;": "b) Url del metadata;",
+		"c) Se si tratta di aggiornamento o nuovo metadata;": "c) Se si tratta di aggiornamento o nuovo metadata;",
+		"d) Url del servizio al quale è presente in bottone “Entra con SPID” con il collegamento a SPID Validator;": "d) Url del servizio al quale è presente in bottone “Entra con SPID” con il collegamento a SPID Validator;",
+		"e) Contatto riferimento tecnico;": "e) Contatto riferimento tecnico;",
+		"f) Contatto referente amministrativo;": "f) Contatto referente amministrativo;",
+		"AgID provvederà a verificare il metadata ricevuto e la correttezza dell’implementazione. Se necessario, saranno segnalate le modifiche necessarie a garantire il rispetto delle regole tecniche. La verifica condotta da AgID è eseguita tramite la piattaforma SPID SAML Check, di cui fa parte il tool SPID Validator. Il codice della piattaforma SPID SAML Check è disponibile pubblicamente al repository": "AgID provvederà a verificare il metadata ricevuto e la correttezza dell’implementazione. Se necessario, saranno segnalate le modifiche necessarie a garantire il rispetto delle regole tecniche. La verifica condotta da AgID è eseguita tramite la piattaforma SPID SAML Check, di cui fa parte il tool SPID Validator. Il codice della piattaforma SPID SAML Check è disponibile pubblicamente al repository",
+		"Se vuoi puoi usarlo preventivamente per evitare che AgID riscontri degli errori. È un tool interno AgID, pertanto non vi è supporto. Il suo utilizzo non è un obbligo ma un’opportunità.": "Se vuoi puoi usarlo preventivamente per evitare che AgID riscontri degli errori. È un tool interno AgID, pertanto non vi è supporto. Il suo utilizzo non è un obbligo ma un’opportunità.",
+		"Se AgID richiede delle modifiche dovrai ripetere la procedura a partire dal punto 3.": "Se AgID richiede delle modifiche dovrai ripetere la procedura a partire dal punto 3.",
+		"Se l'invio del metadata e la verifica tecnica danno esito positivo, AgID comunica il metadata agli Identity Provider (IDP). La richiesta di caricamento configurazioni agli IDP è effettuata ogni giorno alle ore 18:00, dal lunedì al venerdì. Di norma, entro un giorno lavorativo, gli IdP provvedono al loro caricamento ed il tuo servizio sarà accessibile tramite SPID.": "Se l'invio del metadata e la verifica tecnica danno esito positivo, AgID comunica il metadata agli Identity Provider (IDP). La richiesta di caricamento configurazioni agli IDP è effettuata ogni giorno alle ore 18:00, dal lunedì al venerdì. Di norma, entro un giorno lavorativo, gli IdP provvedono al loro caricamento ed il tuo servizio sarà accessibile tramite SPID.",
+		"Completata la procedura tecnica, AgID invierà al referente amministrativo, indicato al punto 5.f, copia della convenzione da restituire compilata e sottoscritta con firma elettronica qualificata via PEC a": "Completata la procedura tecnica, AgID invierà al referente amministrativo, indicato al punto 5.f, copia della convenzione da restituire compilata e sottoscritta con firma elettronica qualificata via PEC a",
+		"protocollo@pec.agid.gov.it": "protocollo@pec.agid.gov.it",
+		"Entro pochi giorni ti tornerà controfirmata dal Direttore Generale di AgID.": "Entro pochi giorni ti tornerà controfirmata dal Direttore Generale di AgID.",
+		"Se non provvederai a restituire la convenzione firmata entro 30 giorni solari prendi immediati contatti con AgID per concordare altro termine, altrimenti i tuoi servizi saranno tolti dalla federazione e non saranno più accessibili con SPID.": "Se non provvederai a restituire la convenzione firmata entro 30 giorni solari prendi immediati contatti con AgID per concordare altro termine, altrimenti i tuoi servizi saranno tolti dalla federazione e non saranno più accessibili con SPID.",
+
 		"FAQ – Domande frequenti": "FAQ – Domande frequenti",
 		"Cos’è SPID?": "Cos’è SPID?",
 		"SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online.": "SPID è il sistema di autenticazione che permette a cittadini ed imprese di accedere ai servizi online della pubblica amministrazione e dei privati aderenti con un’identità digitale unica. L’identità SPID è costituita da credenziali (nome utente e password) che vengono rilasciate all’utente e che permettono l’accesso a tutti i servizi online.",
@@ -773,5 +801,5 @@
 		},
 		
 
-		"version": "it_20180622_2"
+		"version": "it_20190312"
 }
