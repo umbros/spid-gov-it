@@ -4192,22 +4192,6 @@
         "id": 2600003
     },
     {
-        "serviceName": "Definizione agevolata",
-        "description": "Puoi trovare i servizi online per aderire alla Definizione agevolata 2018, al “Saldo e stralcio” e la documentazione a supporto.",
-        "url": "https://servizi.agenziaentrateriscossione.gov.it/equitaliaServiziWeb/home/login.do",
-        "serviceProviderId": 8,
-        "name": "Agenzia delle entrate-Riscossione",
-        "federationRegistryId": 11,
-        "entityName": "Agenzia delle entrate-Riscossione",
-        "spidLevel": "2",
-        "attributes": "Codice Fiscale",
-        "themeCode": "ECON",
-        "themeDescription": "Economia e finanze",
-        "subThemeCode": "RIPR",
-        "subThemeDescription": "Richieste e prenotazioni",
-        "id": 2600004
-    },
-    {
         "serviceName": "Documenti",
         "description": "Puoi visualizzare la situazione complessiva, il piano di rateizzazione e i relativi bollettini e copia della “Comunicazione delle somme dovute” inviata ad Agenzia delle entrate-Riscossione, in risposta alla tua domanda di “rottamazione”.",
         "url": "https://servizi.agenziaentrateriscossione.gov.it/equitaliaServiziWeb/home/login.do",
@@ -4258,7 +4242,7 @@
     {
         "serviceName": "EquiPro",
         "description": "Un'area riservata a disposizione di commercialisti, consulenti del lavoro, tributaristi, centri di assistenza fiscale (Caf) e associazioni di categoria che possono così utilizzare i servizi online di Agenzia delle entrate-Riscossione. E anche, un servizio a disposizione di chi vuole avvalersi di un professionista di fiducia per avere sempre sotto controllo cartelle, avvisi, rate e scadenze.",
-        "url": "https://servizi.agenziaentrateriscossione.gov.it/equitaliaServiziWeb/home/login.do",
+        "url": "https://servizi.agenziaentrateriscossione.gov.it/equitaliaServiziWeb/home/loginCommercialista.do",
         "serviceProviderId": 8,
         "name": "Agenzia delle entrate-Riscossione",
         "federationRegistryId": 11,
@@ -70766,5 +70750,29 @@
         "subThemeCode": "POCI",
         "subThemeDescription": "Portali del cittadino",
         "id": 4579
-    }    
+    },
+    {
+        "serviceName": "Anagrafe on line per Enti",
+        "description": "Consultazione anagrafica per enti autorizzati",
+        "url": "https://dgegovpa.it/ostuni/login.aspx",
+        "serviceProviderId": 900,
+        "name": "Comune di Ostuni",
+        "themeCode": "SOCI",
+        "themeDescription": "Popolazione e società",
+        "subThemeCode": "ANAG",
+        "subThemeDescription": "Anagrafe",
+        "id": 4580
+    },
+    {
+        "serviceName": "Anagrafe on line per i cittadini",
+        "description": "Autocertificazioni anagrafiche precompilate",
+        "url": "https://dgegovpa.it/ostuni/login.aspx",
+        "serviceProviderId": 900,
+        "name": "Comune di Ostuni",
+        "themeCode": "SOCI",
+        "themeDescription": "Popolazione e società",
+        "subThemeCode": "ANAG",
+        "subThemeDescription": "Anagrafe",
+        "id": 4581
+    }  
 ]
