@@ -34,26 +34,31 @@
                     </p>
                     <ol class="Prose Bullets">
                         <li class="u-margin-r-bottom">
+                            <a name="procedura-tecnica-1"></a>
                             <p class="Prose u-layout-prose">
                                 {{_ "Consulta le "}}<a href="http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf" target="_blank">{{_ "regole tecniche"}}</a>, <a href="https://www.agid.gov.it/it/piattaforme/spid/avvisi-spid" target="_blank">{{_ "gli avvisi SPID"}}</a> {{_ "e la"}} <a href="https://www.agid.gov.it/sites/default/files/repository_files/tabella-messaggi-spid-v1.3_0.pdf" target="_blank">{{_ "tabella anomalie"}}</a>, {{_ "con le indicazioni necessarie a guidarti durante l'implementazione di SPID e le"}} <a href="https://www.spid.gov.it/assets/res/agid-spid-lg-interfacce-informazioni-idp-sp.pdf" target="_blank">{{_ "linee guida interfacce e informazioni"}}</a>. {{_ "Queste ultime hanno l'obiettivo di guidarti nell'utilizzo delle componenti grafiche necessarie a garantire la riconoscibilità di SPID tra gli utenti."}}
                             </p>
                         </li>
                         <li class="u-margin-r-bottom">
+                            <a name="procedura-tecnica-2"></a>
                             <p class="Prose u-layout-prose">
                                 {{_ "Implementa l'autenticazione con SPID sui tuoi servizi. Sul repository"}} <a href="https://developers.italia.it/it/spid" target="_blank">https://developers.italia.it/it/spid</a> {{_ "sono disponibili librerie per i diversi linguaggi di programmazione e risorse utili per l’integrazione ai quali puoi fare riferimento."}}
                             </p>
                         </li>
                         <li class="u-margin-r-bottom">
+                            <a name="procedura-tecnica-3"></a>
                             <p class="Prose u-layout-prose">
                                 {{_ "Verifica se il tuo Ente ha già prodotto ed inviato ad AgID un metadata. In caso affermativo modifica il metadata già presentato per includere i nuovi servizi, altrimenti elabora un metadata come indicato nel"}} <a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="_blank">{{_ "documento riassuntivo"}}</a>. {{_ "Il dispiegamento dei servizi deve rispettare quanto stabilito dall'"}}<a href="http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf" target="_blank">{{_ "Avviso n. 6"}}</a>. {{_ "Gli attributi richiesti per l'erogazione di ogni servizio online, inoltre, devono essere attinenti e non eccedenti."}}
                             </p>
                         </li> 
                         <li class="u-margin-r-bottom">
+                            <a name="procedura-tecnica-4"></a>
                             <p class="Prose u-layout-prose">
                                 {{_ "Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository"}} <a href="https://github.com/italia/spid-testenv2" target="_blank">https://github.com/italia/spid-testenv2</a>. {{_ "In particolare occorre verificare il corretto funzionamento in relazione ad ognuno dei test indicati nel seguente documento"}} <a href="/assets/download/SPID_QAD.pdf" target="_blank">{{_ "SPID Quality Assessment Document"}}</a>.<br/><br/><b>{{_ "Accertati del corretto funzionamento della tua implementazione prima di richiedere ad AgID la verifica tecnica."}}</b>.
                             </p>
                         </li>
                         <li class="u-margin-r-bottom">
+                            <a name="procedura-tecnica-5"></a>
                             <p class="Prose u-layout-prose">
                                 {{_ "Rendi disponibile il metadata su una url 'https' del tuo dominio e inserisci tra gli IdP del bottone “Entra con SPID” un ulteriore IdP del tool SPID Validator, il cui metadata è disponibile alla seguente url:"}} <a href="https://validator.spid.gov.it/metadata.xml" target="_blank">https://validator.spid.gov.it/metadata.xml</a>. {{_ "Quindi, invia una email a"}} <a href="mailto:spid.tech@agid.gov.it">spid.tech@agid.gov.it</a> {{_ "indicando le seguenti informazioni:"}}
 
@@ -70,11 +75,13 @@
                             </p>
                         </li>
                         <li class="u-margin-r-bottom">
+                            <a name="procedura-tecnica-6"></a>
                             <p class="Prose u-layout-prose">
                                 {{_ "Se AgID richiede delle modifiche dovrai ripetere la procedura a partire dal punto 3."}}
                             </p>
                         </li>
                         <li class="u-margin-r-bottom">
+                            <a name="procedura-tecnica-7"></a>
                             <p class="Prose u-layout-prose">
                                 {{_ "Se l'invio del metadata e la verifica tecnica danno esito positivo, AgID comunica il metadata agli Identity Provider (IDP). La richiesta di caricamento configurazioni agli IDP è effettuata ogni giorno alle ore 18:00, dal lunedì al venerdì. Di norma, entro un giorno lavorativo, gli IdP provvedono al loro caricamento ed il tuo servizio sarà accessibile tramite SPID."}}
                             </p>
@@ -83,6 +90,7 @@
 
 
                     <h3 class="u-text-h3" id="procedura-amministrativa">{{_ "Procedura amministrativa"}}</h3>
+                    <a name="procedura-amministrativa"></a>
                     <p>
                         {{_ "Completata la procedura tecnica, AgID invierà al referente amministrativo, indicato al punto 5.f, copia della convenzione da restituire compilata e sottoscritta con firma elettronica qualificata via PEC a"}} <a href="mailto:protocollo@pec.agid.gov.it">{{_ "protocollo@pec.agid.gov.it"}}</a>. 
                         {{_ "Entro pochi giorni ti tornerà controfirmata dal Direttore Generale di AgID."}} 
