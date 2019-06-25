@@ -230,7 +230,8 @@
       "Linee guida interfacce e informazioni SPID per IdP e Sp" : "Richtlinien für Schnittstellen und SPID-Informationen für IdP und Sp",
       "Repository Github Italia" : "Repository Github Italien",
       "Determinazione AGID N. 14-2018 Convenzione SPID tra AgID e Pubbliche Amministrazioni" : "AGID-Bestimmung Nr. 14/2018 SPID-Übereinkommen zwischen AgID und den öffentlichen Verwaltungen",
-      "Schema Convenzione Determinazione AGID N. 14-2018": "AGID-Bestimmungsübereinkommen Nr. 14-2018",      
+      "Schema Convenzione Determinazione AGID N. 14-2018": "AGID-Bestimmungsübereinkommen Nr. 14-2018",   
+
       "Determinazione AGID N. 366-2017 - Approvazione schemi convenzioni SPID circuito privati" : "AGID-Bestimmung Nr. 366/2017 - Genehmigung von SPID-Konventionen für die Privatwirtschaft",
       "Allegato Determinazione AGID N. 366-2017 - Convenzione Service Provider Privati" : "Anhang Bestimmung AGID Nr. 366/2017 - Vereinbarung für private Service- Provider",
       "Allegato 1 Determinazione AGID N. 366-2017 - Addendum" : "Anhang 1 Bestimmung AGID Nr. 366/2017 - Nachtrag",
@@ -238,6 +239,14 @@
       "Allegato 3 Determinazione AGID N. 366-2017 - Livelli di servizio" : "Anhang 3 Bestimmung AGID Nr. 366/2017 - Service Levels",
       "Allegato 4 Determinazione AGID N. 366-2017 - Prezzario SPID SP Privati" : "Anhang 4 Bestimmung AGID Nr. 366/2017 - Preisliste für private SPID SP ",
 
+      "Determinazione AGID N. 166-2019 - Convenzione Service Provider Privati e Gestori Identità": "Determinazione AGID N. 166/2019 - Convenzione Service Provider Privati e Gestori Identità [TOUPDATE]",
+      "DT 166-2019 - Convenzione Gestori di Identità SPID": "DT 166/2019 - Convenzione Gestori di Identità SPID [TOUPDATE]",
+      "DT 166-2019 - Convenzione Fornitori di servizi Privati SPID": "DT 166/2019 - Convenzione Fornitori di servizi Privati SPID [TOUPDATE]",
+      "Allegato 1 alla DT 166-2019 - Addendum": "Allegato 1 alla DT 166/2019 - Addendum [TOUPDATE]",
+      "Allegato 2 alla DT 166-2019 - Contratto": "Allegato 2 alla DT 166/2019 - Contratto [TOUPDATE]",
+      "Allegato 3 alla DT 166-2019 - Livelli di servizio": "Allegato 3 alla DT 166/2019 - Livelli di servizio [TOUPDATE]",
+      "Allegato 4 alla DT 166-2019 - Corrispettivi autenticazione SPID SP Privati": "Allegato 4 alla DT 166/2019 - Corrispettivi autenticazione SPID SP Privati [TOUPDATE]",
+  
       "gli avvisi SPID": "SPID Hinweise",
       "e la": "und die",
       "tabella anomalie": "Anomalien Tabelle",
@@ -828,5 +837,5 @@
     
    },
 
-   "version": "de_20190312"
+   "version": "de_20190625"
 }
