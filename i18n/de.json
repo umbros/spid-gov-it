@@ -759,6 +759,7 @@
       "Chiamaci" : "Rufen Sie uns an",
       "Telefono Supporto SPID: 06 82888 736" : "SPID Support Telefon: 06 82888 736",
       "Puoi chiamare dal lunedì al venerdì dalle 9:30 alle 16:00." : "Sie können von Montag bis Freitag von 9.30 bis 16.00 Uhr anrufen.",
+      "Attenzione: dal 27 giugno 2019 il call center è attivo dal lunedì al venerdì, dalle ore 14:00 alle ore 16:00.": "Attenzione: dal 27 giugno 2019 il call center è attivo dal lunedì al venerdì, dalle ore 14:00 alle ore 16:00. [TOUPDATE]",      
       "Costo della telefonata in base al piano tariffario applicato dal proprio gestore." : "Die Kosten für den Anruf basieren auf dem von Ihrem gewählten Telefonanbieter angewandten Tarifplan.",
       "Sei una pubblica amministrazione ?" : "Sind Sie eine öffentliche Verwaltung?",
       "Call center Identity Provider" : "Call center Identity Provider",
@@ -837,5 +838,5 @@
     
    },
 
-   "version": "de_20190625"
+   "version": "de_20190704"
 }
