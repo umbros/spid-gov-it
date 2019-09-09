@@ -545,6 +545,7 @@
     "di persona": "in person",
     "online (gratis)": "online (free)",
     "di persona (gratis)": "in person (free)",
+    "di persona (gratuitamente durante eventi pubblici)": "di persona (gratuitamente durante eventi pubblici) [TOUPDATE]",
     "a domicilio (a pagamento)": "at home (payment)",
     "via webcam (gratis)": "via webcam (free)",
     "CNS o firma digitale": "CNS or digital signature",
@@ -614,6 +615,8 @@
     "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, seguendo le istruzioni di SpidItalia Register.it.": "If you have a webcam you can complete the registration procedure online via a PC, tablet or mobile device, following the instructions of SpidItalia Register.it.",
     "Dai 5 ai 10 minuti.": "From 5 to 10 minutes.",
     "CALL CENTER SPIDITALIA REGISTER.IT": "SPIDITALIA REGISTER.IT CALL CENTER",
+    "Puoi conoscere i prossimi eventi SpidItalia sul sito": "Puoi conoscere i prossimi eventi SpidItalia sul sito [TOUPDATE]",
+		"dove potrai trovare operatori specializzati che ti aiuteranno a completare la procedura di registrazione.": "dove potrai trovare operatori specializzati che ti aiuteranno a completare la procedura di registrazione. [TOUPDATE]",
     "035 6305561 - da lunedì a domenica 9:00 - 18:00": "035.6305561 - from Monday to Sunday 9 am / 6 pm",
     "Se scegli TIM": "If you choose TIM",
     "gratuitamente fino al 31-03-2018": "free until 31/03/2018",
@@ -856,5 +859,5 @@
   },
 
 
-  "version": "en_20190724"
+  "version": "en_20190909"
 }

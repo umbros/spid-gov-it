@@ -544,6 +544,7 @@
 		"di persona": "di persona",
 		"online (gratis)": "online (gratis)",
 		"di persona (gratis)": "di persona (gratis)",
+		"di persona (gratuitamente durante eventi pubblici)": "di persona (gratuitamente durante eventi pubblici)",
 		"a domicilio (a pagamento)": "a domicilio (a pagamento)",
 		"via webcam (gratis)": "via webcam (gratis)",
 		"CNS o firma digitale": "CNS o firma digitale",
@@ -612,6 +613,8 @@
 		"Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, seguendo le istruzioni di SpidItalia Register.it.": "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, seguendo le istruzioni di SpidItalia Register.it.",
 		"Dai 5 ai 10 minuti.": "Dai 5 ai 10 minuti.",
 		"CALL CENTER SPIDITALIA REGISTER.IT": "CALL CENTER SPIDITALIA REGISTER.IT",
+		"Puoi conoscere i prossimi eventi SpidItalia sul sito": "Puoi conoscere i prossimi eventi SpidItalia sul sito",
+		"dove potrai trovare operatori specializzati che ti aiuteranno a completare la procedura di registrazione.": "dove potrai trovare operatori specializzati che ti aiuteranno a completare la procedura di registrazione.",
 		"Se scegli TIM": "Se scegli TIM",
 		"gratuitamente fino al 31-03-2018": "gratuitamente fino al 31/03/2018",
 		"Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, con l’assistenza di un operatore.": "Se possiedi una webcam puoi completare la procedura di registrazione online tramite un pc, tablet o dispositivo mobile, con l’assistenza di un operatore.",
@@ -855,5 +858,5 @@
 		},
 		
 
-		"version": "it_20190724"
+		"version": "it_20190909"
 }

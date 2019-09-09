@@ -1024,12 +1024,13 @@
                                 </span>                                
                                 <img src="assets/img/richiedi-spid/badge_it.png" alt="Area geografica IT: Si" height="25">
                                 <img src="assets/img/richiedi-spid/badge_eu.png" alt="Area geografica EU: Si" height="25">
-                                <img src="assets/img/richiedi-spid/badge_world_off.png" alt="Area geografica World: No" height="25">
+                                <img src="assets/img/richiedi-spid/badge_world.png" alt="Area geografica World: Si" height="25">
                             </td>    
                             <td class="responsive-hide-lg">
                                 <p class="u-text-r-xxs u-color-grey-80">
                                     {{_ "RICONOSCIMENTO:"}}
                                     <ul class="u-text-r-xxs u-color-grey-80 u-margin-r-top">
+                                        <li>&rarr; {{_ "di persona (gratuitamente durante eventi pubblici)" }}</li>
                                         <li>&rarr; {{_ "Via webcam (a pagamento)" }}</li>
                                         <li>&rarr; {{_ "Con CIE e CNS" }}</li>
                                         <li>&rarr; {{_ "Con Firma digitale" }}</li>
@@ -1037,7 +1038,7 @@
                                 </p>   
                             </td>                                
                             <td class="responsive-hide-sm u-border-right-xxs u-color-grey-20">
-                                
+                                <span class="u-color-grey-80 u-text-r-xxs">{{_ "di persona (gratuitamente durante eventi pubblici)"}}</span>
                             </td>                     
                             <td class="responsive-hide-sm u-border-right-xxs u-color-grey-20">
                                 <span class="u-color-grey-80 u-text-r-xxs">{{_ "A pagamento"}}</span>
@@ -1067,6 +1068,22 @@
                                     <div class="Grid Grid--withGutter u-padding-all-l">
                                         <div class="Grid-cell u-md-size3of4 u-lg-size3of4">
                                             <div class="u-margin-bottom-l u-padding-all-m">
+                                                <div class="Grid">
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+                                                        <h4 class="u-color-40 u-padding-r-bottom">{{_ "DI PERSONA"}}</h4>
+                                                        <p class="u-layout-prose">
+                                                            {{_ "di persona (gratuitamente durante eventi pubblici)"}}.
+                                                        </p>
+                                                        <p class="u-layout-prose u-margin-r-top">
+                                                            {{_ "Puoi conoscere i prossimi eventi SpidItalia sul sito"}}
+                                                            <a target="_blank" href="https://www.spid.me/notizie/">https://www.spid.me/notizie/</a>
+                                                            {{_ "dove potrai trovare operatori specializzati che ti aiuteranno a completare la procedura di registrazione." }}
+                                                        </p>
+                                                    </div>
+                                                    <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
+
+                                                    </div>                                                    
+                                                </div>                                                  
                                                 <div class="Grid">
                                                     <div class="Grid-cell u-md-size2of4 u-lg-size2of4 u-text-r-xxl u-padding-r-bottom u-padding-r-right">
                                                         <h4 class="u-color-40 u-padding-r-bottom">{{_ "VIA WEBCAM"}}</h4>
