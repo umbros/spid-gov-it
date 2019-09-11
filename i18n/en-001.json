@@ -257,7 +257,11 @@
 		"Implementa l'autenticazione con SPID sui tuoi servizi. Sul repository": "Implementa l'autenticazione con SPID sui tuoi servizi. Sul repository [TOUPDATE]",
 		"sono disponibili librerie per i diversi linguaggi di programmazione e risorse utili per l’integrazione ai quali puoi fare riferimento.": "sono disponibili librerie per i diversi linguaggi di programmazione e risorse utili per l’integrazione ai quali puoi fare riferimento. [TOUPDATE]",
 		"Verifica se il tuo Ente ha già prodotto ed inviato ad AgID un metadata. In caso affermativo modifica il metadata già presentato per includere i nuovi servizi, altrimenti elabora un metadata come indicato nel": "Verifica se il tuo Ente ha già prodotto ed inviato ad AgID un metadata. In caso affermativo modifica il metadata già presentato per includere i nuovi servizi, altrimenti elabora un metadata come indicato nel [TOUPDATE]",
-		"Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository": "Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository [TOUPDATE]",
+    "Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository": "Verifica autonomamente la correttezza del metadata e la tua implementazione. E’ possibile verificare che la propria implementazione sia conforme ai requisiti tecnici utilizzando in locale l’ambiente di test scaricabile al repository [TOUPDATE]",
+    "ovvero online all'indirizzo": "ovvero online all'indirizzo [TOUPDATE]",
+    "Per utilizzare l'ambiente di test online occorre registrare il proprio metadata all'indirizzo": "Per utilizzare l'ambiente di test online occorre registrare il proprio metadata all'indirizzo [TOUPDATE]",
+    "Essendo l'ambiente di test online pubblico, i metadati registrati sono pubblicamente visibili.": "Essendo l'ambiente di test online pubblico, i metadati registrati sono pubblicamente visibili. [TOUPDATE]",
+    "Per maggiori informazioni circa l'utilizzo dell'ambiente di test o per segnalare eventuali problemi fare riferimento al repository ufficiale GitHub.":"Per maggiori informazioni circa l'utilizzo dell'ambiente di test o per segnalare eventuali problemi fare riferimento al repository ufficiale GitHub. [TOUPDATE]",        
 		"In particolare occorre verificare il corretto funzionamento in relazione ad ognuno dei test indicati nel seguente documento": "In particolare occorre verificare il corretto funzionamento in relazione ad ognuno dei test indicati nel seguente documento [TOUPDATE]",
 		"SPID Quality Assessment Document": "SPID Quality Assessment Document [TOUPDATE]",
 		"Accertati del corretto funzionamento della tua implementazione prima di richiedere ad AgID la verifica tecnica.": "Accertati del corretto funzionamento della tua implementazione prima di richiedere ad AgID la verifica tecnica. [TOUPDATE]",
@@ -859,5 +863,5 @@
   },
 
 
-  "version": "en_20190909"
+  "version": "en_20190911"
 }
