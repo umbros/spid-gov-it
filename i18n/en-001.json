@@ -603,6 +603,10 @@
     "Se non vuoi recarti all'ufficio postale, durante la registrazione su ": "If you do not want to go to the post office, during registration on ",
     "Inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it).": "Data entry: 10 minutes (5 if you already have the Poste.it credentials).",
     "Trova l'ufficio postale più vicino": "Find the nearest post office",
+    "VIA DOCUMENTO ELETTRONICO (CIE 3.0 O PASSAPORTO ELETTRONICO)": "VIA DOCUMENTO ELETTRONICO (CIE 3.0 O PASSAPORTO ELETTRONICO) [TOUPDATE]",
+    "Se hai una Carta d'Identità Elettronica di recente emissione o un Passporto elettronico (emesso dopo il 2006), puoi effettuare l'identificazione utilizzando l'app PosteID e completare la registrazione totalmente on line, dal tuo smartphone-tablet o dal tuo computer.": "Se hai una Carta d'Identità Elettronica di recente emissione o un Passporto elettronico (emesso dopo il 2006), puoi effettuare l'identificazione utilizzando l'app PosteID e completare la registrazione totalmente on line, dal tuo smartphone/tablet o dal tuo computer. [TOUPDATE]",
+    "Inserimento dati: 15 minuti.": "Inserimento dati: 15 minuti. [TOUPDATE]",
+    "800.00.77.77": "800.00.77.77 [TOUPDATE]",        
     "CALL CENTER POSTE": "POSTE CALL CENTER",
     "(selezionando l'opzione 3 per i Servizi Internet):": "(selecting option 3 for Internet Services):",
     "numero verde gratuito 803.160 da rete fissa; da rete mobile al numero 199.100.160 (il costo della chiamata è legato al piano tariffario dell'operatore utilizzato)": "toll-free number 803.160 from a landline; from mobile network to the number 199.100.160 (the cost of the call depends on the rates of the operator used)",
@@ -863,5 +867,5 @@
   },
 
 
-  "version": "en_20190911"
+  "version": "en_20190920"
 }

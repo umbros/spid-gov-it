@@ -602,6 +602,10 @@
 		"Se non vuoi recarti all'ufficio postale, durante la registrazione su ": "Se non vuoi recarti all'ufficio postale, durante la registrazione su ",
 		"Inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it).": "Inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it).",
 		"Trova l'ufficio postale più vicino": "Trova l'ufficio postale più vicino",
+		"VIA DOCUMENTO ELETTRONICO (CIE 3.0 O PASSAPORTO ELETTRONICO)": "VIA DOCUMENTO ELETTRONICO (CIE 3.0 O PASSAPORTO ELETTRONICO)",
+		"Se hai una Carta d'Identità Elettronica di recente emissione o un Passporto elettronico (emesso dopo il 2006), puoi effettuare l'identificazione utilizzando l'app PosteID e completare la registrazione totalmente on line, dal tuo smartphone-tablet o dal tuo computer.": "Se hai una Carta d'Identità Elettronica di recente emissione o un Passporto elettronico (emesso dopo il 2006), puoi effettuare l'identificazione utilizzando l'app PosteID e completare la registrazione totalmente on line, dal tuo smartphone/tablet o dal tuo computer.",
+		"Inserimento dati: 15 minuti.": "Inserimento dati: 15 minuti.",
+		"800.00.77.77": "800.00.77.77",
 		"CALL CENTER POSTE": "CALL CENTER POSTE",
 		"(selezionando l'opzione 3 per i Servizi Internet):": "(selezionando l'opzione 3 per i Servizi Internet):",
 		"servizio disponibile 24 ore su 24 per la richiesta di sospensione delle credenziali e dalle 8:00 alle 20:00, dal lunedì al sabato per tutte le altre esigenze.": "servizio disponibile 24 ore su 24 per la richiesta di sospensione delle credenziali e dalle 8:00 alle 20:00, dal lunedì al sabato per tutte le altre esigenze.",
@@ -862,5 +866,5 @@
 		},
 		
 
-		"version": "it_20190911"
+		"version": "it_20190920"
 }

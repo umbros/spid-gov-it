@@ -592,6 +592,10 @@
       "Se non vuoi recarti all'ufficio postale, durante la registrazione su ": "Wenn Sie nach der Registrierung auf posteid.poste.it nicht ins Postamt gehen möchten,",
       "Inserimento dati: 10 minuti (5 se hai già le credenziali Poste.it)." : "Dateneingabe: 10 Minuten (5 wenn Sie bereits die Poste.it Anmeldeinformationen haben).",
       "Trova l'ufficio postale più vicino" : "Finde die nächste Postamt",
+      "VIA DOCUMENTO ELETTRONICO (CIE 3.0 O PASSAPORTO ELETTRONICO)": "VIA DOCUMENTO ELETTRONICO (CIE 3.0 O PASSAPORTO ELETTRONICO) [TOUPDATE]",
+      "Se hai una Carta d'Identità Elettronica di recente emissione o un Passporto elettronico (emesso dopo il 2006), puoi effettuare l'identificazione utilizzando l'app PosteID e completare la registrazione totalmente on line, dal tuo smartphone-tablet o dal tuo computer.": "Se hai una Carta d'Identità Elettronica di recente emissione o un Passporto elettronico (emesso dopo il 2006), puoi effettuare l'identificazione utilizzando l'app PosteID e completare la registrazione totalmente on line, dal tuo smartphone/tablet o dal tuo computer. [TOUPDATE]",
+      "Inserimento dati: 15 minuti.": "Inserimento dati: 15 minuti. [TOUPDATE]",
+      "800.00.77.77": "800.00.77.77 [TOUPDATE]",      
       "CALL CENTER POSTE" : "CALL CENTER POSTE",
       "(selezionando l'opzione 3 per i Servizi Internet):" : "(Auswahl der Option 3 für Internetdienste):",
       "servizio disponibile 24 ore su 24 per la richiesta di sospensione delle credenziali e dalle 8:00 alle 20:00, dal lunedì al sabato per tutte le altre esigenze." : "Service rund um die Uhr für die Anforderung der Aussetzung der Anmeldeinformationen und von 8:00 bis 20:00 Uhr, von Montag bis Samstag für alle anderen Bedürfnisse.",
@@ -846,5 +850,5 @@
     
    },
 
-   "version": "de_20190911"
+   "version": "de_20190920"
 }
