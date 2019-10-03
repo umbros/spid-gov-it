@@ -31,8 +31,7 @@
 		"torna all'inizio del contenuto": "torna all'inizio del contenuto",
 		"Menu": "Menu",
 
-
-		"SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.": "SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.",		
+		"SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione e dei soggetti privati aderenti con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.": "SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione e dei soggetti privati aderenti con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.",		
 		"Richiedi SPID": "Richiedi SPID",
 		"Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?": "Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?",
 		"Scopri come fare": "Scopri come fare",
@@ -47,10 +46,10 @@
 		"Il sistema SPID assicura la piena protezione dei tuoi dati personali, non è consentito alcun tipo di profilazione;": "Il sistema SPID assicura la piena protezione dei tuoi dati personali, non è consentito alcun tipo di profilazione;",
 		"la tua privacy è garantita": "la tua privacy è garantita",
 		"Veloce": "Veloce",
-		"Con SPID puoi accedere velocemente ai servizi online della pubblica amministrazione": "Con SPID puoi accedere velocemente ai servizi online della pubblica amministrazione",
+		"Con SPID puoi accedere velocemente ai servizi online della pubblica amministrazione e dei soggetti privati aderenti": "Con SPID puoi accedere velocemente ai servizi online della pubblica amministrazione e dei soggetti privati aderenti",
 		"ovunque ti trovi e da qualsiasi dispositivo": "ovunque ti trovi e da qualsiasi dispositivo",
 		"Come riconosci SPID": "Come riconosci SPID",
-		"Le amministrazioni che consentono l’accesso ai propri servizi online tramite identità digitale unica espongono il bottone di accesso SPID.": "Le amministrazioni che consentono l’accesso ai propri servizi online tramite identità digitale unica espongono il bottone di accesso SPID.",
+		"Le amministrazioni e i soggetti privati che consentono l’accesso ai propri servizi online tramite identità digitale unica espongono il bottone di accesso SPID.": "Le amministrazioni e i soggetti privati che consentono l’accesso ai propri servizi online tramite identità digitale unica espongono il bottone di accesso SPID.",
 		"Livello": "Livello",
 		"permette di accedere ai servizi online attraverso un nome utente e una password scelti dall’utente": "permette di accedere ai servizi online attraverso un nome utente e una password scelti dall’utente",
 		"dedicato ai servizi che richiedono un grado di sicurezza maggiore, consente l’accesso attraverso un nome utente e una password scelti dall’utente, più la generazione di un codice temporaneo di accesso (one time password), fruibile attraverso un dispositivo (es smartphone)": "dedicato ai servizi che richiedono un grado di sicurezza maggiore, consente l’accesso attraverso un nome utente e una password scelti dall’utente, più la generazione di un codice temporaneo di accesso (one time password), fruibile attraverso un dispositivo (es smartphone)",
@@ -866,5 +865,5 @@
 		},
 		
 
-		"version": "it_20190926"
+		"version": "it_20191003"
 }

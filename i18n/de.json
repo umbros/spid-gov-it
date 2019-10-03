@@ -30,7 +30,7 @@
       "Privacy e note legali" : "Datenschutz und rechtliche Hinweise",
       "torna all'inizio del contenuto" : "zurück zum Anfang der Seite",
       "Menu": "Menü",      
-      "SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone." : "Mit SPID, dem öffentlichen System für die digitale Identität, erhalten Sie mit einer einzigen digitalen Identität (Benutzername und Passwort) Zugriff auf alle Online-Dienste der öffentlichen Verwaltung, auf PC, Tablet oder Smartphone.",
+      "SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione e dei soggetti privati aderenti con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone." : "Mit SPID, dem öffentlichen System für die digitale Identität, erhalten Sie mit einer einzigen digitalen Identität (Benutzername und Passwort) Zugriff auf alle Online-Dienste der öffentlichen Verwaltung, auf PC, Tablet oder Smartphone. [TOUPDATE]",
       "Richiedi SPID" : "SPID anfordern",
       "Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?" : "Sie sind eine öffentliche Verwaltung oder eine Privatperson und möchten ein SPID-Anbieter werden?",
       "Scopri come fare" : "Hier erfahren Sie wie das geht",
@@ -45,10 +45,10 @@
       "Il sistema SPID assicura la piena protezione dei tuoi dati personali, non è consentito alcun tipo di profilazione;" : "Das SPID-System gewährleistet den vollen Schutz Ihrer persönlichen Daten, das Erstellen von Profilen ist nicht gestattet;",
       "la tua privacy è garantita" : "Ihre Privatsphäre ist garantiert",
       "Veloce" : "Schnell",
-      "Con SPID puoi accedere velocemente ai servizi online della pubblica amministrazione" : "Mit SPID können Sie direkt auf die Online-Dienste der öffentlichen Verwaltung zugreifen",
+      "Con SPID puoi accedere velocemente ai servizi online della pubblica amministrazione e dei soggetti privati aderenti" : "Mit SPID können Sie direkt auf die Online-Dienste der öffentlichen Verwaltung zugreifen [TOUPDATE]",
       "ovunque ti trovi e da qualsiasi dispositivo" : "Wo immer Sie sind und von jedem Gerät aus",
       "Come riconosci SPID" : "Wie erkennen Sie SPID",
-      "Le amministrazioni che consentono l’accesso ai propri servizi online tramite identità digitale unica espongono il bottone di accesso SPID." : "Alle Verwaltungen, die den Zugriff auf ihre Online-Dienste mittels digitaler Identität vorsehen, zeigen die SPID-Zugriffstaste an.",
+      "Le amministrazioni e i soggetti privati che consentono l’accesso ai propri servizi online tramite identità digitale unica espongono il bottone di accesso SPID." : "Alle Verwaltungen, die den Zugriff auf ihre Online-Dienste mittels digitaler Identität vorsehen, zeigen die SPID-Zugriffstaste an. [TOUPDATE]",
       "Livello" : "Level",
       "permette di accedere ai servizi online attraverso un nome utente e una password scelti dall’utente" : "ermöglicht den Zugriff auf die Online-Dienste mittels  Benutzername und Passwort, die der Benutzer selbst festlegt",
       "dedicato ai servizi che richiedono un grado di sicurezza maggiore, consente l’accesso attraverso un nome utente e una password scelti dall’utente, più la generazione di un codice temporaneo di accesso (one time password), fruibile attraverso un dispositivo (es smartphone)" : "für Dienste mit höheren Sicherheitsanforderungen vorgesehen, der Zugriff erfolgt mittels Benutzername und Passwort, die der Benutzer selbst festlegt, sowie durch Generierung eines temporären Zugriffcodes (One-Time-Passwort), der über ein Gerät abrufbar ist (z.B. Smartphone)",
@@ -850,5 +850,5 @@
     
    },
 
-   "version": "de_20190920"
+   "version": "de_20191003"
 }
