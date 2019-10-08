@@ -177,6 +177,13 @@
 
 		"Come diventare fornitore di servizi Pubblici o Privati con SPID": "Come diventare fornitore di servizi Pubblici o Privati con SPID",
 		"Procedura tecnica": "Procedura tecnica",
+		"Gli obblighi derivanti dalla normativa dell’Unione europea": "Gli obblighi derivanti dalla normativa dell’Unione europea",
+		"Tutte le pubbliche amministrazioni che rendono accessibili i propri servizi online con credenziali SPID di livello 2 o 3 (come anche attraverso la carta di identità elettronica), hanno l’obbligo di rendere accessibili detti servizi anche con gli strumenti di autenticazione notificati dagli altri Stati membri. Non rispettare tale obbligo, implica esporsi a una procedura di infrazione per violazione dell’articolo 6 del": "Tutte le pubbliche amministrazioni che rendono accessibili i propri servizi online con credenziali SPID di livello 2 o 3 (come anche attraverso la carta di identità elettronica), hanno l’obbligo di rendere accessibili detti servizi anche con gli strumenti di autenticazione notificati dagli altri Stati membri. Non rispettare tale obbligo, implica esporsi a una procedura di infrazione per violazione dell’articolo 6 del",
+		"regolamento eIDAS": "regolamento eIDAS",
+		"(n.910-2014).": "(n.910/2014).",
+		"Al fine di ottemperare a detto obbligo, si deve seguire la procedura pubblicata sul": "Al fine di ottemperare a detto obbligo, si deve seguire la procedura pubblicata sul",
+		"sito dedicato": "sito dedicato",
+		"al nodo eIDAS nazionale.": "al nodo eIDAS nazionale.",
 		"Procedura amministrativa": "Procedura amministrativa",
 		"Supporto tecnico": "Supporto tecnico",
 		"Riepilogo": "Riepilogo",
@@ -865,5 +872,5 @@
 		},
 		
 
-		"version": "it_20191003"
+		"version": "it_20191008"
 }
