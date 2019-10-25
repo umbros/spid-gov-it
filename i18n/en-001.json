@@ -31,6 +31,10 @@
     "torna all'inizio del contenuto": "return to the start of the content",
     "Menu": "Menu",
 
+    "L'assistenza telefonica del call center SPID è temporaneamente sospesa.": "L'assistenza telefonica del call center SPID è temporaneamente sospesa. [TOUPDATE]",
+    "Clicca su": "Clicca su [TOUPDATE]",    
+    "per scoprire le altre modalità di supporto attive.": "per scoprire le altre modalità di supporto attive. [TOUPDATE]",
+    "Il servizio è temporaneamente sospeso.": "Il servizio è temporaneamente sospeso. [TOUPDATE]",    
     "SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione e dei soggetti privati aderenti con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.": "SPID, the Digital Identity Public System, is the solution that allows to access all the online services of the Public Administration with a single Digital Identity (username and password) that can be used from computers, tablets and smartphones. [TOUPDATE]",
     "Richiedi SPID": "Request SPID",
     "Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?": "Are you a public administration or an individual interested in becoming a service provider with SPID?",
@@ -874,5 +878,5 @@
   },
 
 
-  "version": "en_20191008"
+  "version": "en_20191025"
 }

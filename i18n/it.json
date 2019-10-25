@@ -31,6 +31,10 @@
 		"torna all'inizio del contenuto": "torna all'inizio del contenuto",
 		"Menu": "Menu",
 
+		"L'assistenza telefonica del call center SPID è temporaneamente sospesa.": "L'assistenza telefonica del call center SPID è temporaneamente sospesa.",
+		"Clicca su": "Clicca su",
+		"per scoprire le altre modalità di supporto attive.": "per scoprire le altre modalità di supporto attive.",
+		"Il servizio è temporaneamente sospeso.": "Il servizio è temporaneamente sospeso.",
 		"SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione e dei soggetti privati aderenti con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.": "SPID, il Sistema Pubblico di Identità Digitale, è la soluzione che ti permette di accedere a tutti i servizi online della Pubblica Amministrazione e dei soggetti privati aderenti con un'unica Identità Digitale (username e password) utilizzabile da computer, tablet e smartphone.",		
 		"Richiedi SPID": "Richiedi SPID",
 		"Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?": "Sei una pubblica amministrazione o un privato interessato a diventare fornitore di servizi con SPID ?",
@@ -872,5 +876,5 @@
 		},
 		
 
-		"version": "it_20191008"
+		"version": "it_20191025"
 }
