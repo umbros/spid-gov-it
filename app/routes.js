@@ -292,6 +292,7 @@ module.exports = function(app) {
         });
     });
 
+    /*
     app.get("/press-area", function(request, response) {
         response.render("pages/press-area", {
             pageTitle: 'Press-Area',
@@ -311,6 +312,7 @@ module.exports = function(app) {
             }
         });
     });
+    */
 
     app.get("/privacy-e-note-legali", function(request, response) {
         response.render("pages/privacy-e-note-legali", {
