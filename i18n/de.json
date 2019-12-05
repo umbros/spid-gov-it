@@ -7,6 +7,7 @@
       "SPID" : "SPID",
       "Sistema Pubblico di Identità Digitale" : "Öffentliches System für die digitale Identität",
       "Il Sistema Pubblico di Identità Digitale ti permette di accedere ai servizi online della Pubblica Amministrazione con un'unica coppia utente - password." : "Das öffentliche System für die digitale Identität ermöglicht Ihnen den Zugriff auf die Online-Dienste der öffentlichen Verwaltung mit einem einzigen Benutzer - Passwort.",
+      "Spid è gratuito, e lo sarà sempre": "Spid è gratuito, e lo sarà sempre [TOUPDATE]",
       "Questo sito utilizza cookie tecnici, analytics e di terze parti." : "Diese Seite verwendet technische Cookies, Google Analytics und Cookies von Drittanbietern.",
       "Proseguendo nella navigazione accetti l’utilizzo dei cookie." : "Wenn Sie weiter surfen, akzeptieren Sie die Verwendung von Cookies.",
       "Accetto" : "Annehmen",
@@ -861,5 +862,5 @@
     
    },
 
-   "version": "de_20191025"
+   "version": "de_20191205"
 }

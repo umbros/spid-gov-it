@@ -7,6 +7,7 @@
     "SPID": "SPID",
     "Sistema Pubblico di Identità Digitale": "Public Digital Identity System",
     "Il Sistema Pubblico di Identità Digitale ti permette di accedere ai servizi online della Pubblica Amministrazione con un'unica coppia utente - password.": "The Public Digital Identity System allows you to access the online services of the Public Administration with a single user - password credential.",
+    "Spid è gratuito, e lo sarà sempre": "Spid è gratuito, e lo sarà sempre [TOUPDATE]",
     "Questo sito utilizza cookie tecnici, analytics e di terze parti.": "This site uses technical cookies, analytics and third-party cookies.",
     "Proseguendo nella navigazione accetti l’utilizzo dei cookie.": "By continuing to browse, you accept the use of cookies.",
     "Accetto": "I accept",
@@ -878,5 +879,5 @@
   },
 
 
-  "version": "en_20191025"
+  "version": "en_20191205"
 }
