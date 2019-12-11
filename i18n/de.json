@@ -1,4 +1,4 @@
-{
+﻿{
     "de" : {
       "_" : "de",
       "__" : "Deutsch",
@@ -788,6 +788,7 @@
       "Attenzione: dal 27 giugno 2019 il call center è attivo dal lunedì al venerdì, dalle ore 14:00 alle ore 16:00.": "Achtung: Ab dem 27. Juni 2019 ist der Callcenter von Montag bis Freitag von 14.00 bis 16.00 Uhr geöffnet.",      
       "Costo della telefonata in base al piano tariffario applicato dal proprio gestore." : "Die Kosten für den Anruf basieren auf dem von Ihrem gewählten Telefonanbieter angewandten Tarifplan.",
       "Sei una pubblica amministrazione ?" : "Sind Sie eine öffentliche Verwaltung?",
+      "Scopri come diventare fornitore di servizi pubblici con SPID " : "Scopri come diventare fornitore di servizi pubblici con SPID[TOUPDATE]",		
       "Call center Identity Provider" : "Call center Identity Provider",
       "0575.0504 (attivo 24 h su 24, 7 giorni su 7)" : "575.0504 (24 Stunden am Tag aktiv, 7 Tage die Woche)",
       "199.500.130 (attivo dal lunedì al venerdì dalle 8:30 alle 13.00)" : "199.500.130 (aktiv von Montag bis Freitag von 8.30 bis 13.00 Uhr)",
@@ -864,5 +865,5 @@
     
    },
 
-   "version": "de_20191205"
+   "version": "de_20191211"
 }
