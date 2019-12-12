@@ -334,6 +334,7 @@ module.exports = function(app) {
         });
     });
 
+
     /* -- <cerca servizi> -- */
 
     app.get("/servizi", function(request, response) {
@@ -341,7 +342,11 @@ module.exports = function(app) {
         const services = require('./services');
         services.services().then((_services) => {
             const regioni = require('../views/assets/data/regioni');
-            const _regioni = sortObj(_.invert(regioni));
+            const regioni_inv = _.invert(regioni);
+            const _regioni = {};
+            Object.keys(regioni_inv).sort().forEach(function(key) {
+                _regioni[key] = regioni_inv[key];
+            });
             const results = services.search(_services, request.query);
             const _hasQuery = (request.query && (!_.isEmpty(request.query._q) || !_.isEmpty(request.query._regione) ||
                 !_.isEmpty(request.query._theme) || !_.isEmpty(request.query._subtheme)));
