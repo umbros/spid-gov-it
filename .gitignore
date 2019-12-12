@@ -1,3 +1,4 @@
 node_modules
+package-lock.json
 html/
 views/assets/json.zip
