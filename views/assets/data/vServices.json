@@ -70728,18 +70728,6 @@
         "id": 4577
     },
     {
-        "serviceName": "SPORTELLO UNICO EDILIZIO",
-        "description": "PRESENTAZIONE ONLINE PRATICHE EDILIZIE",
-        "url": "http://89.97.181.230/web/sue",
-        "serviceProviderId": 2562,
-        "name": "Regione Autonoma della Sardegna",
-        "themeCode": "REGI",
-        "themeDescription": "Regioni e città",
-        "subThemeCode": "POCI",
-        "subThemeDescription": "Portali del cittadino",
-        "id": 4578
-    },
-    {
         "serviceName": "SPORTELLO ANAGRAFE ONLINE",
         "description": "CERTIFICAZIONI ANAGRAFICHE ONLINE",
         "url": "https://www.comunediladispoli.it/registrati.php",
