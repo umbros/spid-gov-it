@@ -316,28 +316,6 @@
         });
     </script>
 
-<!-- Piwik -->
-    <script type="text/javascript">
-    	var _paq = _paq || [];
-        $(document).ready(function() {
-            var startPiwik = function() {
-                _paq.push(['trackPageView']);
-                _paq.push(['enableLinkTracking']);
-                var u="//italia.piwikpro.com/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', 7]);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            }
-            if ($.cookieBar && $.cookieBar.isAccepted()) {
-                startPiwik();
-            } else {
-                $(document).on('accept.cookiebar', startPiwik);
-            }
-        });
-    </script>
-    <!-- End Piwik Code -->
-
 </body>
 
 </html>
