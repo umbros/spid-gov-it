@@ -31,6 +31,7 @@
       "Privacy e note legali" : "Datenschutz und rechtliche Hinweise",
       "torna all'inizio del contenuto" : "zurück zum Anfang der Seite",
       "Menu": "Menü",      
+      "data ultima modifica:": "data ultima modifica: [TOUPDATE]",      
       "L'assistenza telefonica del call center SPID è temporaneamente sospesa.": "Der telefonische Support des Call Center Spid ist vorübergehend nicht verfügbar",
       "Clicca su": "Unter",      
       "per scoprire le altre modalità di supporto attive.": "finden Sie alle anderen Möglichkeiten den Support zu kontaktieren.",  
@@ -543,6 +544,7 @@
       "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*" : "ein gültiges Ausweisdokument (Personalausweis, Reisepass, Führerschein, Aufenthaltsgenehmigung) *",
       "la tua tessera sanitaria con il codice fiscale*" : "Ihre Gesundheitskarte mit dem Steuercode *",
       "* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai." : "* Während der Registrierung müssen Sie dieses Dokument möglicherweise fotografieren und ans Formular, das Sie ausfüllen, anhängen.",
+      "I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità.": "I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità. [TOUPDATE]",      
       "Cosa devi fare per ottenere SPID": "Was muss ich tun um SPID zu erhalten?",
       "Inizia registrandoti sul sito di uno degli 8 Identity provider:": "Beginnen Sie damit, sich auf der Homepage von einem der 8 Anbieter zu registrieren",
       "Poi, una volta registrato, completa la procedura attraverso una delle modalità offerta dall’Identity provider:": "Nachdem man sich registriert hat, wird der Vorgang über eine der Möglichkeiten. die vom Identity Provider/Anbieter angeboten wird, abgeschlossen. ",
@@ -866,5 +868,5 @@
     
    },
 
-   "version": "de_20191211"
+   "version": "de_20200109"
 }

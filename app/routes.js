@@ -1,5 +1,7 @@
 const _ = require('lodash');
 const sortObj = require('sort-object');
+const fs = require('fs');
+
 
 module.exports = function(app) {
     const cssFiles = [{
@@ -16,6 +18,24 @@ module.exports = function(app) {
         file: 'spid-common.min.js'
     }];
 
+    let lastModifiedDateFunc = function() {
+        let file = fs.statSync("views/pages/home.handlebars");
+        let mtime = new Date(file.mtime);
+        let d = 
+        ("0" + (mtime.getDate())).slice(-2) + "/" +
+        ("0" + (mtime.getMonth() + 1)).slice(-2) + '/' + 
+        mtime.getFullYear() + ' ';
+        
+        /*
+        + 
+        ("0" + mtime.getHours()).slice(-2) + ':' +
+        ("0" + mtime.getMinutes()).slice(-2) + ':' +
+        ("0" + mtime.getSeconds()).slice(-2);
+        */
+
+        return d;
+    }
+
     app.get("/", function(request, response) {
         response.render("pages/home", {
             pageTitle: 'Home',
@@ -31,7 +51,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }            
         });
     });
@@ -61,32 +82,11 @@ module.exports = function(app) {
                 }
 
                 return translated; 
-            }
+            },
+            lastModifiedDate: lastModifiedDateFunc
         }             
       });
     });
-
-    /*
-    app.get("/richiedi-spid-old", function(request, response) {
-        response.render("pages/richiedi-spid-old", {
-            pageTitle: 'Richiedi SPID',
-            cssFiles: cssFiles,
-            jsFiles,
-            helpers: {
-                _: function(text) { 
-                    let translated = text;
-                    try {
-                        translated = request.Globalize.formatMessage(text);
-                    } catch(err) {
-                        console.log("Translation [i18n/" + request.cookies.lang + ".json] not found for: " + text);
-                    }
-
-                    return translated; 
-                }
-            }   
-        });
-    });
-    */
 
     app.get("/richiedi-spid", function(request, response) {
         response.render("pages/richiedi-spid", {
@@ -107,7 +107,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }   
         });
     });
@@ -127,7 +128,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }   
         });
     });
@@ -147,7 +149,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }   
         });
     });
@@ -171,7 +174,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }   
         });
     });
@@ -191,7 +195,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }   
         });
     });    
@@ -215,7 +220,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }
         });
     });
@@ -239,7 +245,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             },   
             serviceProviderId: request.params.serviceProviderId,
             serviceProvider: new Buffer(request.params.serviceProvider, 'base64').toString('utf-8'),
@@ -263,7 +270,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }   
         });
     });
@@ -287,7 +295,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }   
         });
     });
@@ -308,7 +317,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }
         });
     });
@@ -329,7 +339,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }
         });
     });
@@ -364,7 +375,8 @@ module.exports = function(app) {
                         }
     
                         return translated; 
-                    }
+                    },
+                    lastModifiedDate: lastModifiedDateFunc
                 },
                 _services,
                 _regioni,
@@ -407,7 +419,8 @@ module.exports = function(app) {
                         }
     
                         return translated; 
-                    }
+                    },
+                    lastModifiedDate: lastModifiedDateFunc
                 },
                 _params: request.params,
                 _services: services,
@@ -446,7 +459,8 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                }
+                },
+                lastModifiedDate: lastModifiedDateFunc
             }
         });
     });

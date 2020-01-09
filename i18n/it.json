@@ -31,6 +31,7 @@
 		"Privacy e note legali": "Privacy e note legali",
 		"torna all'inizio del contenuto": "torna all'inizio del contenuto",
 		"Menu": "Menu",
+		"data ultima modifica:": "data ultima modifica:",
 
 		"L'assistenza telefonica del call center SPID è temporaneamente sospesa.": "L'assistenza telefonica del call center SPID è temporaneamente sospesa.",
 		"Clicca su": "Clicca su",
@@ -550,6 +551,7 @@
 		"un documento di identità italiano valido (uno tra: carta di identità, passaporto, patente)*": "un documento di identità italiano valido (uno tra: carta di identità, passaporto, patente)*",
 		"un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*": "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*",
 		"la tua tessera sanitaria con il codice fiscale*": "la tua tessera sanitaria con il codice fiscale*",
+		"I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità.": "I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità.",
 		"* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai.": "* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai.",
 		"Cosa devi fare per ottenere SPID": "Cosa devi fare per ottenere SPID",
 		"Inizia registrandoti sul sito di uno degli 8 Identity provider:": "Inizia registrandoti sul sito di uno degli 8 Identity provider:",
@@ -880,5 +882,5 @@
 		},
 		
 
-		"version": "it_20191211"
+		"version": "it_20200109"
 }
