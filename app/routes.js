@@ -18,8 +18,8 @@ module.exports = function(app) {
         file: 'spid-common.min.js'
     }];
 
-    let lastModifiedDateFunc = function() {
-        let file = fs.statSync("views/pages/home.handlebars");
+    let lastModifiedDateFunc = function(page) {
+        let file = fs.statSync("views/" + page + ".handlebars");
         let mtime = new Date(file.mtime);
         let d = 
         ("0" + (mtime.getDate())).slice(-2) + "/" +
@@ -27,12 +27,12 @@ module.exports = function(app) {
         mtime.getFullYear() + ' ';
         
         /*
-        + 
+        d += 
         ("0" + mtime.getHours()).slice(-2) + ':' +
         ("0" + mtime.getMinutes()).slice(-2) + ':' +
         ("0" + mtime.getSeconds()).slice(-2);
         */
-
+        
         return d;
     }
 
@@ -52,7 +52,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/home")
             }            
         });
     });
@@ -83,7 +83,7 @@ module.exports = function(app) {
 
                 return translated; 
             },
-            lastModifiedDate: lastModifiedDateFunc
+            lastModifiedDate: lastModifiedDateFunc("pages/spid-week")
         }             
       });
     });
@@ -108,7 +108,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/richiedi-spid")
             }   
         });
     });
@@ -129,7 +129,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/infografiche")
             }   
         });
     });
@@ -150,7 +150,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/infografiche-spid-week")
             }   
         });
     });
@@ -175,7 +175,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid")
             }   
         });
     });
@@ -196,7 +196,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/come-diventare-soggetto-aggregatore-di-servizi-con-spid")
             }   
         });
     });    
@@ -221,7 +221,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/cerca-pa")
             }
         });
     });
@@ -246,7 +246,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/cerca-servizi-pa")
             },   
             serviceProviderId: request.params.serviceProviderId,
             serviceProvider: new Buffer(request.params.serviceProvider, 'base64').toString('utf-8'),
@@ -271,7 +271,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/serve-aiuto")
             }   
         });
     });
@@ -296,7 +296,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/domande-frequenti")
             }   
         });
     });
@@ -318,7 +318,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/press-area")
             }
         });
     });
@@ -340,7 +340,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc
+                lastModifiedDate: lastModifiedDateFunc("pages/privacy-e-note-legali")
             }
         });
     });
@@ -376,7 +376,7 @@ module.exports = function(app) {
     
                         return translated; 
                     },
-                    lastModifiedDate: lastModifiedDateFunc
+                    lastModifiedDate: lastModifiedDateFunc("pages/servizi")
                 },
                 _services,
                 _regioni,
@@ -420,7 +420,7 @@ module.exports = function(app) {
     
                         return translated; 
                     },
-                    lastModifiedDate: lastModifiedDateFunc
+                    lastModifiedDate: lastModifiedDateFunc("pages/categorie")
                 },
                 _params: request.params,
                 _services: services,
@@ -459,8 +459,7 @@ module.exports = function(app) {
                     }
 
                     return translated; 
-                },
-                lastModifiedDate: lastModifiedDateFunc
+                }
             }
         });
     });
