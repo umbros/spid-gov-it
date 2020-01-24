@@ -21,6 +21,7 @@
     "morgan": "^1.9.1",
     "node-minify": "^3.6.0",
     "path": "^0.12.7",
+    "request": "^2.88.0",
     "serve-favicon": "^2.5.0",
     "slug": "^0.9.4",
     "sort-object": "^3.0.3",
