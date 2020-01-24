@@ -87,19 +87,22 @@ const search = (services, params) => {
 
             if (!_.isEmpty(_q)) {
                 found = found && (_q &&
-                    (-1 !== service.name.toLowerCase().indexOf(_q) ||
-                        -1 !== service.serviceName.toLowerCase().indexOf(_q) ||
-                        -1 !== service.description.toLowerCase().indexOf(_q) ||
-                        (service.entityName && -1 !== service.entityName.toLowerCase().indexOf(_q)) ||
-                        -1 !== service.subThemeDescription.toLowerCase().indexOf(_q) ||
-                        -1 !== service.provider.city.toLowerCase().indexOf(_q)));
+                    (service.name && -1 !== service.name.toLowerCase().indexOf(_q) ||
+                    (service.serviceName && -1 !== service.serviceName.toLowerCase().indexOf(_q)) ||
+                    (service.description && -1 !== service.description.toLowerCase().indexOf(_q)) ||
+                    (service.entityName && -1 !== service.entityName.toLowerCase().indexOf(_q)) ||
+                    (service.subThemeDescription && -1 !== service.subThemeDescription.toLowerCase().indexOf(_q)) ||
+                    (service.provider && service.provider.city && -1 !== service.provider.city.toLowerCase().indexOf(_q))));
             }
+
             if (!_.isEmpty(params._regione)) {
-                found = found && service.provider.regionCode === params._regione;
+                found = found && service.provider && service.provider.regionCode === params._regione;
             }
+
             if (!_.isEmpty(params._theme)) {
                 found = found && service.themeCode === params._theme;
             }
+
             if (!_.isEmpty(params._subtheme)) {
                 found = found && service.subThemeCode === params._subtheme;
             }
@@ -109,7 +112,6 @@ const search = (services, params) => {
             }
         });
     }
-
     return !_.isEmpty(results) ? results : null;
 }
 

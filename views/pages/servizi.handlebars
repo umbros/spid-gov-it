@@ -51,7 +51,7 @@
                             <label class="Form-label u-hiddenVisually" for="_regione">{{_ "Regione"}}</label>
                             <select class="Form-input u-color-grey-90 u-text-r-xs u-padding-r-all" name="_regione" id="_regione">
                                 <option value="">{{_ "Tutto il territorio"}}</option>
-                                <option value="00" {{#compare @root._regione "==" '00' }} selected {{/compare}}>{{_ "Nazionale"}}</option>
+                                {{!-- <option value="00" {{#compare @root._regione "==" '00' }} selected {{/compare}}>{{_ "Nazionale"}}</option> --}}
                                 {{#each _regioni as |v k| }}
                                     <option value="{{ v }}" {{#compare @root._regione "=="  v }} selected {{/compare}}>{{ k }}</option>
                                 {{/each}}

@@ -382,7 +382,7 @@ module.exports = function(app) {
                 _regioni,
                 _hasQuery,
                 _regioniInv: regioni,
-                _results: results ? sortObj(_.groupBy(results, (v) => (v.provider.name))) : null,
+                _results: results ? sortObj(_.groupBy(results, (v) => (v.provider? v.provider.name:" "))) : null,
                 _resultCount: _.size(results) || null,
                 _theme: request.query._theme ? _services.APP_THEMES[request.query._theme] : null,
                 _subtheme: request.query._subtheme ? _services.APP_SUBTHEMES[request.query._subtheme] : null,
