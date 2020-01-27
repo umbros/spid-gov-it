@@ -18,8 +18,8 @@ module.exports = function(app) {
         file: 'spid-common.min.js'
     }];
 
-    let lastModifiedDateFunc = function(page) {
-        let file = fs.statSync("views/" + page + ".handlebars");
+    let lastModifiedDateFunc = function(f) {
+        let file = fs.statSync("views/" + f);
         let mtime = new Date(file.mtime);
         let d = 
         ("0" + (mtime.getDate())).slice(-2) + "/" +
@@ -52,7 +52,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/home")
+                lastModifiedDate: lastModifiedDateFunc("pages/home.handlebars")
             }            
         });
     });
@@ -83,7 +83,7 @@ module.exports = function(app) {
 
                 return translated; 
             },
-            lastModifiedDate: lastModifiedDateFunc("pages/spid-week")
+            lastModifiedDate: lastModifiedDateFunc("pages/spid-week.handlebars")
         }             
       });
     });
@@ -108,7 +108,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/richiedi-spid")
+                lastModifiedDate: lastModifiedDateFunc("pages/richiedi-spid.handlebars")
             }   
         });
     });
@@ -129,7 +129,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/infografiche")
+                lastModifiedDate: lastModifiedDateFunc("pages/infografiche.handlebars")
             }   
         });
     });
@@ -150,7 +150,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/infografiche-spid-week")
+                lastModifiedDate: lastModifiedDateFunc("pages/infografiche-spid-week.handlebars")
             }   
         });
     });
@@ -175,7 +175,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid")
+                lastModifiedDate: lastModifiedDateFunc("pages/come-diventare-fornitore-di-servizi-pubblici-e-privati-con-spid.handlebars")
             }   
         });
     });
@@ -196,7 +196,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/come-diventare-soggetto-aggregatore-di-servizi-con-spid")
+                lastModifiedDate: lastModifiedDateFunc("pages/come-diventare-soggetto-aggregatore-di-servizi-con-spid.handlebars")
             }   
         });
     });    
@@ -221,7 +221,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/cerca-pa")
+                lastModifiedDate: lastModifiedDateFunc("pages/cerca-pa.handlebars")
             }
         });
     });
@@ -246,7 +246,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/cerca-servizi-pa")
+                lastModifiedDate: lastModifiedDateFunc("pages/cerca-servizi-pa.handlebars")
             },   
             serviceProviderId: request.params.serviceProviderId,
             serviceProvider: new Buffer(request.params.serviceProvider, 'base64').toString('utf-8'),
@@ -271,7 +271,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/serve-aiuto")
+                lastModifiedDate: lastModifiedDateFunc("pages/serve-aiuto.handlebars")
             }   
         });
     });
@@ -296,7 +296,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/domande-frequenti")
+                lastModifiedDate: lastModifiedDateFunc("pages/domande-frequenti.handlebars")
             }   
         });
     });
@@ -318,7 +318,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/press-area")
+                lastModifiedDate: lastModifiedDateFunc("pages/press-area.handlebars")
             }
         });
     });
@@ -340,7 +340,7 @@ module.exports = function(app) {
 
                     return translated; 
                 },
-                lastModifiedDate: lastModifiedDateFunc("pages/privacy-e-note-legali")
+                lastModifiedDate: lastModifiedDateFunc("pages/privacy-e-note-legali.handlebars")
             }
         });
     });
@@ -376,7 +376,7 @@ module.exports = function(app) {
     
                         return translated; 
                     },
-                    lastModifiedDate: lastModifiedDateFunc("pages/servizi")
+                    lastModifiedDate: lastModifiedDateFunc("assets/data/vServices.json") // quando effettivamente modificato il json dei servizi, e non la pagina
                 },
                 _services,
                 _regioni,
@@ -420,7 +420,7 @@ module.exports = function(app) {
     
                         return translated; 
                     },
-                    lastModifiedDate: lastModifiedDateFunc("pages/categorie")
+                    lastModifiedDate: lastModifiedDateFunc("pages/categorie.handlebars")
                 },
                 _params: request.params,
                 _services: services,

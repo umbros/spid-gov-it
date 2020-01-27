@@ -556,6 +556,7 @@
     "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*": "a valid identity document (one of: identity card, passport, driving license, residence permit)*",
     "la tua tessera sanitaria con il codice fiscale*": "your health card with the tax ID*",
     "I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità.": "I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità. [TOUPDATE]",    
+    "Il tesserino della tessera sanitaria o del codice fiscale costituiscono ulteriori elementi a supporto del processo di verifica dell’identità che concorrono a contrastare, grazie alla verifica dell’autenticità degli stessi su basi dati nazionali non pubbliche, il furto di identità.": "Il tesserino della tessera sanitaria o del codice fiscale costituiscono ulteriori elementi a supporto del processo di verifica dell’identità che concorrono a contrastare, grazie alla verifica dell’autenticità degli stessi su basi dati nazionali non pubbliche, il furto di identità. [TOUPDATE]",
     "* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai.": "* During registration you may need to photograph them and attach them to the form you fill out.",
     "Cosa devi fare per ottenere SPID": "What you need to do to obtain SPID",
     "Inizia registrandoti sul sito di uno degli 8 Identity provider:": "Start by registering on the website of one of the 8 Identity providers:",
@@ -886,5 +887,5 @@
   },
 
 
-   "version": "en_20200109"
+   "version": "en_20200127"
 }

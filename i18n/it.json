@@ -554,6 +554,7 @@
 		"un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*": "un documento di identità valido (uno tra: carta di identità, passaporto, patente, permesso di soggiorno)*",
 		"la tua tessera sanitaria con il codice fiscale*": "la tua tessera sanitaria con il codice fiscale*",
 		"I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità.": "I documenti della tessera sanitaria o del codice fiscale sono necessari per garantire, in termini di sicurezza e grazie alla verifica delle informazioni presenti sul documento, la rispondenza dei dati esibiti ed evitare eventuali furti di identità.",
+		"Il tesserino della tessera sanitaria o del codice fiscale costituiscono ulteriori elementi a supporto del processo di verifica dell’identità che concorrono a contrastare, grazie alla verifica dell’autenticità degli stessi su basi dati nazionali non pubbliche, il furto di identità.": "Il tesserino della tessera sanitaria o del codice fiscale costituiscono ulteriori elementi a supporto del processo di verifica dell’identità che concorrono a contrastare, grazie alla verifica dell’autenticità degli stessi su basi dati nazionali non pubbliche, il furto di identità.",
 		"* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai.": "* Durante la registrazione può esser necessario fotografarli e allegarli al form che compilerai.",
 		"Cosa devi fare per ottenere SPID": "Cosa devi fare per ottenere SPID",
 		"Inizia registrandoti sul sito di uno degli 8 Identity provider:": "Inizia registrandoti sul sito di uno degli 8 Identity provider:",
@@ -884,5 +885,5 @@
 		},
 		
 
-		"version": "it_20200109"
+		"version": "it_20200127"
 }
