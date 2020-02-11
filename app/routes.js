@@ -202,6 +202,10 @@ module.exports = function(app) {
     });    
 
     app.get("/cerca-pa", function(request, response) {
+
+        response.redirect("/servizi");
+
+        /*
         response.render("pages/cerca-pa", {
             pageTitle: 'Cerca servizi',
             cssFiles: [...cssFiles, {
@@ -224,9 +228,14 @@ module.exports = function(app) {
                 lastModifiedDate: lastModifiedDateFunc("pages/cerca-pa.handlebars")
             }
         });
+        */
     });
 
     app.get("/cerca-servizi-pa/:serviceProviderId/:serviceProvider/:totalServices/:serviceProviderLogo", function(request, response) {
+
+        response.redirect("/servizi");
+
+        /*
         response.render("pages/cerca-servizi-pa", {
             pageTitle: 'Dove puoi utilizzare SPID',
             cssFiles: [...cssFiles, {
@@ -253,6 +262,7 @@ module.exports = function(app) {
             totalServices: request.params.totalServices,
             serviceProviderLogo: new Buffer(request.params.serviceProviderLogo, 'base64').toString('utf-8')
         });
+        */
     });
 
     app.get("/serve-aiuto", function(request, response) {
